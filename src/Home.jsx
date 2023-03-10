@@ -2,7 +2,7 @@ const Home = () => {
 
     return (
         <div className="home">
-            <p>This is just a start.</p>
+            {/* <p>This is just a start.</p> */}
         </div>
     )
 }

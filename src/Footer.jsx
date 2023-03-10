@@ -4,7 +4,7 @@ const Footer = () => {
         <div className="footer bg-zinc-600 flex justify-items-stretch bottom-0">
             <div className="1 pt-11">
                 <img src="images/logo.svg" className="pl-40 h-14" />
-                <img src="images/linkedin.png" className= " pl-40 pt- h-10 px-9" />
+                <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" className= " pl-40 pt- h-10 px-9" />
                 <p className="pl-40 font-thin text-xs">© 2022 Coders Valley. All rights reserved.</p> 
             </div>
             <div className="2 pl-32 pt-11 text-zinc-400 text-medium space-y-3" >
@@ -12,7 +12,7 @@ const Footer = () => {
                 <p>Process</p>
                 <p>Testimonials</p>
                 <p>Contact</p>
-                <p className="font-semibold">Book a Call</p>
+                <p className="font-bold">Book a Call</p> 
             </div>
             <div className="3 pl-32 pt-11 text-zinc-400 ">
                 <p>Policy</p>

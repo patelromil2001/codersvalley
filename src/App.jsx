@@ -1,7 +1,9 @@
 import Navbar from './Navbar';
 import Home from './Home';
 import Landing from './Landing';
-import Footer from './Footer'
+import Footer from './Footer';
+import Example from './example';
+import About from './About';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
     <div className='content'>
     <Landing/>
     <Home />
+    <About/>
+    <Footer></Footer>
     
     </div>
     </div>
