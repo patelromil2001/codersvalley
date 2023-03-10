@@ -34,8 +34,8 @@ function Salaries() {
       ];
       
     return ( 
-    <div className=" mx-auto py-6 sm:px-6 lg:px-8 ">
-    <div className="bg-white  overflow-hidden max-w-7xl mx-auto my-6">
+    <div className=" mx-auto py-6 sm:px-6 lg:px-8">
+    <div className="overflow-hidden max-w-7xl mx-auto my-6">
       <table className="min-w-full mx-auto divide-y-[3px] divide-dotted divide-gray-300 ">
         <thead >
           <tr>
