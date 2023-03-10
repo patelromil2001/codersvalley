@@ -1,23 +1,22 @@
 import Navbar from './Navbar';
 import Home from './Home';
-import Landing from './Landing';
 import Footer from './Footer';
-import Example from './example';
 import About from './About';
 
 function App() {
   return (
-    <div className="App">
+    <div className="overflow-hidden">
     <Navbar />
-    <div className='content'>
-    <Landing/>
     <Home />
     <About/>
-    <Footer></Footer>
+    <Footer/>
+    </div>
     
-    </div>
-    </div>
-  );
+    
+    );
 }
+    
+    
+    
 
 export default App;
