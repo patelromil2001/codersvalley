@@ -1,6 +1,6 @@
 const About = () => {
     return(
-        <div className="bg-cyan-100">
+        <div className="About bg-cyan-100">
             <div className="ml-16  bg-white">
                 <div className="flex pl-16 pr-11 justify-between">
                     <img src="https://cdn-icons-png.flaticon.com/512/2098/2098672.png" className="pt-4 h-10 pl-8" alt="1" />
