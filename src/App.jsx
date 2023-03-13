@@ -3,6 +3,7 @@ import Home from './Home';
 import Footer from './Footer';
 import About from './About';
 import Salaries from './Salaries';
+import Testimonials from './Testimonials';
 
 function App() {
   return (
@@ -11,10 +12,10 @@ function App() {
     <Home />
     <About/>
     <Salaries />
+    <Testimonials/>
     <Footer/>
+    
     </div>
-    
-    
     );
 }
     
