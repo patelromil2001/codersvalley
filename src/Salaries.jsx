@@ -177,7 +177,7 @@ function Salaries() {
                           <button
                             className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-xl outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                             type="submit"
-                            onClick={() => setShowModal(true)}
+                            onClick={() => setShowModal(false)}
                           >
                             Get a free .pdf
                           </button>
