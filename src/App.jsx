@@ -4,6 +4,7 @@ import Footer from './Footer';
 import About from './About';
 import Salaries from './Salaries';
 import Testimonials from './Testimonials';
+import About from './About';
 
 
 function App() {
