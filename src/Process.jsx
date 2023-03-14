@@ -1,6 +1,6 @@
 const Process = () => {
     return(
-        <div className="bg-blue-50 pt-16 pb-16">
+        <div id="Process" className="bg-blue-50 pt-16 pb-16">
             <p className="text-4xl pl-40">Our process</p>
             <div className="Step-1 flex pl-44 pt-10">
                 <div className="Step1">

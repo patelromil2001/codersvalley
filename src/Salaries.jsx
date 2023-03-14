@@ -1,14 +1,15 @@
 import React, { useEffect } from "react";
+import { Button, Modal } from 'antd';
 
 function Salaries() {
   const [showModal, setShowModal] = React.useState(false);
-  useEffect(() => {
-    if (showModal) {
-      document.body.style.overflow = 'hidden'
-    }else{
-      document.body.style.overflow = 'unset'
-    }
-  }, [showModal])
+  // useEffect(() => {
+  //   if (showModal) {
+  //     document.body.style.overflow = 'hidden'
+  //   } else {
+  //     document.body.style.overflow = 'unset'
+  //   }
+  // }, [showModal])
   const tableData = [
     {
       id: 1,
@@ -48,7 +49,7 @@ function Salaries() {
   ];
 
   return (
-    <>
+    <div id="Salaries">
       <div className=" mx-auto py-6 sm:px-6 lg:px-8">
         <div className="overflow-hidden max-w-7xl mx-auto my-6">
           <table className="min-w-full mx-auto divide-y-[3px] divide-dotted divide-gray-300 ">
@@ -110,22 +111,23 @@ function Salaries() {
                 recruits strong software engineers <br />
                 quickly (2 weeks) and 60% cheaper</p>
               <div className="flex justify-center">
-                <button className="inline-flex text-white bg-blue-500 border-0 py-4 px-10 focus:outline-none hover:bg-blue-600 rounded text-sm font-bold"
-                  onClick={() => setShowModal(true)}>Get a free .pdf</button>
+                <Button size="large" type="primary" className="text-gray- bg-blue-400"
+                  onClick={() => setShowModal(true)}>Get a free .pdf</Button>
               </div>
             </div>
           </div>
         </section>
       </div>
+      {/* 
       {showModal ? (
         <>
           <div
             className="transition duration-300 ease-in-out justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none border-gray-500"
           >
             <div className="relative w-auto my-6 mx-auto max-w-3xl">
-              {/*content*/}
+              
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                {/*header*/}
+               
                 <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
                   <h3 className="text-2xl font-semibold">
                     Fill out a brief information <br /> about you and get our Guide
@@ -139,10 +141,10 @@ function Salaries() {
                     </span>
                   </button>
                 </div>
-                {/*body*/}
+               
                 <div className="relative p-6 flex-auto">
                   <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                    {/*pdf form*/}
+                   
 
                     <div className="">
                       <form action="#" className="space-y-8">
@@ -187,15 +189,63 @@ function Salaries() {
 
                   </p>
                 </div>
-                {/*footer*/}
+                
 
               </div>
             </div>
           </div>
         </>
-      ) : null}
+      ) : null} */}
+      <Modal
+        open={showModal}
+        title={[<span className="text-xl">Fill out a brief information about you  and get<br /> our Guide</span>]}
+        // onOk={handleOk}
+        onCancel={() => setShowModal(false)}
+        footer={[
+          
+        ]}
+      >
+        <div className="mt-8 mb-12">
+          <form action="#" className="space-y-6">
 
-    </>
+            <div className="flex justify-center items-center">
+              <label className='relative cursor-pointer'>
+                <input type="text" placeholder="Input" className='h-12 w-96 px-6 text-base text-black border-gray-400 border-2 rounded-lg border-opacity-50 outline-none focus:border-blue-500 placeholder-gray-400 placeholder-opacity-0 transition duration-200'
+                  required />
+                <span className='text-base text-gray-500 bg-white text-opacity-80 absolute left-5 top-3 px-1 transition duration-200 input-text'>
+                  Your Name</span>
+              </label>
+            </div>
+
+            <div className="flex justify-center items-center">
+              <label className='relative cursor-pointer'>
+                <input type="text" placeholder="Input" className='h-12 w-96 px-6 text-base text-black border-gray-400 border-2 rounded-lg border-opacity-50 outline-none focus:border-blue-500 placeholder-gray-400 placeholder-opacity-0 transition duration-200'
+                  required />
+                <span className='text-base text-gray-500 bg-white text-opacity-80 absolute left-5 top-3 px-1 transition duration-200 input-text'>
+                  Your Job Title</span>
+              </label>
+            </div>
+
+            <div className="flex justify-center items-center">
+              <label className='relative cursor-pointer'>
+                <input type="email" placeholder="Input" className='h-12 w-96 px-6 text-base text-black border-gray-400 border-2 rounded-lg border-opacity-50 outline-none focus:border-blue-500 placeholder-gray-400 placeholder-opacity-0 transition duration-200'
+                  required />
+                <span className='text-base text-gray-500 bg-white text-opacity-80 absolute left-5 top-3 px-1 transition duration-200 input-text'>
+                  Your Business email</span>
+              </label>
+            </div>
+            <button
+            type="submit"
+            className="bg-emerald-500 text-white active:bg-emerald-600 font-bold  text-sm px-6 py-3 rounded shadow hover:shadow-xl outline-none focus:outline-none mx-10 ease-linear transition-all duration-150"
+          >
+            Get a free .pdf
+          </button>
+
+          </form>
+        </div>
+      </Modal>
+
+    </div>
   );
 }
 
