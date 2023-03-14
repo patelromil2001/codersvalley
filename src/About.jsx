@@ -65,7 +65,23 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <div className="pl-56 pt-20 pb-20">
+                <img src="https://static.tildacdn.com/tild3335-3734-4932-b838-656333393766/Group_15.svg" className="pt-9" alt="" />
+                <p className="text-blue-400 font-bold text-lg pt-2">Success fee</p>
+                <p className="pt-2">No hire - no fee</p> 
+                <img src="https://static.tildacdn.com/tild3137-3462-4036-a463-643737353438/Group_78.svg" className="pt-9" alt="" />
+                <p className="text-blue-400 font-bold text-lg pt-2">Pay once</p>
+                <p className="pt-2">One single fee for our service, and you work <br /> with your contractor for as long as you want</p>
+                <img src="https://static.tildacdn.com/tild6163-6565-4635-b864-643966363639/Group_79.svg" className="pt-9" alt="" />
+                <p className="text-blue-400 font-bold text-lg pt-2">This is not outstaffing</p>
+                <p className="pt-2">Pay your developer directly <br /> to their US bank account</p>
+                <img src="https://static.tildacdn.com/tild3166-3336-4061-b636-326463393861/Group_80.svg" className="pt-9" alt="" />
+                <p className="text-blue-400 font-bold text-lg pt-2">More profitable than <br /> outstaffing</p>
+                <p className="pt-2">Several Times</p>
             
+            
+            
+            </div>
             
         </div>  
     );
