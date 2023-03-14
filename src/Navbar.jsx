@@ -3,6 +3,14 @@ import { Transition } from "@headlessui/react";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+  const About = document.getElementById("About");
+  const Salaries = document.getElementById("Salaries");
+  const Process = document.getElementById("Process");
+  const Testimonials = document.getElementById("Testimonials");
+  const Fee = document.getElementById("Fee");
+  const Contractor = document.getElementById("Contractor");
+  const Quote = document.getElementById("Quote");
+
   return (
     <div className="sticky top-0 left-0 z-50 w-full">
       <nav className="bg-cyan-300">
@@ -18,52 +26,52 @@ function Nav() {
               </div>
               <div className="hidden lg:block ml-auto">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <a
-                    href="#"
+                  <button
+                    onClick={() => About.scrollIntoView({ behavior: "smooth" })}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About
-                  </a>
+                  </button>
 
-                  <a
-                    href="#"
+                  <button
+                    onClick={() => Salaries.scrollIntoView({ behavior: "smooth" })}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Salaries
-                  </a>
+                  </button>
 
-                  <a
-                    href="#"
+                  <button
+                    onClick={() => Process.scrollIntoView({ behavior: "smooth" })}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Process
-                  </a>
+                  </button>
 
-                  <a
-                    href="#"
+                  <button
+                    onClick={() => Testimonials.scrollIntoView({ behavior: "smooth" })}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Testimonials
-                  </a>
+                  </button>
 
-                  <a
-                    href="#"
+                  <button
+                    onClick={() => Fee.scrollIntoView({ behavior: "smooth" })} 
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Fee
-                  </a>
-                  <a
-                    href="#"
+                  </button>
+                  <button
+                    onClick={() => Contractor.scrollIntoView({ behavior: "smooth" })} 
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contractor payroll & management
-                  </a>
-                  <a
-                    href="#"
+                  </button>
+                  <button
+                    onClick={() => Quote.scrollIntoView({ behavior: "smooth" })} 
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Get A Quote 
-                  </a>
+                    Get A Quote
+                  </button>
                 </div>
               </div>
             </div>
@@ -78,14 +86,14 @@ function Nav() {
                 <span className="sr-only">Open main menu</span>
                 {!isOpen ? (
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                  <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
-                </svg>
-                
+                    <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                  </svg>
+
                 ) : (
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                     <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clip-rule="evenodd" />
                   </svg>
-                  
+
                 )}
               </button>
             </div>
@@ -104,59 +112,74 @@ function Nav() {
           {(ref) => (
             <div className="lg:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a
-                  href="#"
+                <button
+                  onClick={() => {About.scrollIntoView({ behavior: "smooth" })
+                  setIsOpen(false)
+                }} 
+                  
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About
-                </a>
+                </button>
 
-                <a
-                  href="#"
+                <button
+                  onClick={() => {Salaries.scrollIntoView({ behavior: "smooth" })
+                  setIsOpen(false)
+                }} 
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Salaries
-                </a>
+                </button>
 
-                <a
-                  href="#"
+                <button
+                  onClick={() => {Process.scrollIntoView({ behavior: "smooth" })
+                  setIsOpen(false)
+                }} 
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Process
-                </a>
+                </button>
 
-                <a
-                  href="#"
+                <button
+                  onClick={() => {Testimonials.scrollIntoView({ behavior: "smooth" })
+                  setIsOpen(false)
+                }} 
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Testimonials
-                </a>
+                </button>
 
-                <a
-                  href="#"
+                <button
+                  onClick={() => {Fee.scrollIntoView({ behavior: "smooth" })
+                  setIsOpen(false)
+                }} 
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Fee
-                </a>
-                <a
-                  href="#"
+                </button>
+                <button
+                  onClick={() => {Contractor.scrollIntoView({ behavior: "smooth" })
+                  setIsOpen(false)
+                }} 
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contractor payroll & management
-                </a>
-                <a
-                  href="#"
+                </button>
+                <button
+                  onClick={() => {Quote.scrollIntoView({ behavior: "smooth" })
+                  setIsOpen(false)
+                }} 
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Get a Quote
-                </a>
+                </button>
               </div>
             </div>
           )}
         </Transition>
       </nav>
 
-      
+
     </div>
   );
 }
