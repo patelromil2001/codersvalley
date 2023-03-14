@@ -4,6 +4,7 @@ import Footer from './Footer';
 import About from './About';
 import Salaries from './Salaries';
 import Testimonials from './Testimonials';
+import Process from './Process';
 
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
     <div>
     <Navbar />
     <Home />
-    <About/>
+    <About />
     <Salaries />
+    <Process/>
     <Testimonials/>
     <Footer/>
     
