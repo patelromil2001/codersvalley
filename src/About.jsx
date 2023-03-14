@@ -92,7 +92,7 @@ const About = () => {
                                         <p className="text-[12px] pt-14">We take a % of profitable <br /> wages in Latin America</p>
                                         <div className="pt-3 pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$4.800</p> </div></div> 
                                         <div className="pt-1 pl-20"><div className="pt-3"><div className="rectangle w-36 h-24 rounded-xl bg-gradient-to-r from-green-400 to-cyan-400"> <p className="text-[11px] pt-1 pl-3">Annual Salary <br /> (including local taxes)</p> <p className="text-2xl font-bold pl-3">$24.000</p> </div></div></div>
-                                        <p className="pt-3 pl-24 font-semibold">Latin America</p> 
+                                         <p className="pt-3 pl-24 font-semibold">Latin America</p> 
                                     </div>
                                         
                                     <div className="pl-5 pt-1">
