@@ -1,4 +1,4 @@
-const Abouta = () => {
+const About = () => {
     return(
         <div className="About bg-cyan-100">
             <div className="ml-16  bg-white">
@@ -132,4 +132,4 @@ const Abouta = () => {
 }
             
             
-export default Abouta;
+export default About;

@@ -1,16 +1,17 @@
 import Navbar from './Navbar';
 import Home from './Home';
 import Footer from './Footer';
-import Abouta from './Abouta';
+import About from './About';
 import Salaries from './Salaries';
 import Testimonials from './Testimonials';
+import About from './About';
 
 function App() {
   return (
     <div>
     <Navbar />
     <Home />
-    <Abouta/>
+    <About/>
     <Salaries />
     <Testimonials/>
     <Footer/>
