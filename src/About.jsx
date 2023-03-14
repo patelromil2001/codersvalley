@@ -65,29 +65,78 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="pl-56 pt-20 pb-20">
-                <img src="https://static.tildacdn.com/tild3335-3734-4932-b838-656333393766/Group_15.svg" className="pt-9" alt="" />
-                <p className="text-blue-400 font-bold text-lg pt-2">Success fee</p>
-                <p className="pt-2">No hire - no fee</p> 
-                <img src="https://static.tildacdn.com/tild3137-3462-4036-a463-643737353438/Group_78.svg" className="pt-9" alt="" />
-                <p className="text-blue-400 font-bold text-lg pt-2">Pay once</p>
-                <p className="pt-2">One single fee for our service, and you work <br /> with your contractor for as long as you want</p>
-                <img src="https://static.tildacdn.com/tild6163-6565-4635-b864-643966363639/Group_79.svg" className="pt-9" alt="" />
-                <p className="text-blue-400 font-bold text-lg pt-2">This is not outstaffing</p>
-                <p className="pt-2">Pay your developer directly <br /> to their US bank account</p>
-                <img src="https://static.tildacdn.com/tild3166-3336-4061-b636-326463393861/Group_80.svg" className="pt-9" alt="" />
-                <p className="text-blue-400 font-bold text-lg pt-2">More profitable than <br /> outstaffing</p>
-                <p className="pt-2">Several Times</p>
-            
-            
-            
+            <div className="flex">
+                <div className="pl-56 pt-20 pb-20">
+                    <img src="https://static.tildacdn.com/tild3335-3734-4932-b838-656333393766/Group_15.svg" className="pt-9" alt="" />
+                    <p className="text-blue-400 font-bold text-lg pt-2">Success fee</p>
+                    <p className="pt-2">No hire - no fee</p> 
+                    <img src="https://static.tildacdn.com/tild3137-3462-4036-a463-643737353438/Group_78.svg" className="pt-9" alt="" />
+                    <p className="text-blue-400 font-bold text-lg pt-2">Pay once</p>
+                    <p className="pt-2">One single fee for our service, and you work <br /> with your contractor for as long as you want</p>
+                    <img src="https://static.tildacdn.com/tild6163-6565-4635-b864-643966363639/Group_79.svg" className="pt-9" alt="" />
+                    <p className="text-blue-400 font-bold text-lg pt-2">This is not outstaffing</p>
+                    <p className="pt-2">Pay your developer directly <br /> to their US bank account</p>
+                    <img src="https://static.tildacdn.com/tild3166-3336-4061-b636-326463393861/Group_80.svg" className="pt-9" alt="" />
+                    <p className="text-blue-400 font-bold text-lg pt-2">More profitable than <br /> outstaffing</p>
+                    <p className="pt-2">Several Times</p>
+                </div>
+                <div className="flex pl-10">
+                    
+                    <div>
+                        <div className="pl-14 pt-44">
+                            <div className="circle h-56 w-56 rounded-full bg-blue-50">
+                                <p className="text-black-600 font-bold text-xl pt-12">UX/UI Senior Designer</p>
+                                <div className="Graph flex pb-24">
+                                    <div className="pt-24">
+                                        <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $78k <br /> Next - $67k a year</p> </div></div>
+                                        <p className="text-[12px] pt-14">We take a % of profitable <br /> wages in Latin America</p>
+                                        <div className="pt-3 pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$4.800</p> </div></div> 
+                                        <div className="pt-1 pl-20"><div className="pt-3"><div className="rectangle w-36 h-24 rounded-xl bg-gradient-to-r from-green-400 to-cyan-400"> <p className="text-[11px] pt-1 pl-3">Annual Salary <br /> (including local taxes)</p> <p className="text-2xl font-bold pl-3">$24.000</p> </div></div></div>
+                                        <p className="pt-3 pl-24 font-semibold">Latin America</p> 
+                                    </div>
+                                        
+                                    <div className="pl-5 pt-1">
+                                        <div className="pt-3"><div className="rectangle w-32 h-14 rounded-xl bg-gradient-to-r from-yellow-400 to-red-400"> <p className="text-[11px] pt-1 pl-3">US agency fee (20%)</p> <p className="text-2xl font-bold pl-3">$16.000</p> </div></div>
+                                        <div className="pt-3"><div className="rectangle w-32 h-20 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-400"> <p className="text-[11px] pt-1 pl-3">Payroll taxes</p> <p className="text-2xl font-bold pl-3">$10.920</p> </div></div>
+                                        <div className="pt-3"><div className="rectangle w-32 h-72 rounded-xl bg-gradient-to-r from-pink-400 to-orange-400"> <p className="text-[11px] pt-1 pl-3">Annual salary</p> <p className="text-2xl font-bold pl-3">$80.000</p> </div></div>
+                                        <p className="pt-3 pl-9 font-semibold">US</p>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>  
+                    <div className="pl-44 pt-28">
+                        <div className="circle h-80 w-80 rounded-full bg-blue-50">
+                            <p className="text-black-600 font-bold text-xl pt-12">Senior Full Stack Engineer</p>
+                            <div className="Graph flex pt-7 pb-24">
+                                <div className="pt-12">
+                                    <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $103k <br /> Next - $86k a year</p> </div></div>
+                                    <div className="pt-24 pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$7.000</p> </div></div> 
+                                    <div className="pt-1 pl-20"><div className="pt-3"><div className="rectangle w-36 h-48 rounded-xl bg-gradient-to-r from-green-400 to-cyan-400"> <p className="text-[11px] pt-1 pl-3">Annual Salary <br /> (including local taxes)</p> <p className="text-2xl font-bold pl-3">$50.000</p> </div></div></div>
+                                    <p className="pt-3 pl-24 font-semibold">Latin America</p> 
+                                </div>
+                                    
+                                <div className="pl-5 pt-2">
+                                    <div className="pt-3"><div className="rectangle w-32 h-14 rounded-xl bg-gradient-to-r from-yellow-400 to-red-400"> <p className="text-[11px] pt-1 pl-3">US agency fee (20%)</p> <p className="text-2xl font-bold pl-3">$16.000</p> </div></div>
+                                    <div className="pt-3"><div className="rectangle w-32 h-20 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-400"> <p className="text-[11px] pt-1 pl-3">Payroll taxes</p> <p className="text-2xl font-bold pl-3">$10.920</p> </div></div>
+                                    <div className="pt-3"><div className="rectangle w-32 h-[320px] rounded-xl bg-gradient-to-r from-pink-400 to-orange-400"> <p className="text-[11px] pt-1 pl-3">Annual salary</p> <p className="text-2xl font-bold pl-3">$80.000</p> </div></div>
+                                    <p className="pt-3 pl-9 font-semibold">US</p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
             </div>
-            
         </div>  
     );
 }
             
-         
+            
 export default About;
+            
+            
+            
+            
+         
 
 
