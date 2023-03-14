@@ -1,7 +1,7 @@
 import Navbar from './Navbar';
 import Home from './Home';
 import Footer from './Footer';
-import About from './About';
+import Abouta from './Abouta';
 import Salaries from './Salaries';
 import Testimonials from './Testimonials';
 
@@ -10,7 +10,7 @@ function App() {
     <div>
     <Navbar />
     <Home />
-    <About/>
+    <Abouta/>
     <Salaries />
     <Testimonials/>
     <Footer/>
