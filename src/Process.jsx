@@ -50,7 +50,8 @@ const Process = () => {
                 </div>
                 <div className="Image flex">
                     <img src="https://thumb.tildacdn.com/tild3231-3261-4637-b138-376437666161/-/format/webp/_1_1_1.png" alt="" />
-                    <img src="https://static.tildacdn.com/tild6536-6462-4638-a633-343362346137/320_px_10_fps.gif" className="" alt="" />
+                    <div className=""><img src="https://static.tildacdn.com/tild6536-6462-4638-a633-343362346137/320_px_10_fps.gif" className="relative" alt="" /></div>
+                    
                 </div>
             </div>
             <div className="Step-4 flex pl-44">

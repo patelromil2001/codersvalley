@@ -21,22 +21,22 @@ const Home = () => {
                 <div className="ml-16 bg-white pl-24  h-[400px]">
                     <p className="text-4xl pt-9">Companies we've worked with</p>
                     <p className="text-xl pt-4">150+ US and UK-based clients</p>
-                    <div className="images flex pt-8">
-                        <a href="https://digitalgenius.com/"> <img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="Digital Genius" /></a>
-                        <a href="https://www.thesquare.tech/"><img src="https://static.wixstatic.com/media/54a3a8_019bec9e2cc041799467e8bf1208a2e0~mv2.png/v1/fill/w_231,h_44,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logomark-red-1x.png" alt="the Square" /></a>
-                        <a href="https://coupay.co.uk/"><img src="https://coupay.co.uk/assets/img/coupay-logo.svg" alt="coupay" /></a>
-                        <a href="https://digitalgenius.com/"></a><img src="" alt="" />
-                        <a href="https://digitalgenius.com/"></a><img src="" alt="" />
-                        <a href="https://digitalgenius.com/"></a><img src="" alt="" />
-                        <a href="https://digitalgenius.com/"></a><img src="" alt="" />
-                        <a href="https://digitalgenius.com/"></a><img src="" alt="" />
-                        <a href="https://digitalgenius.com/"></a><img src="" alt="" />
-                        <a href="https://digitalgenius.com/"></a><img src="" alt="" />
-                        <a href="https://digitalgenius.com/"></a><img src="" alt="" />
-                        <a href="https://digitalgenius.com/"></a><img src="" alt="" />
-                        <a href="https://digitalgenius.com/"></a><img src="" alt="" />
-                        <a href="https://digitalgenius.com/"></a><img src="" alt="" />
-                        <a href="https://digitalgenius.com/"></a><img src="" alt="" />
+                    <div className="grid pt-10 pr-36 gap-14 grid-cols-5 grid-rows-3">
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
                     </div>
                 </div>
             </div>

@@ -13,7 +13,7 @@ function Nav() {
 
   return (
     <div className="sticky top-0 left-0 z-50 w-full">
-      <nav className="bg-cyan-100">
+      <nav className="bg-cyan-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center w-full">
