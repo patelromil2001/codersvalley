@@ -5,6 +5,7 @@ import About from './About';
 import Salaries from './Salaries';
 import Testimonials from './Testimonials';
 import Process from './Process';
+import Fee from './Fee';
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <Salaries />
     <Process/>
     <Testimonials/>
+    <Fee />
     <Footer/>
     
     </div>

@@ -8,8 +8,8 @@ function Nav() {
   const Process = document.getElementById("Process");
   const Testimonials = document.getElementById("Testimonials");
   const Fee = document.getElementById("Fee");
-  const Contractor = document.getElementById("Contractor");
-  const Quote = document.getElementById("Quote");
+  //const Contractor = document.getElementById("Contractor");
+  //const Quote = document.getElementById("Quote");
 
   return (
     <div className="sticky top-0 left-0 z-50 w-full">
@@ -55,19 +55,19 @@ function Nav() {
                   </button>
 
                   <button
-                    onClick={() => Fee.scrollIntoView({ behavior: "smooth" })} 
+                    onClick={() => Fee.scrollIntoView({ behavior: "smooth" })}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Fee
                   </button>
                   <button
-                    onClick={() => Contractor.scrollIntoView({ behavior: "smooth" })} 
+                    onClick={() => Contractor.scrollIntoView({ behavior: "smooth" })}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contractor payroll & management
                   </button>
                   <button
-                    onClick={() => Quote.scrollIntoView({ behavior: "smooth" })} 
+                    onClick={() => Quote.scrollIntoView({ behavior: "smooth" })}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Get A Quote
@@ -113,62 +113,69 @@ function Nav() {
             <div className="lg:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <button
-                  onClick={() => {About.scrollIntoView({ behavior: "smooth" })
-                  setIsOpen(false)
-                }} 
-                  
+                  onClick={() => {
+                    About.scrollIntoView({ behavior: "smooth" })
+                    setIsOpen(false)
+                  }}
+
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About
                 </button>
 
                 <button
-                  onClick={() => {Salaries.scrollIntoView({ behavior: "smooth" })
-                  setIsOpen(false)
-                }} 
+                  onClick={() => {
+                    Salaries.scrollIntoView({ behavior: "smooth" })
+                    setIsOpen(false)
+                  }}
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Salaries
                 </button>
 
                 <button
-                  onClick={() => {Process.scrollIntoView({ behavior: "smooth" })
-                  setIsOpen(false)
-                }} 
+                  onClick={() => {
+                    Process.scrollIntoView({ behavior: "smooth" })
+                    setIsOpen(false)
+                  }}
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Process
                 </button>
 
                 <button
-                  onClick={() => {Testimonials.scrollIntoView({ behavior: "smooth" })
-                  setIsOpen(false)
-                }} 
+                  onClick={() => {
+                    Testimonials.scrollIntoView({ behavior: "smooth" })
+                    setIsOpen(false)
+                  }}
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Testimonials
                 </button>
 
                 <button
-                  onClick={() => {Fee.scrollIntoView({ behavior: "smooth" })
-                  setIsOpen(false)
-                }} 
+                  onClick={() => {
+                    Fee.scrollIntoView({ behavior: "smooth" })
+                    setIsOpen(false)
+                  }}
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Fee
                 </button>
                 <button
-                  onClick={() => {Contractor.scrollIntoView({ behavior: "smooth" })
-                  setIsOpen(false)
-                }} 
+                  onClick={() => {
+                    Contractor.scrollIntoView({ behavior: "smooth" })
+                    setIsOpen(false)
+                  }}
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contractor payroll & management
                 </button>
                 <button
-                  onClick={() => {Quote.scrollIntoView({ behavior: "smooth" })
-                  setIsOpen(false)
-                }} 
+                  onClick={() => {
+                    Quote.scrollIntoView({ behavior: "smooth" })
+                    setIsOpen(false)
+                  }}
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Get a Quote
