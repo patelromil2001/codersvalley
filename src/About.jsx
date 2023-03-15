@@ -81,7 +81,7 @@ const About = () => {
                     <p className="pt-2">Several Times</p>
                 </div>
                 <div className="flex pl-10">
-                    
+                    <div>Romil</div>
                     <div>
                         <div className="pl-14 pt-44">
                             <div className="circle h-56 w-56 rounded-full bg-blue-50">
