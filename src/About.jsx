@@ -66,7 +66,7 @@ const About = () => {
                 </div>
             </div>
             <div className="flex pb-20">
-                <div className="pl-56 pt-20 pb-20">
+                <div className="pl-56 pt-20 pb-20 ">
                     <img src="https://static.tildacdn.com/tild3335-3734-4932-b838-656333393766/Group_15.svg" className="pt-9" alt="" />
                     <p className="text-blue-400 font-bold text-lg pt-2">Success fee</p>
                     <p className="pt-2">No hire - no fee</p> 
