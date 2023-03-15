@@ -29,7 +29,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-cyan-50">
+            <div className="bg-cyan-300">
                 <div className="ml-24 bg-white">
                     <div className="flex pb-14">
                         <div className="Reasons">
@@ -58,7 +58,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="pt-36 pl-14">
-                            <div className="BOX w-fit p-9 m-0 border-4 border-cyan-50 text-lg">
+                            <div className="BOX w-fit p-9 m-0 border-4 border-cyan-300 text-lg">
                                 <p>Latin America is a proven, excellent alternative to <br /> traditional outsourcing countries for the US, thanks to the <br /> high level of education for engineers, a large number of <br /> domestic IT, tech, and startup companies, as well as first- <br /> rate infrastructure (established quick internet, video <br /> communication, co-working, and consulting cultural <br /> mirroring, etc.). <br /><br /> Why is nearshore recruitment from Latin America so cost- <br /> effective? The salary paid for services is bound to and <br /> relates to domestic need and the cost of living in Brazil <br /> and Argentina. For example, renting a good apartment in <br /> the central part of an average Latin American city will cost <br /> an average of $200 to $400 per calendar month. <br /> Because we understand domestic salary levels, <br /> expectations and market trends, your fee reflects the <br /> difference in cost.</p>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ const About = () => {
                     <div>
                         <div className="pl-14 pt-44">
                             <div className="circle h-56 w-56 rounded-full bg-blue-50">
-                                <p className="text-black-600 font-bold text-xl pt-12">UX/UI Senior Designer</p>
+                                <p className="text-black-600 font-bold text-xl pt-8">UX/UI Senior Designer</p>
                                 <div className="Graph flex pb-24">
                                     <div className="pt-24">
                                         <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $78k <br /> Next - $67k a year</p> </div></div>
@@ -95,32 +95,32 @@ const About = () => {
                                          <p className="pt-3 pl-24 font-semibold">Latin America</p> 
                                     </div>
                                         
-                                    <div className="pl-5 pt-1">
+                                    <div className="pl-5 ">
                                         <div className="pt-3"><div className="rectangle w-32 h-14 rounded-xl bg-gradient-to-r from-yellow-400 to-red-400"> <p className="text-[11px] pt-1 pl-3">US agency fee (20%)</p> <p className="text-2xl font-bold pl-3">$16.000</p> </div></div>
                                         <div className="pt-3"><div className="rectangle w-32 h-20 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-400"> <p className="text-[11px] pt-1 pl-3">Payroll taxes</p> <p className="text-2xl font-bold pl-3">$10.920</p> </div></div>
                                         <div className="pt-3"><div className="rectangle w-32 h-72 rounded-xl bg-gradient-to-r from-pink-400 to-orange-400"> <p className="text-[11px] pt-1 pl-3">Annual salary</p> <p className="text-2xl font-bold pl-3">$80.000</p> </div></div>
-                                        <p className="pt-3 pl-9 font-semibold">US</p>
+                                        <p className="pt-3 pl-12 font-semibold">US</p>
                                     </div>
                                 </div>
                             </div>   
                         </div>
                     </div>  
-                    <div className="pl-44 pt-28">
+                    <div className="pl-44 pt-20">
                         <div className="circle h-80 w-80 rounded-full bg-blue-50">
-                            <p className="text-black-600 font-bold text-xl pt-12">Senior Full Stack Engineer</p>
-                            <div className="Graph flex pt-7 pb-24">
-                                <div className="pt-12">
-                                    <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $103k <br /> Next - $86k a year</p> </div></div>
+                            <p className="text-black-600 font-bold text-xl pt-8">Senior Full Stack Engineer</p>
+                            <div className="Graph flex pb-24">
+                                <div className="pt-24">
+                                    <div className="pt-5 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $103k <br /> Next - $86k a year</p> </div></div>
                                     <div className="pt-24 pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$7.000</p> </div></div> 
                                     <div className="pt-1 pl-20"><div className="pt-3"><div className="rectangle w-36 h-48 rounded-xl bg-gradient-to-r from-green-400 to-cyan-400"> <p className="text-[11px] pt-1 pl-3">Annual Salary <br /> (including local taxes)</p> <p className="text-2xl font-bold pl-3">$50.000</p> </div></div></div>
                                     <p className="pt-3 pl-24 font-semibold">Latin America</p> 
                                 </div>
                                     
-                                <div className="pl-5 pt-2">
+                                <div className="pl-5 ">
                                     <div className="pt-3"><div className="rectangle w-32 h-14 rounded-xl bg-gradient-to-r from-yellow-400 to-red-400"> <p className="text-[11px] pt-1 pl-3">US agency fee (20%)</p> <p className="text-2xl font-bold pl-3">$16.000</p> </div></div>
                                     <div className="pt-3"><div className="rectangle w-32 h-20 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-400"> <p className="text-[11px] pt-1 pl-3">Payroll taxes</p> <p className="text-2xl font-bold pl-3">$10.920</p> </div></div>
-                                    <div className="pt-3"><div className="rectangle w-32 h-[320px] rounded-xl bg-gradient-to-r from-pink-400 to-orange-400"> <p className="text-[11px] pt-1 pl-3">Annual salary</p> <p className="text-2xl font-bold pl-3">$80.000</p> </div></div>
-                                    <p className="pt-3 pl-9 font-semibold">US</p>
+                                    <div className="pt-3"><div className="rectangle w-32 h-96 rounded-xl bg-gradient-to-r from-pink-400 to-orange-400"> <p className="text-[11px] pt-1 pl-3">Annual salary</p> <p className="text-2xl font-bold pl-3">$80.000</p> </div></div>
+                                    <p className="pt-3 pl-12 font-semibold">US</p>
                                 </div>
                             </div>
                         </div> 
