@@ -8,7 +8,6 @@ function Nav() {
   const Process = document.getElementById("Process");
   const Testimonials = document.getElementById("Testimonials");
   const Fee = document.getElementById("Fee");
-  console.log(About,Salaries,Process,Testimonials,Fee);
   //const Contractor = document.getElementById("Contractor");
   //const Quote = document.getElementById("Quote");
 
