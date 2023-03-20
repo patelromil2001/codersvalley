@@ -6,7 +6,7 @@ const Quote = () => {
     labelCol: { span: 8 },
     wrapperCol: { span: 16 },
   };
-  const handleSubmit=(e) => {
+  const handleSubmit = (e) => {
     console.log(e)
   }
 
@@ -30,7 +30,7 @@ const Quote = () => {
           labelWrap
         >
           <Form.Item
-            label={[<span className="text-lg">Your Name</span>]}
+            label={[<span className="text-lg text-gray-600">Your Name</span>]}
             name="name"
             rules={[
               {
@@ -44,7 +44,7 @@ const Quote = () => {
           </Form.Item>
 
           <Form.Item
-            label={[<span className="text-lg">Your Position</span>]}
+            label={[<span className="text-lg text-gray-600">Your Position</span>]}
             name="position"
             rules={[
               {
@@ -58,7 +58,7 @@ const Quote = () => {
           </Form.Item>
 
           <Form.Item
-            label={[<span className="text-lg">Your Email</span>]}
+            label={[<span className="text-lg text-gray-600">Your Email</span>]}
             name="email"
             rules={[
               {
@@ -71,7 +71,7 @@ const Quote = () => {
             <Input className="text-lg" />
           </Form.Item>
           <Form.Item
-            label={[<span className="text-lg">Phone Number</span>]}
+            label={[<span className="text-lg text-gray-600">Phone Number</span>]}
             name="number"
             rules={[
               {
@@ -84,7 +84,7 @@ const Quote = () => {
           </Form.Item>
 
           <Form.Item
-            label={[<span className="text-lg">Company website/ LinkedIn </span>]}
+            label={[<span className="text-lg text-gray-600">Company website/ LinkedIn </span>]}
             name="websiteLink"
             rules={[
               {
@@ -96,7 +96,7 @@ const Quote = () => {
             <Input className="text-lg" />
           </Form.Item>
           <Form.Item
-            label={[<span className="text-lg">Who are you looking for?</span>]}
+            label={[<span className="text-lg text-gray-600">Who are you looking for?</span>]}
             name="description"
             rules={[
               {
@@ -105,10 +105,14 @@ const Quote = () => {
               },
             ]}
           >
-            <Input.TextArea className="text-base" placeholder="Add a link to a job description, or describe the type of skilled tech talent you need." />
+            <Input.TextArea className="text-base"
+              style={{
+                height: 120,
+              }}
+              placeholder="Add a link to a job description, or describe the type of skilled tech talent you need." />
           </Form.Item>
           <Form.Item
-            label={[<span className="text-lg ">When are you available for a quick call?</span>]}
+            label={[<span className="text-lg text-gray-600 ">When are you available for a quick call?</span>]}
             name="date"
             rules={[
               {
@@ -117,11 +121,11 @@ const Quote = () => {
               },
             ]}
           >
-            <DatePicker className="text-lg"/>
+            <DatePicker className="text-lg" />
           </Form.Item>
           <Form.Item wrapperCol={{ ...layout.wrapperCol, offset: 8 }}>
-            <Button 
-            type="primary" size="large" htmlType="submit" className="bg-blue-400"
+            <Button
+              type="primary" size="large" htmlType="submit" className="bg-blue-400"
             >
               Get A Quote
             </Button>

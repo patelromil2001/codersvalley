@@ -8,8 +8,11 @@ function Nav() {
   const Process = document.getElementById("Process");
   const Testimonials = document.getElementById("Testimonials");
   const Fee = document.getElementById("Fee");
-  const Contractor = document.getElementById("Contractor");
+  //const Contractor = document.getElementById("Contractor");
   const Quote = document.getElementById("Quote");
+  const scroll = (e) => {
+    e.scrollIntoView({ behavior: "smooth" })
+  }
 
   return (
     <div className="sticky top-0 left-0 z-50 w-full">
@@ -27,47 +30,47 @@ function Nav() {
               <div className="hidden lg:block ml-auto">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <button
-                    onClick={() => About.scrollIntoView({ behavior: "smooth" })}
+                    onClick={() => scroll(About)}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About
                   </button>
 
                   <button
-                    onClick={() => Salaries.scrollIntoView({ behavior: "smooth" })}
+                    onClick={() => scroll(Salaries)}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Salaries
                   </button>
 
                   <button
-                    onClick={() => Process.scrollIntoView({ behavior: "smooth" })}
+                    onClick={() => scroll(Process)}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Process
                   </button>
 
                   <button
-                    onClick={() => Testimonials.scrollIntoView({ behavior: "smooth" })}
+                    onClick={() => scroll(Testimonials)}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Testimonials
                   </button>
 
                   <button
-                    onClick={() => Fee.scrollIntoView({ behavior: "smooth" })}
+                    onClick={() => scroll(Fee)}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Fee
                   </button>
                   <button
-                    onClick={() => Contractor.scrollIntoView({ behavior: "smooth" })}
+                    onClick={() => scroll(Contractor)}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contractor payroll & management
                   </button>
                   <button
-                    onClick={() => Quote.scrollIntoView({ behavior: "smooth" })}
+                    onClick={() => scroll(Quote)}
                     className=" text-black hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Get A Quote
@@ -114,7 +117,7 @@ function Nav() {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <button
                   onClick={() => {
-                    About.scrollIntoView({ behavior: "smooth" })
+                    scroll(About)
                     setIsOpen(false)
                   }}
 
@@ -125,7 +128,7 @@ function Nav() {
 
                 <button
                   onClick={() => {
-                    Salaries.scrollIntoView({ behavior: "smooth" })
+                    scroll(Salaries)
                     setIsOpen(false)
                   }}
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
@@ -135,7 +138,7 @@ function Nav() {
 
                 <button
                   onClick={() => {
-                    Process.scrollIntoView({ behavior: "smooth" })
+                    scroll(Process)
                     setIsOpen(false)
                   }}
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
@@ -145,7 +148,7 @@ function Nav() {
 
                 <button
                   onClick={() => {
-                    Testimonials.scrollIntoView({ behavior: "smooth" })
+                    scroll(Testimonials)
                     setIsOpen(false)
                   }}
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
@@ -155,7 +158,7 @@ function Nav() {
 
                 <button
                   onClick={() => {
-                    Fee.scrollIntoView({ behavior: "smooth" })
+                    scroll(Fee)
                     setIsOpen(false)
                   }}
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
@@ -164,7 +167,7 @@ function Nav() {
                 </button>
                 <button
                   onClick={() => {
-                    Contractor.scrollIntoView({ behavior: "smooth" })
+                    scroll(Contractor)
                     setIsOpen(false)
                   }}
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
@@ -173,7 +176,7 @@ function Nav() {
                 </button>
                 <button
                   onClick={() => {
-                    Quote.scrollIntoView({ behavior: "smooth" })
+                    scroll(Quote)
                     setIsOpen(false)
                   }}
                   className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
