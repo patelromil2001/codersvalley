@@ -1,3 +1,4 @@
+import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
 
@@ -14,8 +15,16 @@ const Home = () => {
                     </div>
 
                     <div className="py-10">
-                        <div className="rectangle inline-block bg-cyan-200 w-[75%]  lg:w-[36rem] h-14 rounded ">
-                            <img src="https://cdn-icons-png.flaticon.com/512/3031/3031293.png" className="pt-4 h-10 pl-6" alt="1" />
+                        <div className="rectangle flex bg-cyan-200 w-[75%]  lg:w-[36rem] md:h-14 h-[90px]   rounded text-3xl font-[400]">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3031/3031293.png" className="pt-4 h-10 pl-6 pr-5" alt="1" />
+                            <div className="mt-2">
+                                <Typewriter
+                                    words={['Hire a Software developer', 'Hire a web developer', 'Hire a whole team']}
+                                    cursor
+                                    loop={0}
+                                />
+                            </div>
+
                         </div>
                     </div>
 
