@@ -2,7 +2,7 @@
 const About = () => {
     return (
         <div id="About" className="About flex">
-            <div className="w-[10%] md:w-[25%] lg:[20%] bg-cyan-50"></div>
+            <div className="w-[10%] md:w-[16%] lg:[20%] bg-cyan-50"></div>
             <div>
                 <div className="px-24">
                     <div className="/* pt-5 space-y-3 lg:flex lg:justify-evenly */">
@@ -88,7 +88,7 @@ const About = () => {
                 </div>
 
                 {/* GRADIENT */}
-                <div className=" bg-cyan-50 md:grid md:grid-cols-1 md:grid-rows-3 md:gap-10 lg:flex">
+                <div className=" bg-cyan-50 lg:pt-10 lg:h-[700px] md:h-[1200px] lg:flex">
                     <div className=" py-10 px-24 space-y-5 lg:w-[30%]">
                         <div>
                             <img src="https://static.tildacdn.com/tild3335-3734-4932-b838-656333393766/Group_15.svg" className="" alt="" />
@@ -113,8 +113,8 @@ const About = () => {
 
                     </div>
 
-                    <div className="md:flex md:pt-32  ">
-                        <div className="Graph-1 pt-16 lg:w-[30%] ">
+                    <div className="flex ">
+                        <div className="Graph-1 lg:pt-16 md:h-20 md:w-10 lg:w-[30%] md:align-middle ">
                             <div className="circle h-56 w-56 rounded-full bg-blue-50">
                                 <p className="text-black-600 font-bold text-xl pt-12">UX/UI Senior Designer</p>
                                 <div className="Graph flex pb-24">
