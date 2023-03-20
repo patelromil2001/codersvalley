@@ -11,7 +11,7 @@ const Quote = () => {
   }
 
   return (
-    <div>
+    <div id="Quote">
       <div className="py-12 md:ml-24 mx-6"><span className="text-5xl font-[350]">Get A Quote</span></div>
       <div className=" ml-6 w-[80%] lg:w-2/3 lg:mx-auto py-8">
         <Form

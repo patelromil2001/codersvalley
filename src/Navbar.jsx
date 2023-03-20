@@ -8,8 +8,8 @@ function Nav() {
   const Process = document.getElementById("Process");
   const Testimonials = document.getElementById("Testimonials");
   const Fee = document.getElementById("Fee");
-  //const Contractor = document.getElementById("Contractor");
-  //const Quote = document.getElementById("Quote");
+  const Contractor = document.getElementById("Contractor");
+  const Quote = document.getElementById("Quote");
 
   return (
     <div className="sticky top-0 left-0 z-50 w-full">
