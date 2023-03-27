@@ -13,18 +13,17 @@ import Contractor from './Contractor';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Salaries />
-      <Process />
-      <Contractor/>
-      <Testimonials />
-      <Fee />
-      <Quote />
-      <Footer />
-
+    <div className='overflow-clip'>
+    <Navbar />
+    <Home />
+    <About />
+    <Salaries />
+    <Process/>
+    <Testimonials/>
+    <Fee />
+    <Quote />
+    <Footer/>
+    
     </div>
   );
 }
