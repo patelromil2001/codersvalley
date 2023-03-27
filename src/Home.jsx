@@ -36,12 +36,16 @@ const Home = () => {
                     </div>
                 </div>
                 <div className=" sm:pl-1 md:pl-1 lg:pl-20">
-                    <div className="pb-3"><div className="rectangle animate-pulse w-96 h-16 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$4.800</p> </div></div>
-                    <div className="flex">
-                        <div className=""><div className="rectangle animate-pulse w-28 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$4.800</p> </div></div>
-                        <div className="pl-3"><div className="rectangle animate-pulse w-10 h-36 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$4.800</p> </div></div>
-                        <div className="pl-3"><div className="rectangle animate-pulse w-52 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$4.800</p> </div></div>
+                    <div className="pl-5">
+                        <p className="text-6xl font-bold">$120,000</p>
+                        <div className="pb-5 -m-5 "><div className="rectangle w-96 h-16 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400 pl-5 pb-10"> {/* <p className="text-6xl font-bold">$120,000</p>  */}<p className="text-sm font-medium pt-5 ">Backend Engineer Salary in the US </p>  </div></div>
                     </div>
+                    <div className="flex pt-3">
+                        <div className=""><div className="rectangle w-28 h-10 rounded-xl bg-gradient-to-r from-yellow-400 to-orange-400 pl-5"> <p className="text-2xl font-bold">$50k</p> <p className="text-xs pt-1">Salary of Same developer in Latin America</p> </div></div>
+                        <div className="pl-3"><div className="rectangle w-10 h-36 rounded-xl bg-blue-400"></div></div>
+                        <div className="pl-3"><div className="rectangle w-52 h-10 rounded-xl bg-gradient-to-r from-green-400 to-blue-400"> <p className="text-2xl font-bold pl-3">$63k</p> <p className="text-xs pl-3">You save on every hire at this level for this role</p>  </div></div>
+                    </div>
+                    <p className="text-xs -m-10 pl-44">Our recruitment fee at % of <br /> the first year's base salary</p>
                 </div>
             </div>
             <div className=" bg-white flex">

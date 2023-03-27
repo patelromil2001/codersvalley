@@ -5,7 +5,7 @@ const About = () => {
             <div className="w-[10%] md:w-[16%] lg:[20%] bg-cyan-50"></div>
             <div>
                 <div className="px-24">
-                    <div className="/* pt-5 space-y-3 lg:flex lg:justify-evenly */">
+                    <div className="pt-10 lg:flex lg:justify-evenly">
                         <div className="">
                             <img src="https://cdn-icons-png.flaticon.com/512/2098/2098672.png" className=" h-8 " alt="1" />
                             <p className="">Starting from 12% of the placed <br /> employee's first year's base salary. <br /> No hire - no fee.</p>
@@ -18,12 +18,12 @@ const About = () => {
                             <img src="https://cdn-icons-png.flaticon.com/512/9463/9463914.png" className=" h-12 " alt="3" />
                             <p className="">Only a 3-day wait only for guaranteed CV's delivered</p>
                         </div>
-                        <hr className=" w-90 h-0.5 lg:mb-5 bg-cyan-200 rounded " />
+                        <hr className=" lg:w-90 lg:h-0.5 lg:mb-5 bg-cyan-200 rounded " />
                     </div>
 
                     <div className="Co-founder lg:flex ">
                         <div>
-                            <p className=" text-5xl">7 years of hiring IT <br /> and tech talent</p>
+                            <p className="pt-5 text-5xl">7 years of hiring IT <br /> and tech talent</p>
                             <div className="flex py-10">
                                 <div className="w-30% sm:w-[60%] md:w-[20%] lg:w-[30%]">
                                     <img src="https://cdn-icons-png.flaticon.com/512/3840/3840751.png" className="h-10" alt="" />
