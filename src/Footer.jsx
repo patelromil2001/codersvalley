@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 const Footer = () => {
     return(
         <div className="w-full">
@@ -9,9 +11,9 @@ const Footer = () => {
                 </div>
                 <div className="2 lg:pl-36 pt-11 text-zinc-400 text-base space-y-3 text-align-center" >
                     <p className="font-bold text-xl">Menu</p>
-                    <p>Process</p>
-                    <p>Testimonials</p>
-                    <p>Contact</p>
+                    <p className="cursor-pointer"><Link to='Process' smooth={true} offset={-60}>Process</Link></p>
+                    <p className="cursor-pointer"><Link to='Testimonials' smooth={true} offset={-60}>Testimonials</Link></p>
+                    <p className="cursor-pointer"><Link to='Quote' smooth={true} offset={-60}>Contact</Link></p>
                     <p>Book a Call</p> 
                 </div>
                 <div className="3 lg:pl-36 pt-11 text-zinc-400 space-y-3">

@@ -19,6 +19,7 @@ function App() {
     <About />
     <Salaries />
     <Process/>
+    <Contractor/>
     <Testimonials/>
     <Fee />
     <Quote />

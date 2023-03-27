@@ -1,4 +1,7 @@
+import { Link } from "react-scroll";
+
 const Process = () => {
+
     return (
         <div id="Process" className="bg-blue-50 pt-16 pb-16 ">
             <p className="text-4xl pl-5 lg:pl-40">Our process</p>
@@ -10,7 +13,7 @@ const Process = () => {
                             <p className="text-lg font-bold">STEP-1</p>
                         </div>
                         <div className="Details">
-                            <p className="text-lg font-bold pl-7">Fill in <a className="text-blue-400 underline" href="#">the form</a> and sign the contract (DocuSign)</p>
+                            <p className="text-lg font-bold pl-7">Fill in <Link to="Quote" smooth={true} className="text-blue-400 underline cursor-pointer" offset={-60}>the form</Link> and sign the contract (DocuSign)</p>
                             <p className="text-blue-400 pl-7 text-lg font-bold pt-2">Duration: 3 minutes</p>
                             <p className="text-base pl-7 pt-2">You sign a standard recruiter contract (no hire - no fee) with Coders Valley and send us your requirements.</p>
                             <p className="text-base pl-7 pt-4">We edit your vacancy for the specifics of the Latin America market and start the search.</p>
