@@ -1,6 +1,7 @@
 import { Button } from "antd";
+import { Link } from "react-scroll";
+
 const Fee = () => {
-    const Quote = document.getElementById("Quote");
     return (
         <div id="Fee" className="w-full bg-slate-100">
             <div className="py-12 md:ml-24 mx-6"><span className="text-5xl font-[350]">Our recruitment fee structure</span></div>
@@ -25,12 +26,14 @@ const Fee = () => {
                         <div><span className="font-thin tracking-wide">$50,001 - $65,000 a year – </span> <span className="font-bold">14%</span></div>
                         <div><span className="font-thin tracking-wide">$65,001 a year and over – </span> <span className="font-bold">12%</span></div>
                     </div>
-                    <Button 
-                    className="mt-10 mb-6 bg-blue-400" size="large" type="primary"
-                    onClick={() => Quote.scrollIntoView({ behavior: "smooth" })}
-                    > 
-                    Get a Quote</Button>
 
+                    <Link to='Quote' smooth={true} offset={-60}>
+                        <Button
+                            className="mt-10 mb-6 bg-blue-400" size="large" type="primary"
+                        >
+                            Get a Quote
+                        </Button>
+                    </Link>
                 </div>
 
             </div>
