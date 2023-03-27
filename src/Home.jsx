@@ -15,12 +15,22 @@ const Home = () => {
                     </div>
 
                     <div className="py-10">
-                        <div className="rectangle flex bg-cyan-200 w-[75%]  lg:w-[36rem] md:h-14 h-[90px]   rounded text-3xl font-[400]">
+                        <div className="rectangle flex bg-cyan-200 w-[75%]  lg:w-[36rem] md:h-14 h-[90px]   rounded text-2xl font-[400]">
                             <img src="https://cdn-icons-png.flaticon.com/512/3031/3031293.png" className="pt-4 h-10 pl-6 pr-5" alt="1" />
-                            <div className="mt-2">
+                            <div className="mt-3">
                                 <Typewriter
-                                    words={['Hire a Software developer', 'Hire a web developer', 'Hire a whole team']}
+                                    words={[
+                                        'Software Engineer $45,000 annually',
+                                        'Senior UX/UI Designer $24,000 annually',
+                                        'Senior DevOps Engineer $38,000 annually',
+                                        'Senior Data Engineer $43,000 annually',
+                                        'Project Manager $33,000 annually',
+                                        'Senior Data Engineer $43,000 annually'
+                                    ]}
                                     cursor
+                                    typeSpeed={100}
+                                    deleteSpeed={100}
+                                    delaySpeed={1000}
                                     loop={0}
                                 />
                             </div>
