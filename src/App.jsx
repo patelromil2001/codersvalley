@@ -8,8 +8,7 @@ import Process from './Process';
 import Fee from './Fee';
 import Quote from './Quote';
 import Contractor from './Contractor';
-
-
+import Blog from './Blog';
 
 function App() {
   return (
@@ -23,6 +22,7 @@ function App() {
     <Testimonials/>
     <Fee />
     <Quote />
+    <Blog/>
     <Footer/>
     
     </div>
