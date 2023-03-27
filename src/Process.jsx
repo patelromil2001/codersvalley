@@ -17,7 +17,7 @@ const Process = () => {
                         </div>
                     </div>
                     <div className="Image pl-24">
-                        <img src="https://thumb.tildacdn.com/tild6265-3636-4830-a562-336630393935/-/format/webp/image_10.png" alt="" />
+                        {/* <img src="https://thumb.tildacdn.com/tild6265-3636-4830-a562-336630393935/-/format/webp/image_10.png" alt="" /> */}
                     </div>
                 </div>
 
@@ -33,7 +33,7 @@ const Process = () => {
                         </div>
                     </div>
                     <div className="Image ml-20 mt-5">
-                        <img src="https://static.tildacdn.com/tild6464-3138-4662-a233-643139393133/Group_33.svg" alt="" />
+                        {/* <img src="https://static.tildacdn.com/tild6464-3138-4662-a233-643139393133/Group_33.svg" alt="" /> */}
                         {/* images 
                     0 https://static.tildacdn.com/tild6133-6464-4335-a434-666261356562/Group_47.svg
                     1 https://static.tildacdn.com/tild3433-6364-4634-b937-383537353465/Group_34.svg
@@ -58,15 +58,15 @@ const Process = () => {
                             <p className="text-base pl-7 pt-4">You will receive another 7-10 candidates within 1-2 weeks (it depends on the complexity of the job). We will organize a joint interview of your team with the candidates that you like.</p>
                         </div>
                     </div>
-                    <div className="Image relative">
-                        <img className="absolute" src="https://thumb.tildacdn.com/tild3231-3261-4637-b138-376437666161/-/format/webp/_1_1_1.png" alt="" />
-                        <img src="https://static.tildacdn.com/tild6536-6462-4638-a633-343362346137/320_px_10_fps.gif" className="relative" alt="" />
-                    </div>
+                    {/* <div className="Image">
+                        <img src="https://thumb.tildacdn.com/tild3231-3261-4637-b138-376437666161/-/format/webp/_1_1_1.png"  className="absolute ml-8" alt="" />
+                        <img src="https://static.tildacdn.com/tild6536-6462-4638-a633-343362346137/320_px_10_fps.gif" className="relative h-32 top-6 left-[105px]" alt="" />
+                    </div> */}
 
                 </div>
 
 
-                <div className="Step-4 flex  pl-5 lg:pl-44">
+                <div className="Step-4 flex pl-5 lg:pl-44">
                     <div className="Step4">
                         <p className="text-lg font-bold">STEP-4</p>
                     </div>
