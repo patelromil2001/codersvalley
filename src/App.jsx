@@ -12,7 +12,7 @@ import Quote from './Quote';
 
 function App() {
   return (
-    <div>
+    <div className='overflow-clip'>
     <Navbar />
     <Home />
     <About />
