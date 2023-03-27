@@ -42,10 +42,10 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6"> 
+                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6">
                             <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
                         </div><br />
-                        <div  className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6">
+                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6">
                             <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
                         </div>
                     </div>
@@ -161,7 +161,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            
+
         </div>
     );
 }
