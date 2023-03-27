@@ -92,7 +92,7 @@ const Process = () => {
             </div>
 
             <div className="container ">
-                <div className=" lg:px-44 mt-16 px-14 md:flex lg:mt-28" >
+                <div className=" lg:px-44 mt-16 px-7 md:flex lg:mt-28" >
                     <div className="w-[90%] lg:w-[40%]">
                         <p className="lg:text-5xl text-3xl font-extrabold">We work in a team, directly with your HR and CTO</p>
                     </div>
@@ -105,12 +105,12 @@ const Process = () => {
                 </div>
                 <hr className="lg:hidden h-2 text-blue-300"></hr>
 
-                <div>
-                    <p className="text-3xl">Interaction with your contractor</p>
+                <div className="lg:px-28 px-7 ">
+                    <p className="text-3xl font-bold pt-5">Interaction with your contractor</p>
                     <div className=" container md:flex">
-                        <div>
+                        <div className="mt-10 md:w-[33%]">
                             <img src="https://static.tildacdn.com/tild3264-3862-4664-b666-333238656538/Vector.svg" alt="" />
-                            <p>MANAGEMENT</p>
+                            <p className="text-xl mt-3 font-bold text-blue-400">MANAGEMENT</p>
                             <div className="flex">
                                 <img className="h-7" src="https://www.svgrepo.com/show/450680/bullet-point.svg" alt="" />
                                 <p>Developers will have knowledge of spoken and written English</p>
@@ -124,9 +124,9 @@ const Process = () => {
                                 <p>They work according to your time zone or with a difference of no more than 3 hours</p>
                             </div>
                         </div>
-                        <div>
-                            <img src="https://static.tildacdn.com/tild3066-3062-4638-a663-616562653665/Vector.svg" alt="" />
-                            <p>FINANCE ARRANGEMENT</p>
+                        <div className="mt-10 md:w-[33%] md:ml-5">
+                            <img src="https://static.tildacdn.com/tild3066-3062-4638-a663-616562653665/Vector.svg" className="h-12" alt="" />
+                            <p className="text-xl mt-3 font-bold text-blue-400">FINANCE ARRANGEMENT</p>
                             <div className="flex">
                                 <img className="h-7" src="https://www.svgrepo.com/show/450680/bullet-point.svg" alt="" />
                                 <p>You pay your developer directly, we do not manage his salary or payroll</p>
@@ -140,9 +140,9 @@ const Process = () => {
                                 <p>You can also pay via Deel, Remote.com, Fiverr, Upwork or other predetermined channels</p>
                             </div>
                         </div>
-                        <div>
+                        <div className="mt-10 md:w-[33%] md:ml-5">
                             <img src="https://static.tildacdn.com/tild3332-6131-4237-a638-373334643337/Vector.svg" alt="" />
-                            <p>LEGAL ARRANGEMENT</p>
+                            <p className="text-xl mt-3 font-bold text-blue-400">LEGAL ARRANGEMENT</p>
                             <div className="flex">
                                 <img className="h-7" src="https://www.svgrepo.com/show/450680/bullet-point.svg" alt="" />
                                 <p>Contract and organise NDAs directly with the developer. We only help in the search</p>
