@@ -89,7 +89,7 @@ const About = () => {
                 </div>
 
                 {/* GRADIENT */}
-                <div className=" bg-cyan-50 lg:pt-10 lg:h-auto lg:flex">
+                <div className=" bg-cyan-50 lg:pt-10 lg:h-[700px] lg:flex">
                     <div className=" py-10 lg:px-24 space-y-5 w-[90%] mx-auto lg:mx-0 lg:w-[30%]">
                         <div>
                             <img src="https://static.tildacdn.com/tild3335-3734-4932-b838-656333393766/Group_15.svg" className="" alt="" />
