@@ -89,8 +89,8 @@ const About = () => {
                 </div>
 
                 {/* GRADIENT */}
-                <div className=" bg-cyan-50 lg:pt-10 lg:h-[700px] md:h-[1200px] lg:flex">
-                    <div className=" py-10 px-24 space-y-5 lg:w-[30%]">
+                <div className=" bg-cyan-50 lg:pt-10 lg:h-auto lg:flex">
+                    <div className=" py-10 lg:px-24 space-y-5 w-[90%] mx-auto lg:mx-0 lg:w-[30%]">
                         <div>
                             <img src="https://static.tildacdn.com/tild3335-3734-4932-b838-656333393766/Group_15.svg" className="" alt="" />
                             <p className="text-blue-400 font-bold text-lg ">Success fee</p>
@@ -99,16 +99,16 @@ const About = () => {
                         <div>
                             <img src="https://static.tildacdn.com/tild3137-3462-4036-a463-643737353438/Group_78.svg" className="" alt="" />
                             <p className="text-blue-400 font-bold text-lg ">Pay once</p>
-                            <p className="">One single fee for our service, and you work <br /> with your contractor for as long as you want</p>
+                            <p className="">One single fee for our service, and you work with your contractor for as long as you want</p>
                         </div>
                         <div>
                             <img src="https://static.tildacdn.com/tild6163-6565-4635-b864-643966363639/Group_79.svg" className="" alt="" />
                             <p className="text-blue-400 font-bold text-lg ">This is not outstaffing</p>
-                            <p className="">Pay your developer directly <br /> to their US bank account</p>
+                            <p className="">Pay your developer directly to their US bank account</p>
                         </div>
                         <div>
                             <img src="https://static.tildacdn.com/tild3166-3336-4061-b636-326463393861/Group_80.svg" className="" alt="" />
-                            <p className="text-blue-400 font-bold text-lg ">More profitable than <br /> outstaffing</p>
+                            <p className="text-blue-400 font-bold text-lg ">More profitable than outstaffing</p>
                             <p className="">Several Times</p>
                         </div>
 
