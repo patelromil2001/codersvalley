@@ -103,7 +103,7 @@ function Nav() {
 
                 {navItems.map((item) =>
 
-                  <Link to={item.id} smooth={true} offset={-380} onClick={() =>
+                  <Link to={item.id} smooth={true} offset={-360} onClick={() =>
                     setIsOpen(false)
                   }>
                     <button
