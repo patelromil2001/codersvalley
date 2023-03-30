@@ -94,7 +94,7 @@ const Process = () => {
             <div className="container mb-10">
                 <div className=" lg:px-44 pt-16 pb-16 px-7 md:flex lg:mt-28" >
                     <div className="w-[90%] lg:w-[40%]">
-                        <p className="lg:text-5xl text-3xl font-extrabold">We work in a team, directly with your HR and CTO</p>
+                        <p className="lg:text-5xl text-3xl font-extrabold lg:my-16">We work in a team, directly with your HR and CTO</p>
                     </div>
                     <div className="w-[90%] lg:w-[60%] md:ml-12 ">
                         <p className="text-xl mt-3 font-bold text-blue-400" >We don't replace your HR function, we augment it.</p>
