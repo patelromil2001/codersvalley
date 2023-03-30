@@ -4,7 +4,7 @@ const Process = () => {
 
     return (
         <div>
-            <div id="Process" className="bg-blue-50 pt-16 pb-16 ">
+            <div id="Process" className="bg-amber-50 pt-16 pb-16 ">
                 <p className="text-4xl pl-5 lg:pl-40">Our process</p>
                 <div className="lg:w-[50%] w-[90%]">
 
@@ -91,7 +91,7 @@ const Process = () => {
 
             </div>
 
-            <div className="container mb-10">
+            <div className="container mb-10 ">
                 <div className=" lg:px-44 pt-16 pb-16 px-7 md:flex lg:mt-28" >
                     <div className="w-[90%] lg:w-[40%]">
                         <p className="lg:text-5xl text-3xl font-extrabold lg:my-16">We work in a team, directly with your HR and CTO</p>
@@ -108,7 +108,7 @@ const Process = () => {
                 <div className="lg:px-28 px-7 mx-auto">
                     <p className="text-3xl font-bold pt-5">Interaction with your contractor</p>
                     <div className=" container mx-auto md:flex">
-                        <div className="mt-10 md:w-[33%] BOX w-fit p-5 m-0 rounded-lg border-4 border-cyan-200">
+                        <div className="mt-10 md:w-[33%] BOX w-fit p-5 m-0 rounded-lg border-4 ">
                             <img src="https://static.tildacdn.com/tild3264-3862-4664-b666-333238656538/Vector.svg" alt="" />
                             <p className="text-xl mt-3 font-bold text-blue-400">MANAGEMENT</p>
                             <div className="flex">
@@ -124,7 +124,7 @@ const Process = () => {
                                 <p>They work according to your time zone or with a difference of no more than 3 hours</p>
                             </div>
                         </div>
-                        <div className="mt-10 md:w-[33%] md:ml-5 BOX w-fit p-5 m-0 rounded-lg border-4 border-cyan-200">
+                        <div className="mt-10 md:w-[33%] md:ml-5 BOX w-fit p-5 m-0 rounded-lg border-4 ">
                             <img src="https://static.tildacdn.com/tild3066-3062-4638-a663-616562653665/Vector.svg" className="h-12" alt="" />
                             <p className="text-xl mt-3 font-bold text-blue-400">FINANCE ARRANGEMENT</p>
                             <div className="flex">
@@ -140,7 +140,7 @@ const Process = () => {
                                 <p>You can also pay via Deel, Remote.com, Fiverr, Upwork or other predetermined channels</p>
                             </div>
                         </div>
-                        <div className="mt-10 md:w-[33%] md:ml-5 BOX w-fit p-5 m-0 rounded-lg border-4 border-cyan-200">
+                        <div className="mt-10 md:w-[33%] md:ml-5 BOX w-fit p-5 m-0 rounded-lg border-4 ">
                             <img src="https://static.tildacdn.com/tild3332-6131-4237-a638-373334643337/Vector.svg" alt="" />
                             <p className="text-xl mt-3 font-bold text-blue-400">LEGAL ARRANGEMENT</p>
                             <div className="flex">

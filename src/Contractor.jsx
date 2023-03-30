@@ -2,7 +2,7 @@ const Contractor = () => {
     return (
         <section id='Contractor' className=" body-font">
             <div className="py-12 md:ml-24 mx-6"><span className="text-5xl font-[350]">Contractor payroll & management</span></div>
-            <div className="container px-5 py-12 mx-auto">
+            <div className="container px-5 py-1 mx-auto">
                 <div className="flex flex-wrap lg:mx-28">
                     <div className="p-4 md:w-[30%]">
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">

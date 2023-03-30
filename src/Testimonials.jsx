@@ -8,7 +8,7 @@ const Testimonials = () => {
                 </div>
                 <div className="w-full lg:flex items-center gap-6 mt-10">
                     <div className="lg:w-1/2">
-                        <div className="bg-white border rounded-md border-gray-200 relative sm:p-10 p-6">
+                        <div className="bg-white  border rounded-md border-gray-200 relative sm:p-10 p-6">
                             <div>
                                 <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg1.svg" alt="commas" />
                             </div>
@@ -28,7 +28,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <div className="lg:w-1/2 lg:mt-0 mt-16">
-                        <div className="bg-white border rounded-md border-gray-200 relative sm:p-10 p-6">
+                        <div className="bg-white  border rounded-md border-gray-200 relative sm:p-10 p-6">
                             <div>
                                 <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg1.svg" alt="commas" />
                             </div>
@@ -48,7 +48,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <div className="lg:w-1/2 lg:mt-0 mt-16">
-                        <div className="bg-white border rounded-md border-gray-200 relative sm:p-10 p-6">
+                        <div className="bg-white  border rounded-md border-gray-200 relative sm:p-10 p-6">
                             <div>
                                 <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg1.svg" alt="commas" />
                             </div>
@@ -71,7 +71,7 @@ const Testimonials = () => {
                 </div>
                 <div className="w-full lg:flex items-center gap-6 mt-10">
                     <div className="lg:w-1/2">
-                        <div className="bg-white border rounded-md border-gray-200 relative sm:p-10 p-6">
+                        <div className="bg-white  border rounded-md border-gray-200 relative sm:p-10 p-6">
                             <div>
                                 <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg1.svg" alt="commas" />
                             </div>
@@ -91,7 +91,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <div className="lg:w-1/2 lg:mt-0 mt-16">
-                        <div className="bg-white border rounded-md border-gray-200 relative sm:p-10 p-6">
+                        <div className="bg-white  border rounded-md border-gray-200 relative sm:p-10 p-6">
                             <div>
                                 <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg1.svg" alt="commas" />
                             </div>
@@ -111,7 +111,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <div className="lg:w-1/2 lg:mt-0 mt-16">
-                        <div className="bg-white border rounded-md border-gray-200 relative sm:p-10 p-6">
+                        <div className="bg-white  border rounded-md border-gray-200 relative sm:p-10 p-6">
                             <div>
                                 <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonials-4-svg1.svg" alt="commas" />
                             </div>

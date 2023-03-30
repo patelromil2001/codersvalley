@@ -89,7 +89,7 @@ function Nav() {
 
   return (
     <div className="sticky pt-5 top-0 left-0  z-50 ">
-      <nav className={ colour ? "bg-[#70f19df0] bg-scroll rounded-2xl w-[90%] mx-auto transition-all duration-700" :"bg-white bg-scroll rounded-2xl w-[90%] mx-auto transition-all duration-700"  }  >
+      <nav className={ colour ? "bg-[#F8E9A1] bg-scroll rounded-2xl w-[90%] mx-auto transition-all duration-700" :"bg-white bg-scroll rounded-2xl w-[90%] mx-auto transition-all duration-700"  }  >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center w-full">
@@ -106,7 +106,7 @@ function Nav() {
                   {mainItems.map((item) =>
                     <Link to={item.id} smooth={true} offset={-60}>
                       <button
-                        className=" text-black hover:text-amber-400 px-3 py-2 rounded-md text-lg font-mono"
+                        className=" text-black hover:text-amber-400 px-3 py-2 rounded-md text-lg font-mono transition-all duration-200"
                       >
                         {item.name}
                       </button></Link>
@@ -180,7 +180,7 @@ function Nav() {
                     setIsOpen(false)
                   }>
                     <button
-                      className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium"
+                      className=" text-black hover:text-amber-200 block px-3 py-2 rounded-md text-base font-medium"
                     >
                       {item.name}
                     </button>
@@ -202,7 +202,7 @@ function Nav() {
                     leaveTo="opacity-0 scale-95"
                   >
                     {(ref) => (
-                      <div className= {colour ? "lg:block hidden bg-[#70f19df0] w-60 right-32 text-right rounded-b-xl absolute   transition-all duration-700":"lg:block hidden bg-white w-60 right-32 text-right rounded-b-xl absolute  transition-all duration-700"} >
+                      <div className= {colour ? "lg:block hidden bg-[#fff5c6] w-60 right-32 text-right rounded-b-xl absolute   transition-all duration-700":"lg:block hidden bg-white w-60 right-32 text-right rounded-b-xl absolute  transition-all duration-700"} >
                         <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
 
                           {sideItems.map((item) =>
@@ -211,7 +211,7 @@ function Nav() {
                               setmainIsOpen(false)
                             }>
                               <button
-                                className=" text-black hover:text-gray-500 block px-3 py-2 rounded-md text-lg font-medium font-mono ml-auto"
+                                className=" text-black hover:text-amber-400 block px-3 py-2 rounded-md text-lg font-medium font-mono ml-auto transition-all duration-200" 
                               >
                                 {item.name}
                               </button>

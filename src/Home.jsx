@@ -5,17 +5,19 @@ const Home = () => {
     return (
         <div id="Home" className="home">
 
-            <div class="main w-full  lg:-mt-[84px] h-full sm:inline-block lg:flex pl-10 md:pl-20 lg:pl-40 pt-32 lg:pt-48 font-bold space-y-2  " >
+            <div class="main w-full  lg:-mt-[84px] h-full sm:inline-block lg:flex pl-10 md:pl-20 lg:pl-40 pt-5 lg:pt-48 font-bold space-y-2  " >
                 <div className="lg:flex">
                     <div className="">
                         <div className="w-[90%] lg:w-[50%] lg:pt-5 lg:text-4xl text-3xl md:text-3xl  flex">
                             <p>Recruit outstanding English-speaking remote software developers from India for US-based businesses.
                             </p>
                             <div className="hidden lg:block">
-                                <img src="/images/landingpage.png" className="h-96 w-96 absolute right-36  " alt="" />
+                                <img src="/images/hero.png" className="h-[50%] w-[30%] absolute right-[10%]  " alt="" />
                             </div>
                         </div>
-
+                        <div className="lg:hidden mx-auto -ml-10">
+                            <img src="/images/hero.png" className="p-8" alt="" />
+                        </div>
                         <div className="py-10">
                             <div className="rectangle flex bg-amber-100  w-[90%]   lg:w-[36rem] md:h-14  h-[90px]   rounded-3xl text-lg lg:text-2xl font-[400]">
                                 <img src="https://cdn-icons-png.flaticon.com/512/3031/3031293.png" className="pt-4 h-9 lg:h-10 pl-6 pr-5" alt="1" />
@@ -46,9 +48,7 @@ const Home = () => {
                             <p className="text-[15px] pt-9"><span className="font-bold">Countries we've worked with:</span> Brazil, Argentina, Chile, Uruguay, Costa Rica, Ecuador, Columbia,</p>
                             <p className="text-[15px] pb-9"> Peru, Mexico, Cuba, Dominican Republic, Panama</p>
                         </div>
-                        <div className="lg:hidden">
-                            <img src="/images/landingpage.png" alt="" />
-                        </div>
+                        
                         <div className="flex">
                             <div className=" ">
                                 <p className="text-4xl font-semibold pt-9 mx-auto">Companies we've worked with</p>

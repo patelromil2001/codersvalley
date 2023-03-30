@@ -1,4 +1,4 @@
-import img1 from './assets/images/about.gif';
+
 
 const About = () => {
     return (
@@ -23,30 +23,30 @@ const About = () => {
                     </div>
                     <hr className=" w-90 h-0.5 mb-5 bg-amber-100 mt-3  " />
 
-                    <div className="Co-founder  ">
+                    <div className="Co-founder lg:flex ">
                         <div className="pt-5 lg:pl-20">
-                            <div className="lg:w-[50%] w-[90%]">
+                            <div className="lg:w-[70%] w-[90%]">
                             <p className="text-2xl text-black  lg:text-5xl">Recruiting IT and tech expertise for seven years </p>
                             </div>
                             
                             <div className="flex py-10">
 
                                 <div>
-                                    <p className="w-[100%] md:w-[60%] lg:w-[50%]" >Hey! I'm Andrew, and I work as a qualified IT employee. I've been recruiting software programmers in Latin America for more than 7 years, and my area of expertise is introducing US businesses to the best local tech workers.</p>
+                                    <p className="w-[100%] md:w-[60%] lg:w-[50%] text-lg my-10" >Hey! I'm Andrew, and I work as a qualified IT employee. I've been recruiting software programmers in Latin America for more than 7 years, and my area of expertise is introducing US businesses to the best local tech workers.</p>
                                     <div className="flex py-10 ">
                                         <div>
                                             <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" className="h-16" alt="" />
                                         </div>
                                         <div className="px-5">
-                                            <p className="pt-2 text-xl font-semibold">Andrew</p>
-                                            <p className="text-[10px]">CEO, co-founder Coders Valley</p>
+                                            <p className="pt-2 text-xl font-semibold">Company Owner</p>
+                                            <p className="text-[10px]">CEO, co-founder XYZ</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[100%]">
-                            <img className="object-cover object-center rounded" alt="hero" src={img1} />
+                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[100%] ">
+                            <img className="object-cover object-center rounded" alt="hero" src="./images/about.gif" />
                         </div>
                         
                     </div>
