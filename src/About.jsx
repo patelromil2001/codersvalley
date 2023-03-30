@@ -2,7 +2,7 @@
 const About = () => {
     return (
         <div id="About" className="About flex">
-            <div className="w-[10%] md:w-[16%] lg:[20%] bg-cyan-50"></div>
+            
             <div>
                 <div className="px-10 lg:px-24">
                     <div className="pt-10 w-[80%] lg:flex lg:justify-evenly">
@@ -24,13 +24,13 @@ const About = () => {
 
                     <div className="Co-founder lg:flex ">
                         <div className="pt-5">
-                            <p className=" text-5xl">7 years of hiring IT <br /> and tech talent</p>
+                            <p className="text-2xl lg:text-5xl">7 years of hiring IT <br /> and tech talent</p>
                             <div className="flex py-10">
-                                <div className="w-30% sm:w-[60%] md:w-[20%] lg:w-[30%]">
+                                <div className="w-[70%] md:w-[20%] lg:w-[30%]">
                                     <img src="https://cdn-icons-png.flaticon.com/512/3840/3840751.png" className="h-10" alt="" />
                                 </div>
                                 <div>
-                                    <p className="w-[40%] md:w-[60%] lg:w-[50%]" >Hey! My name is Andrew, and I'm a professional IT recruiter. I've been hiring software engineers in Latin America for more than 7 years, and I specialize in connecting US companies with talented developers in local tech market.</p>
+                                    <p className="w-[100%] md:w-[60%] lg:w-[50%]" >Hey! My name is Andrew, and I'm a professional IT recruiter. I've been hiring software engineers in Latin America for more than 7 years, and I specialize in connecting US companies with talented developers in local tech market.</p>
                                     <div className="flex py-10 ">
                                         <div>
                                             <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" className="h-16" alt="" />
@@ -43,10 +43,10 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[80%]">
+                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[100%]">
                             <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
                         </div><br />
-                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[80%]">
+                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[100%]">
                             <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const About = () => {
                     <div className="">
                         <div className="inline-block px-10 lg:flex pb-14">
                             <div className="Reasons w-[80%] lg:w-[50%] md:inline-block">
-                                <p className="text-4xl pt-16 lg:pl-14 ">Why hiring from Latin America is  beneficial for American industry</p>
+                                <p className="text-2xl lg:text-4xl pt-16 lg:pl-14 ">Why hiring from Latin America is  beneficial for American industry</p>
                                 <div className="Property lg:pl-20 text-lg">
                                     <div className="flex pt-10">
                                         <img src="https://static.tildacdn.com/tild3165-6435-4436-b436-336338656435/Group_24.svg" alt="1" />
