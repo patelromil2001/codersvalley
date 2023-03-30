@@ -1,11 +1,12 @@
+import img1 from './assets/images/about.gif';
 
 const About = () => {
     return (
         <div id="About" className="About flex">
-            
+
             <div>
-                <div className="px-10 lg:px-24">
-                    <div className="pt-10 w-[80%] lg:flex lg:justify-evenly">
+                <div className="px-10 lg:px-20">
+                    <div className="pt-10 w-[80%] mx-auto text-lg lg:flex lg:justify-between">
                         <div className="">
                             <img src="https://cdn-icons-png.flaticon.com/512/2098/2098672.png" className=" h-8 " alt="1" />
                             <p className="">Starting from 12% of the placed <br /> employee's first year's base salary. <br /> No hire - no fee.</p>
@@ -20,17 +21,18 @@ const About = () => {
                         </div>
 
                     </div>
-                    <hr className=" w-90 h-0.5 mb-5 bg-cyan-200 mt-3  " />
+                    <hr className=" w-90 h-0.5 mb-5 bg-amber-100 mt-3  " />
 
-                    <div className="Co-founder lg:flex ">
-                        <div className="pt-5">
-                            <p className="text-2xl lg:text-5xl">7 years of hiring IT <br /> and tech talent</p>
+                    <div className="Co-founder  ">
+                        <div className="pt-5 lg:pl-20">
+                            <div className="lg:w-[50%] w-[90%]">
+                            <p className="text-2xl text-black  lg:text-5xl">Recruiting IT and tech expertise for seven years </p>
+                            </div>
+                            
                             <div className="flex py-10">
-                                <div className="w-[70%] md:w-[20%] lg:w-[30%]">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/3840/3840751.png" className="h-10" alt="" />
-                                </div>
+
                                 <div>
-                                    <p className="w-[100%] md:w-[60%] lg:w-[50%]" >Hey! My name is Andrew, and I'm a professional IT recruiter. I've been hiring software engineers in Latin America for more than 7 years, and I specialize in connecting US companies with talented developers in local tech market.</p>
+                                    <p className="w-[100%] md:w-[60%] lg:w-[50%]" >Hey! I'm Andrew, and I work as a qualified IT employee. I've been recruiting software programmers in Latin America for more than 7 years, and my area of expertise is introducing US businesses to the best local tech workers.</p>
                                     <div className="flex py-10 ">
                                         <div>
                                             <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" className="h-16" alt="" />
@@ -44,71 +46,76 @@ const About = () => {
                             </div>
                         </div>
                         <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[100%]">
-                            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
-                        </div><br />
-                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[100%]">
-                            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+                            <img className="object-cover object-center rounded" alt="hero" src={img1} />
                         </div>
+                        
                     </div>
+
+
                 </div>
-                <div className=" ">
-                    <div className="">
-                        <div className="inline-block px-10 lg:flex pb-14">
-                            <div className="Reasons w-[80%] lg:w-[50%] md:inline-block">
-                                <p className="text-2xl lg:text-4xl pt-16 lg:pl-14 ">Why hiring from Latin America is  beneficial for American industry</p>
-                                <div className="Property lg:pl-20 text-lg">
-                                    <div className="flex pt-10">
-                                        <img src="https://static.tildacdn.com/tild3165-6435-4436-b436-336338656435/Group_24.svg" alt="1" />
-                                        <p className="pl-6">You will <span className="font-semibold text-blue-400">pay 1.5 - 2 times less</span> for a full-time employee based in Latin America;</p>
-                                    </div>
-                                    <div className="flex pt-5">
-                                        <img src="https://static.tildacdn.com/tild3331-3236-4365-b063-636134353233/noun_growth_3702215_.svg" alt="1" />
-                                        <p className="pl-6">Your developer will possess a contemporary, market-proof, and <span className="font-semibold text-blue-400">high level of knowledge</span>and technical skill; talent market there is incredibly hard working;</p>
-                                    </div>
-                                    <div className="flex pt-5">
-                                        <img src="https://static.tildacdn.com/tild3663-3338-4434-b938-653837343964/noun_Battery_3702202.svg" className="w-6 py-1" alt="1" />
-                                        <p className="pl-6">All candidates are hired as contractors. Therefore, recruitment is flexible, <span className="font-semibold text-blue-400">you won't need a permit for work</span>, and it will be easy for you to set realistic time-specific goals and part ways with your contractor with ease;</p>
-                                    </div>
-                                    <div className="flex pt-5">
-                                        <img src="https://static.tildacdn.com/tild3838-3163-4134-b230-366132393537/Group_25.svg" alt="1" />
-                                        <p className="pl-4">You <span className="font-semibold text-blue-400">don't need to set up a legal entity</span>in Latin America. You don't need to pay taxes for your contractor because they have to pay them in their own country;</p>
-                                    </div>
-                                    <div className="flex pt-5">
-                                        <img src="https://static.tildacdn.com/tild3035-6432-4663-a464-323830376332/noun_Wallet_3702243_.svg" alt="1" />
-                                        <p className="pl-6">You will <span className="font-semibold text-blue-400">pay your contractor directly</span>in US dollars via Wise (routing and account number), PayPal, Upwork, Deel, Remote.com or Crypto.</p>
-                                    </div>
+
+                <div className="POINTS">
+                    <div className="inline-block px-10 lg:flex pb-14">
+                        <div className="Reasons w-[80%] lg:w-[50%] md:inline-block">
+                            <p className="text-2xl lg:text-4xl pt-16 lg:pl-14 ">Why American business benefits from employing people from India</p>
+                            <div className="Property lg:pl-20 text-lg">
+                                <div className="flex pt-10">
+                                    <img src="https://static.tildacdn.com/tild3165-6435-4436-b436-336338656435/Group_24.svg" alt="1" />
+                                    <p className="pl-6">Why American business benefits from employing people from India</p>
                                 </div>
+                                <div className="flex pt-5">
+                                    <img src="https://static.tildacdn.com/tild3331-3236-4365-b063-636134353233/noun_growth_3702215_.svg" alt="1" />
+                                    <p className="pl-6">our developer will have a modern, market-proof degree of technical ability and expertise; There is a fierce competition for ability</p>
+                                </div>
+                                <div className="flex pt-5">
+                                    <img src="https://static.tildacdn.com/tild3663-3338-4434-b938-653837343964/noun_Battery_3702202.svg" className="w-6 py-1" alt="1" />
+                                    <p className="pl-6">Every applicant is employed on a temporary basis. Consequently, hiring is flexible, you won't require a work visa, and it will be simple for you to establish reasonable, time-specific objectives and let your contractor go without issue</p>
+                                </div>
+                                <div className="flex pt-5">
+                                    <img src="https://static.tildacdn.com/tild3838-3163-4134-b230-366132393537/Group_25.svg" alt="1" />
+                                    <p className="pl-4">In India, you are not required to create a formal company. Your provider must pay taxes in their own nation, so you won't be responsible for them</p>
+                                </div>
+                                <div className="flex pt-5">
+                                    <img src="https://static.tildacdn.com/tild3035-6432-4663-a464-323830376332/noun_Wallet_3702243_.svg" alt="1" />
+                                    <p className="pl-6">By using Wise (routing and account number), PayPal, Upwork, Deel, Remote.com, or Crypto, you can immediately pay your worker in US money.</p>
+                                </div>
+                                <div className="flex pt-5">
+                                    <img src="https://static.tildacdn.com/tild3035-6432-4663-a464-323830376332/noun_Wallet_3702243_.svg" alt="1" />
+                                    <p className="pl-6">Direct payment in US currency will be made to your freelancer through Wise (routing and account number), PayPal, Upwork, Deel, Remote.com, or Crypto.</p>
+                                </div>
+
                             </div>
-                            <div className="w-[90%] lg:w-[40%] lg:pt-36 lg:pl-14">
-                                <div className="BOX w-fit p-9 m-0 border-4 border-cyan-50 text-lg">
-                                    <p>Latin America is a proven, excellent alternative to traditional outsourcing countries for the US, thanks to the high level of education for engineers, a large number of domestic IT, tech, and startup companies, as well as first-rate infrastructure (established quick internet, video communication, co-working, and consulting cultural mirroring, etc.). <br /><br /> Why is nearshore recruitment from Latin America so cost-effective? The salary paid for services is bound to and relates to domestic need and the cost of living in Brazil and Argentina. For example, renting a good apartment in the central part of an average Latin American city will cost an average of $200 to $400 per calendar month. Because we understand domestic salary levels, expectations and market trends, your fee reflects the difference in cost.</p>
-                                </div>
+                        </div>
+                        <div className="w-[90%] lg:w-[40%] lg:pt-36 lg:pl-14">
+                            <div className="BOX w-fit p-9 m-0 border-4 border-amber-50 text-lg">
+                                <p>Latin America is a proven, excellent alternative to traditional outsourcing countries for the US, thanks to the high level of education for engineers, a large number of domestic IT, tech, and startup companies, as well as first-rate infrastructure (established quick internet, video communication, co-working, and consulting cultural mirroring, etc.). <br /><br /> Why is nearshore recruitment from Latin America so cost-effective? The salary paid for services is bound to and relates to domestic need and the cost of living in Brazil and Argentina. For example, renting a good apartment in the central part of an average Latin American city will cost an average of $200 to $400 per calendar month. Because we understand domestic salary levels, expectations and market trends, your fee reflects the difference in cost.</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
+
                 {/* GRADIENT */}
-                <div className=" bg-cyan-50 lg:pt-10 lg:h-[700px] lg:flex">
+                <div className=" bg-amber-50 lg:pt-10 lg:h-[700px] mx-auto lg:flex">
                     <div className=" py-10 lg:px-24 space-y-5 w-[90%] mx-auto lg:mx-0 lg:w-[30%]">
                         <div>
                             <img src="https://static.tildacdn.com/tild3335-3734-4932-b838-656333393766/Group_15.svg" className="" alt="" />
-                            <p className="text-blue-400 font-bold text-lg ">Success fee</p>
+                            <p className="text-amber-400 font-bold text-lg ">Success fee</p>
                             <p className="">No hire - no fee</p>
                         </div>
                         <div>
                             <img src="https://static.tildacdn.com/tild3137-3462-4036-a463-643737353438/Group_78.svg" className="" alt="" />
-                            <p className="text-blue-400 font-bold text-lg ">Pay once</p>
+                            <p className="text-amber-400 font-bold text-lg ">Pay once</p>
                             <p className="">One single fee for our service, and you work with your contractor for as long as you want</p>
                         </div>
                         <div>
                             <img src="https://static.tildacdn.com/tild6163-6565-4635-b864-643966363639/Group_79.svg" className="" alt="" />
-                            <p className="text-blue-400 font-bold text-lg ">This is not outstaffing</p>
+                            <p className="text-amber-400 font-bold text-lg ">This is not outstaffing</p>
                             <p className="">Pay your developer directly to their US bank account</p>
                         </div>
                         <div>
                             <img src="https://static.tildacdn.com/tild3166-3336-4061-b636-326463393861/Group_80.svg" className="" alt="" />
-                            <p className="text-blue-400 font-bold text-lg ">More profitable than outstaffing</p>
+                            <p className="text-amber-400 font-bold text-lg ">More profitable than outstaffing</p>
                             <p className="">Several Times</p>
                         </div>
 
