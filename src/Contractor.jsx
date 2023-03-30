@@ -3,8 +3,8 @@ const Contractor = () => {
         <section id='Contractor' className=" body-font">
             <div className="py-12 md:ml-24 mx-6"><span className="text-5xl font-[350]">Contractor payroll & management</span></div>
             <div className="container px-5 py-12 mx-auto">
-                <div className="flex flex-wrap -m-4">
-                    <div className="p-4 md:w-1/3">
+                <div className="flex flex-wrap lg:mx-28">
+                    <div className="p-4 md:w-[30%]">
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className="p-6">
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Manage and pay international contractors</h1>
@@ -16,7 +16,7 @@ const Contractor = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 md:w-1/3">
+                    <div className="p-4 md:w-[30%]">
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className="p-6">
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Employer Of Record (EOR)</h1>
@@ -26,7 +26,7 @@ const Contractor = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 md:w-1/3">
+                    <div className="p-4 md:w-[30%]">
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className="p-6">
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Relocation</h1>
@@ -40,9 +40,9 @@ const Contractor = () => {
                 </div>
             </div>
             <div className="container px-5 pb-24 mx-auto">
-                <div className="flex flex-wrap -m-4">
+                <div className="flex flex-wrap lg:mx-28">
 
-                    <div className="p-4 md:h-72 md:w-1/3">
+                    <div className="p-4 md:h-72 md:w-[30%]">
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className="p-6">
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Employee Cost Calculator</h1>
@@ -53,7 +53,7 @@ const Contractor = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 md:w-1/3">
+                    <div className="p-4 md:w-[30%]">
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className="p-6">
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Salary Insights</h1>
@@ -65,7 +65,7 @@ const Contractor = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-4 md:w-1/3">
+                    <div className="p-4 md:w-[30%]">
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className="p-6">
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Take-Home Pay Calculator</h1>
