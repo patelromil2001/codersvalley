@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Fee = () => {
     return (
-        <div id="Fee" className="w-full bg-slate-100">
+        <div id="Fee" className="w-full bg-amber-50">
             <div className="py-12 md:ml-24 mx-6"><span className="text-5xl font-[350]">Our recruitment fee structure</span></div>
             <div class=" mx-auto overflow-hidden w-[80%] md:w-1/2 lg:w-1/3 mb-12 mt-4">
                 <p className="text-[17px] font-light text-center text-gray-700 tracking-wider">

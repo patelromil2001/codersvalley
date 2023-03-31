@@ -1,6 +1,6 @@
 const Contractor = () => {
     return (
-        <section id='Contractor' className=" body-font">
+        <section id='Contractor' className="bg-amber-50 body-font">
             <div className="py-12 md:ml-24 mx-6"><span className="text-5xl font-[350]">Contractor payroll & management</span></div>
             <div className="container px-5 py-1 mx-auto">
                 <div className="flex flex-wrap lg:mx-28">
