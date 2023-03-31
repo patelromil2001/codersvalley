@@ -26,9 +26,9 @@ const About = () => {
                     <div className="Co-founder lg:flex ">
                         <div className="pt-5 lg:pl-20">
                             <div className="lg:w-[70%] w-[90%]">
-                            <p className="text-2xl text-black  lg:text-5xl">Recruiting IT and tech expertise for seven years </p>
+                                <p className="text-2xl text-black  lg:text-5xl">Recruiting IT and tech expertise for seven years </p>
                             </div>
-                            
+
                             <div className="flex py-10">
 
                                 <div>
@@ -48,7 +48,7 @@ const About = () => {
                         <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[100%] ">
                             <img className="object-cover object-center rounded" alt="hero" src="./images/about.gif" />
                         </div>
-                        
+
                     </div>
 
 
@@ -122,28 +122,36 @@ const About = () => {
                     </div>
 
                     <div className="hidden lg:block">
-                        <div className="lg:flex">
-                            <div className="Graph-1 lg:pt-16 md:h-20 md:w-10 lg:w-[30%] md:align-middle ">
-                                <div className="circle h-56 w-56 rounded-full bg-blue-50">
+                        <div className="lg:flex font-mono">
+                            <div className="Graph-1 relative bottom-80 left-40">
+                                <div className="relative top-96 right-6">
                                     <p className="text-black-600 font-bold text-xl pt-12">UX/UI Senior Designer</p>
-                                    <div className="Graph flex pb-24">
-                                        <div className="pt-24">
-                                            <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $78k <br /> Next - $67k a year</p> </div></div>
-                                            <p className="text-[12px] pt-14">We take a % of profitable <br /> wages in Latin America</p>
-                                            <div className="pt-3 pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$4.800</p> </div></div>
+                                    <div>
+                                        <img src="https://static.tildacdn.com/tild3261-3131-4130-a564-646131623639/Vector.svg" className="pt-10 pl-20" alt="" />
+                                    </div>
+                                </div>
+                                <div className="circle h-60 w-60  rounded-full bg-blue-50"></div>
+                                <div className="Graph flex relative right-40 bottom-40  ">
+                                    <div className="pt-24">
+                                        <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $78k <br /> Next - $67k a year</p> </div></div>
+                                        <p className="text-[12px] pt-14">We take a % of profitable <br /> wages in Latin America</p>
+                                        <img src="https://static.tildacdn.com/tild3562-3764-4362-b535-663938386335/Arrow_7.svg" className="relative left-8" alt="" />
+                                        <div className="relative bottom-5">
+                                            <div className="pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$4.800</p> </div></div>
                                             <div className="pt-1 pl-20"><div className="pt-3"><div className="rectangle w-36 h-24 rounded-xl bg-gradient-to-r from-green-400 to-cyan-400"> <p className="text-[11px] pt-1 pl-3">Annual Salary <br /> (including local taxes)</p> <p className="text-2xl font-bold pl-3">$24.000</p> </div></div></div>
-                                            <p className="pt-3 pl-24 font-semibold">Latin America</p>
+                                            <p className="pt-3 pl-32 font-semibold">India</p>
                                         </div>
+                                    </div>
 
-                                        <div className="pl-5 pt-1">
-                                            <div className="pt-3"><div className="rectangle w-32 h-14 rounded-xl bg-gradient-to-r from-yellow-400 to-red-400"> <p className="text-[11px] pt-1 pl-3">US agency fee (20%)</p> <p className="text-2xl font-bold pl-3">$16.000</p> </div></div>
-                                            <div className="pt-3"><div className="rectangle w-32 h-20 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-400"> <p className="text-[11px] pt-1 pl-3">Payroll taxes</p> <p className="text-2xl font-bold pl-3">$10.920</p> </div></div>
-                                            <div className="pt-3"><div className="rectangle w-32 h-72 rounded-xl bg-gradient-to-r from-pink-400 to-orange-400"> <p className="text-[11px] pt-1 pl-3">Annual salary</p> <p className="text-2xl font-bold pl-3">$80.000</p> </div></div>
-                                            <p className="pt-3 pl-9 font-semibold">US</p>
-                                        </div>
+                                    <div className="pl-5 pt-1">
+                                        <div className="pt-3"><div className="rectangle w-32 h-14 rounded-xl bg-gradient-to-r from-orange-400 to-red-400"> <p className="text-[11px] pt-1 pl-3">US agency fee (20%)</p> <p className="text-2xl font-bold pl-3">$16.000</p> </div></div>
+                                        <div className="pt-3"><div className="rectangle w-32 h-20 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-400"> <p className="text-[11px] pt-1 pl-3">Payroll taxes</p> <p className="text-2xl font-bold pl-3">$10.920</p> </div></div>
+                                        <div className="pt-3"><div className="rectangle w-32 h-72 rounded-xl bg-gradient-to-r from-pink-400 to-orange-400"> <p className="text-[11px] pt-1 pl-3">Annual salary</p> <p className="text-2xl font-bold pl-3">$80.000</p> </div></div>
+                                        <p className="pt-3 pl-14 font-semibold">US</p>
                                     </div>
                                 </div>
                             </div>
+
 
                             <div className="Graph-2 px-24 md:pl-40  lg:w-[30%]">
                                 <div className="lg:pl-14 sm:w-full md:w-[50%] md:inline-block lg:w-1/3">
@@ -154,14 +162,14 @@ const About = () => {
                                                 <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $103k <br /> Next - $86k a year</p> </div></div>
                                                 <div className="pt-24 pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$7.000</p> </div></div>
                                                 <div className="pt-1 pl-20"><div className="pt-3"><div className="rectangle w-36 h-48 rounded-xl bg-gradient-to-r from-green-400 to-cyan-400"> <p className="text-[11px] pt-1 pl-3">Annual Salary <br /> (including local taxes)</p> <p className="text-2xl font-bold pl-3">$50.000</p> </div></div></div>
-                                                <p className="pt-3 pl-24 font-semibold">Latin America</p>
+                                                <p className="pt-3 pl-32 font-semibold">India</p>
                                             </div>
 
                                             <div className="pl-5 pt-2">
                                                 <div className="pt-3"><div className="rectangle w-32 h-14 rounded-xl bg-gradient-to-r from-yellow-400 to-red-400"> <p className="text-[11px] pt-1 pl-3">US agency fee (20%)</p> <p className="text-2xl font-bold pl-3">$16.000</p> </div></div>
                                                 <div className="pt-3"><div className="rectangle w-32 h-20 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-400"> <p className="text-[11px] pt-1 pl-3">Payroll taxes</p> <p className="text-2xl font-bold pl-3">$10.920</p> </div></div>
                                                 <div className="pt-3"><div className="rectangle w-32 h-[320px] rounded-xl bg-gradient-to-r from-pink-400 to-orange-400"> <p className="text-[11px] pt-1 pl-3">Annual salary</p> <p className="text-2xl font-bold pl-3">$80.000</p> </div></div>
-                                                <p className="pt-3 pl-9 font-semibold">US</p>
+                                                <p className="pt-3 pl-14 font-semibold">US</p>
                                             </div>
                                         </div>
                                     </div>
