@@ -17,7 +17,7 @@ const About = () => {
                         </div>
                         <div className="">
                             <img src="https://cdn-icons-png.flaticon.com/512/9463/9463914.png" className=" h-12 " alt="3" />
-                            <p className="">Only a 3-day wait only for guaranteed CV's delivered</p>
+                            <p className="">Only a 3-day wait only for <br /> guaranteed CV's delivered</p>
                         </div>
 
                     </div>
@@ -32,7 +32,7 @@ const About = () => {
                             <div className="flex py-10">
 
                                 <div>
-                                    <p className="w-[100%] md:w-[60%] lg:w-[50%] text-lg my-10" >Hey! I'm Andrew, and I work as a qualified IT employee. I've been recruiting software programmers in Latin America for more than 7 years, and my area of expertise is introducing US businesses to the best local tech workers.</p>
+                                    <p className="w-[100%] md:w-[60%] lg:w-[50%] text-lg my-10" >Hey! I'm Andrew, and I work as a qualified IT employee. I've been recruiting software programmers in India for more than 7 years, and my area of expertise is introducing US businesses to the best local tech workers.</p>
                                     <div className="flex py-10 ">
                                         <div>
                                             <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" className="h-16" alt="" />
@@ -61,7 +61,7 @@ const About = () => {
                             <div className="Property lg:pl-20 text-lg lg:mt-8">
                                 <div className="flex pt-10">
                                     <img src="https://static.tildacdn.com/tild3165-6435-4436-b436-336338656435/Group_24.svg" alt="1" />
-                                    <p className="pl-6">An Indian-based full-time employee will cost 1.5–2 times less</p>
+                                    <p className="pl-6">An Indian-based full-time employee will cost 1.5-2 times less</p>
                                 </div>
                                 <div className="flex pt-5">
                                     <img src="https://static.tildacdn.com/tild3331-3236-4365-b063-636134353233/noun_growth_3702215_.svg" alt="1" />
@@ -121,7 +121,7 @@ const About = () => {
 
                     <div className="hidden lg:block">
                         <div className="lg:flex font-mono">
-                            <div className="Graph-1 relative bottom-80 left-40">
+                            <div className="Graph-1 relative bottom-96 left-40">
                                 <div className="relative top-96 right-6">
                                     <p className="text-black-600 font-bold text-xl pt-12">UX/UI Senior Designer</p>
                                     <div>
@@ -135,42 +135,48 @@ const About = () => {
                                         <p className="text-[12px] pt-14">We take a % of profitable <br /> wages in Latin America</p>
                                         <img src="https://static.tildacdn.com/tild3562-3764-4362-b535-663938386335/Arrow_7.svg" className="relative left-8" alt="" />
                                         <div className="relative bottom-5">
-                                            <div className="pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$4.800</p> </div></div>
-                                            <div className="pt-1 pl-20"><div className="pt-3"><div className="rectangle w-36 h-24 rounded-xl bg-gradient-to-r from-green-400 to-cyan-400"> <p className="text-[11px] pt-1 pl-3">Annual Salary <br /> (including local taxes)</p> <p className="text-2xl font-bold pl-3">$24.000</p> </div></div></div>
+                                            <div className="pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$3,000</p> </div></div>
+                                            <div className="pt-1 pl-20"><div className="pt-3"><div className="rectangle w-36 h-24 rounded-xl bg-gradient-to-r from-green-400 to-cyan-400"> <p className="text-[11px] pt-1 pl-3">Annual Salary <br /> (including local taxes)</p> <p className="text-2xl font-bold pl-3">$20,000</p> </div></div></div>
                                             <p className="pt-3 pl-32 font-semibold">India</p>
                                         </div>
                                     </div>
 
                                     <div className="pl-5 pt-1">
-                                        <div className="pt-3"><div className="rectangle w-32 h-14 rounded-xl bg-gradient-to-r from-orange-400 to-red-400"> <p className="text-[11px] pt-1 pl-3">US agency fee (20%)</p> <p className="text-2xl font-bold pl-3">$16.000</p> </div></div>
-                                        <div className="pt-3"><div className="rectangle w-32 h-20 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-400"> <p className="text-[11px] pt-1 pl-3">Payroll taxes</p> <p className="text-2xl font-bold pl-3">$10.920</p> </div></div>
-                                        <div className="pt-3"><div className="rectangle w-32 h-72 rounded-xl bg-gradient-to-r from-pink-400 to-orange-400"> <p className="text-[11px] pt-1 pl-3">Annual salary</p> <p className="text-2xl font-bold pl-3">$80.000</p> </div></div>
+                                        <div className="pt-3"><div className="rectangle w-32 h-14 rounded-xl bg-gradient-to-r from-orange-400 to-red-400"> <p className="text-[11px] pt-1 pl-3">US agency fee (20%)</p> <p className="text-2xl font-bold pl-3">$16,000</p> </div></div>
+                                        <div className="pt-3"><div className="rectangle w-32 h-20 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-400"> <p className="text-[11px] pt-1 pl-3">Payroll taxes</p> <p className="text-2xl font-bold pl-3">$10,920</p> </div></div>
+                                        <div className="pt-3"><div className="rectangle w-32 h-72 rounded-xl bg-gradient-to-r from-pink-400 to-orange-400"> <p className="text-[11px] pt-1 pl-3">Annual salary</p> <p className="text-2xl font-bold pl-3">$80,000</p> </div></div>
                                         <p className="pt-3 pl-14 font-semibold">US</p>
                                     </div>
                                 </div>
                             </div>
 
 
-                            <div className="Graph-2 px-24 md:pl-40  lg:w-[30%]">
-                                <div className="lg:pl-14 sm:w-full md:w-[50%] md:inline-block lg:w-1/3">
-                                    <div className="circle h-80 w-80 rounded-full bg-blue-50">
+                            <div className="Graph-2 relative bottom-96 left-36 px-24 ">
+                                <div className="">
+                                    <div className="relative top-80 right-1">
                                         <p className="text-black-600 font-bold text-xl pt-12">Senior Full Stack Engineer</p>
-                                        <div className="Graph flex pt-7 pb-24">
-                                            <div className="pt-12">
-                                                <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $103k <br /> Next - $86k a year</p> </div></div>
-                                                <div className="pt-24 pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$7.000</p> </div></div>
-                                                <div className="pt-1 pl-20"><div className="pt-3"><div className="rectangle w-36 h-48 rounded-xl bg-gradient-to-r from-green-400 to-cyan-400"> <p className="text-[11px] pt-1 pl-3">Annual Salary <br /> (including local taxes)</p> <p className="text-2xl font-bold pl-3">$50.000</p> </div></div></div>
-                                                <p className="pt-3 pl-32 font-semibold">India</p>
-                                            </div>
-
-                                            <div className="pl-5 pt-2">
-                                                <div className="pt-3"><div className="rectangle w-32 h-14 rounded-xl bg-gradient-to-r from-yellow-400 to-red-400"> <p className="text-[11px] pt-1 pl-3">US agency fee (20%)</p> <p className="text-2xl font-bold pl-3">$16.000</p> </div></div>
-                                                <div className="pt-3"><div className="rectangle w-32 h-20 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-400"> <p className="text-[11px] pt-1 pl-3">Payroll taxes</p> <p className="text-2xl font-bold pl-3">$10.920</p> </div></div>
-                                                <div className="pt-3"><div className="rectangle w-32 h-[320px] rounded-xl bg-gradient-to-r from-pink-400 to-orange-400"> <p className="text-[11px] pt-1 pl-3">Annual salary</p> <p className="text-2xl font-bold pl-3">$80.000</p> </div></div>
-                                                <p className="pt-3 pl-14 font-semibold">US</p>
-                                            </div>
+                                        <div>
+                                            <img src="https://static.tildacdn.com/tild3261-3131-4130-a564-646131623639/Vector.svg" className="pt-6 pl-32" alt="" />
                                         </div>
                                     </div>
+                                    <div className="circle h-80 w-80 rounded-full bg-blue-50"></div>
+
+                                    <div className="Graph flex relative right-24 bottom-64">
+                                        <div className="pt-12">
+                                            <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $103k <br /> Next - $86k a year</p> </div></div>
+                                            <div className="pt-24 pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$4,500</p> </div></div>
+                                            <div className="pt-1 pl-20"><div className="pt-3"><div className="rectangle w-36 h-48 rounded-xl bg-gradient-to-r from-green-400 to-cyan-400"> <p className="text-[11px] pt-1 pl-3">Annual Salary <br /> (including local taxes)</p> <p className="text-2xl font-bold pl-3">$30,000</p> </div></div></div>
+                                            <p className="pt-3 pl-32 font-semibold">India</p>
+                                        </div>
+
+                                        <div className=" relative bottom-8 pl-5 -mt-5">
+                                            <div className="pt-3"><div className="rectangle w-32 h-14 rounded-xl bg-gradient-to-r from-yellow-400 to-red-400"> <p className="text-[11px] pt-1 pl-3">US agency fee (20%)</p> <p className="text-2xl font-bold pl-3">$24,000</p> </div></div>
+                                            <div className="pt-3"><div className="rectangle w-32 h-20 rounded-xl bg-gradient-to-r from-cyan-400 to-blue-400"> <p className="text-[11px] pt-1 pl-3">Payroll taxes</p> <p className="text-2xl font-bold pl-3">$16,380</p> </div></div>
+                                            <div className="pt-3"><div className="rectangle w-32 h-96 rounded-xl bg-gradient-to-r from-pink-400 to-orange-400"> <p className="text-[11px] pt-1 pl-3">Annual salary</p> <p className="text-2xl font-bold pl-3">$120,000</p> </div></div>
+                                            <p className="pt-3 pl-14 font-semibold">US</p>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
