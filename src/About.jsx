@@ -32,7 +32,7 @@ const About = () => {
                             <div className="flex py-10">
 
                                 <div>
-                                    <p className="w-[100%] md:w-[60%] lg:w-[50%] text-lg my-10" >Hey! I'm Andrew, and I work as a qualified IT employee. I've been recruiting software programmers in Latin America for more than 7 years, and my area of expertise is introducing US businesses to the best local tech workers.</p>
+                                    <p className="w-[100%] md:w-[60%] lg:w-[50%] text-lg my-10" > We've been recruiting software programmers in India for more than 7 years, and our area of expertise is introducing US businesses to the best local tech workers.</p>
                                     <div className="flex py-10 ">
                                         <div>
                                             <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" className="h-16" alt="" />
@@ -58,7 +58,7 @@ const About = () => {
                     <div className="inline-block px-10 lg:flex pb-14">
                         <div className="Reasons w-[80%] lg:w-[50%] md:inline-block">
                             <p className="text-2xl lg:text-4xl pt-16 lg:pl-14 ">Why American business benefits from employing people from India</p>
-                            <div className="Property lg:pl-20 text-lg lg:mt-8">
+                            <div className="Property lg:pl-20 text-lg lg:mt-">
                                 <div className="flex pt-10">
                                     <img src="https://static.tildacdn.com/tild3165-6435-4436-b436-336338656435/Group_24.svg" alt="1" />
                                     <p className="pl-6">An Indian-based full-time employee will cost 1.5–2 times less</p>

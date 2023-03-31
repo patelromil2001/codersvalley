@@ -98,8 +98,9 @@ const Process = () => {
                     </div>
                     <div className="w-[90%] lg:w-[60%] md:ml-12 ">
                         <p className="text-xl mt-3 font-bold text-blue-400" >We don't replace your HR function, we augment it.</p>
-                        <p className="text-xl mt-3">We only help your recruiting team to work more effectively in the local markets of Latin America, and make your potential hiring net that much wider.</p>
-                        <p className="text-xl mt-3">We work effectively with passive candidates: more than 50% of top developers do not post their resumes on recruitment sites.</p>
+                        <p className="text-xl mt-3">We only assist your hiring team in working more productively in India's local marketplaces and expand the scope of your prospective hiring pool.
+</p>
+                        <p className="text-xl mt-3">We work effectively with passive candidates: more than 50% of top developers do not publish their resumes on recruitment sites.</p>
                         <p className="text-xl mt-3">We understand our market - our extensive network connections to both in-work, actively looking and post-graduate talent means we have access to a huge market across multiple countries.</p>
                     </div>
                 </div>
