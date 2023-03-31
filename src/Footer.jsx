@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const Footer = () => {
     return(
         <div className="w-full">
-            <div className="footer w-full lg:flex bg-amber-50  px-10 py-10 text-justify">
+            <div className="footer w-full lg:flex bg-gray-200  px-10 py-10 text-justify">
                 <div className="1 pt-11">
                     <img src="https://www.pngkey.com/png/full/529-5291672_sample-logo-png-transparent-background.png" className="lg:pl-40 h-14" /><br />
                     <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" className= " lg:pl-40 h-10 px-9" /> <br /> <br />

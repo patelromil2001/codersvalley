@@ -104,7 +104,7 @@ const Process = () => {
                         <p className="lg:text-5xl text-3xl font-extrabold lg:my-16">We work in a team, directly with your HR and CTO</p>
                     </div>
                     <div className="w-[90%] lg:w-[60%] md:ml-12 ">
-                        <p className="text-xl mt-3 font-bold text-blue-400" >We don't replace your HR function, we augment it.</p>
+                        <p className="text-xl mt-3 font-bold text-blue-400" >We support your HR role rather than replacing it.</p>
                         <p className="text-xl mt-3">We only assist your hiring team in working more productively in India's local marketplaces and expand the scope of your prospective hiring pool.
 </p>
                         <p className="text-xl mt-3">We work effectively with passive candidates: more than 50% of top developers do not publish their resumes on recruitment sites.</p>
@@ -121,15 +121,15 @@ const Process = () => {
                             <p className="text-xl mt-3 font-bold text-blue-400">MANAGEMENT</p>
                             <div className="flex">
                                 <img className="h-7" src="https://www.svgrepo.com/show/450680/bullet-point.svg" alt="" />
-                                <p>Developers will have knowledge of spoken and written English</p>
+                                <p>Developers will be proficient in both written and spoken English.</p>
                             </div>
                             <div className="flex">
                                 <img className="h-7" src="https://www.svgrepo.com/show/450680/bullet-point.svg" alt="" />
-                                <p>Your developer will work directly with you, as well as with the rest of your team (via Agile/Scrum, Jira, Zoom, Slack, Git, etc.)</p>
+                                <p>Your coder will collaborate with you and the rest of your team in real time using tools like Agile/Scrum, Jira, Zoom, Slack, and Git.</p>
                             </div>
                             <div className="flex">
                                 <img className="h-7" src="https://www.svgrepo.com/show/450680/bullet-point.svg" alt="" />
-                                <p>They work according to your time zone or with a difference of no more than 3 hours</p>
+                                <p>They operate in accordance with your time zone or with a maximum 3-hour time disparity.</p>
                             </div>
                         </div>
                         <div className="mt-10 md:w-[33%] md:ml-5 BOX w-fit p-5 m-0 rounded-lg border-4 ">
@@ -157,7 +157,7 @@ const Process = () => {
                             </div>
                             <div className="flex">
                                 <img className="h-7" src="https://www.svgrepo.com/show/450680/bullet-point.svg" alt="" />
-                                <p>We will help you build and negotiate the right contract</p>
+                                <p>We will support you in creating and negotiating the best deal.</p>
                             </div>
                             <div className="flex">
                                 <img className="h-7" src="https://www.svgrepo.com/show/450680/bullet-point.svg" alt="" />

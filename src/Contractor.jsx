@@ -8,11 +8,7 @@ const Contractor = () => {
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className="p-6">
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Manage and pay international contractors</h1>
-                                <p className="leading-relaxed mb-3 text-slate-500">Onboard international contractors
-                                    quickly and compliantly with localized
-                                    contracts and guidance on local labor
-                                    laws. Pay contractors on time in their
-                                    local currency with zero exchange fees.</p>
+                                <p className="leading-relaxed mb-3 text-slate-500">With localised contracts and advice on local labour laws, swiftly and legally onboard foreign workers. Pay contractors on schedule and without incurring exchange costs in their home money.</p>
                             </div>
                         </div>
                     </div>
@@ -20,9 +16,7 @@ const Contractor = () => {
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className="p-6">
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Employer Of Record (EOR)</h1>
-                                <p className="leading-relaxed mb-3 text-slate-500">Hire employees in countries where you
-                                    don't have entities. Ensure your IP and
-                                    invention rights are fully protect.</p>
+                                <p className="leading-relaxed mb-3 text-slate-500">Employ people in nations where your company has no organisations. Be careful to completely secure your intellectual property and invention rights.</p>
                             </div>
                         </div>
                     </div>
@@ -30,10 +24,7 @@ const Contractor = () => {
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className="p-6">
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Relocation</h1>
-                                <p className="leading-relaxed mb-3 text-slate-500">Select a place to relocate your
-                                    employee from the list of countries
-                                    shown below and leave the rest to our
-                                    partner.</p>
+                                <p className="leading-relaxed mb-3 text-slate-500">Choose one of the below-listed nations as the new location for your employee, then leave the remainder in the hands of our associate.</p>
                             </div>
                         </div>
                     </div>
@@ -46,10 +37,7 @@ const Contractor = () => {
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className="p-6">
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Employee Cost Calculator</h1>
-                                <p className="leading-relaxed mb-3 text-slate-500">Instantly aggregate employment costs
-                                    based on team member locations to
-                                    make the best hiring move for your
-                                    business.</p>
+                                <p className="leading-relaxed mb-3 text-slate-500">Utilize real-time job cost aggregation based on the regions of team members to find the best candidates for your company.</p>
                             </div>
                         </div>
                     </div>
@@ -57,11 +45,7 @@ const Contractor = () => {
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className="p-6">
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Salary Insights</h1>
-                                <p className="leading-relaxed mb-3 text-slate-500">Access real-time global market rates
-                                    when making new hires or comparing
-                                    average compensation to make a fair,
-                                    competitive, international offer every
-                                    time.</p>
+                                <p className="leading-relaxed mb-3 text-slate-500">When hiring new employees or comparing typical salaries, access real-time global market prices to consistently make a strong, competitive offer abroad.</p>
                             </div>
                         </div>
                     </div>
@@ -69,9 +53,7 @@ const Contractor = () => {
                         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                             <div className="p-6">
                                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Take-Home Pay Calculator</h1>
-                                <p className="leading-relaxed mb-3 text-slate-500">Help new hires know the salary they'll
-                                    take home after taxes, so you can make
-                                    an informed, competitive global offer.</p>
+                                <p className="leading-relaxed mb-3 text-slate-500">Help new employees understand how much of their pay will remain after taxation so that you can make a competitive, educated offer to the world.</p>
                             </div>
                         </div>
                     </div>
