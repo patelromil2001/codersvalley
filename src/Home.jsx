@@ -48,7 +48,7 @@ const Home = () => {
                             <p className="text-[15px] pt-9"><span className="font-bold">Countries we've worked with:</span> Brazil, Argentina, Chile, Uruguay, Costa Rica, Ecuador, Columbia,</p>
                             <p className="text-[15px] pb-9"> Peru, Mexico, Cuba, Dominican Republic, Panama</p>
                         </div>
-                        
+
                         <div className="flex">
                             <div className=" ">
                                 <p className="text-4xl font-semibold pt-9 mx-auto">Companies we've worked with</p>
@@ -113,37 +113,66 @@ const Home = () => {
                 </div> */}
             </div>
 
-
-
-
-
             <div className="relative mx-auto" >
-                <div className=" rounded-3xl bg-amber-100 w-[80%] mt-10 mx-auto lg:p-10 p-3 md:p-8  ">
-                    <span className="flex">
-                        {/* 1 */}
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                    </span>
+                <div className=" rounded-3xl bg-amber-100 w-[80%] mt-10 mx-auto p-1  ">
+                    <div class="relative flex overflow-x-hidden">
+                        <div class="py-12 animate-marquee whitespace-nowrap flex space space-x-4">
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <span>  </span>
 
-                    <span className="flex">
-                        {/* 2 */}
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
-                    </span>
+
+                        </div>
+
+                        <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex space-x-4">
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                            <span>  </span>
+
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
+            {/* <div className="relative mx-auto" >
+                <div className=" rounded-3xl bg-amber-100 w-[80%] mt-10 mx-auto lg:p-10 p-3 md:p-8  ">
+                    <div className="py-12 animate-marquee whitespace-nowrap">
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                    </div>
+
+                    <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                        <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
+                    </div>
+                </div>
+            </div> */}
+
 
 
         </div >
