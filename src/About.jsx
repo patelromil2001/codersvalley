@@ -46,7 +46,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[100%] ">
-                            <img className="object-cover object-center rounded" alt="hero" src="./images/about.gif" />
+                            <img className="object-cover object-center rounded relative right-20" alt="hero" src="./images/about.gif" />
                         </div>
 
                     </div>
@@ -131,7 +131,7 @@ const About = () => {
                                 <div className="circle h-60 w-60  rounded-full bg-blue-50"></div>
                                 <div className="Graph flex relative right-40 bottom-40  ">
                                     <div className="pt-24">
-                                        <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $78k <br /> Next - $67k a year</p> </div></div>
+                                        <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $84k <br /> Next - $67k a year</p> </div></div>
                                         <p className="text-[12px] pt-14">We take a % of profitable <br /> wages in Latin America</p>
                                         <img src="https://static.tildacdn.com/tild3562-3764-4362-b535-663938386335/Arrow_7.svg" className="relative left-8" alt="" />
                                         <div className="relative bottom-5">
@@ -163,7 +163,7 @@ const About = () => {
 
                                     <div className="Graph flex relative right-24 bottom-64">
                                         <div className="pt-12">
-                                            <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $103k <br /> Next - $86k a year</p> </div></div>
+                                            <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $125k <br /> Next - $86k a year</p> </div></div>
                                             <div className="pt-24 pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$4,500</p> </div></div>
                                             <div className="pt-1 pl-20"><div className="pt-3"><div className="rectangle w-36 h-48 rounded-xl bg-gradient-to-r from-green-400 to-cyan-400"> <p className="text-[11px] pt-1 pl-3">Annual Salary <br /> (including local taxes)</p> <p className="text-2xl font-bold pl-3">$30,000</p> </div></div></div>
                                             <p className="pt-3 pl-32 font-semibold">India</p>
