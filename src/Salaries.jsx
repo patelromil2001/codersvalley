@@ -1,50 +1,106 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Button, Modal } from 'antd';
 
 function Salaries() {
   const [showModal, setShowModal] = React.useState(false);
-  // useEffect(() => {
-  //   if (showModal) {
-  //     document.body.style.overflow = 'hidden'
-  //   } else {
-  //     document.body.style.overflow = 'unset'
-  //   }
-  // }, [showModal])
   const tableData = [
     {
       id: 1,
-      position: 'Junior Developer',
-      salary: 50000,
-      hourlyRate: 25,
-      costSavings: 30000,
+      position: 'Front End Engineer (JavaScript, React, Next, Vue, Nuxt, Angular, TypeScript)',
+      indSalary: 50,
+      usSalary: 110,
+      costSavings: 60,
     },
     {
       id: 2,
-      position: 'Intermediate Developer',
-      salary: 80000,
-      hourlyRate: 40,
-      costSavings: 48000,
+      position: 'Back End Engineer (Java, Python, PHP, Go, Ruby, C#, C, C++, F#, Elixir, Erlang, Rust, Scala, Perl)',
+      indSalary: 45,
+      usSalary: 95,
+      costSavings: 50,
     },
     {
       id: 3,
-      position: 'Senior Developer',
-      salary: 120000,
-      hourlyRate: 60,
-      costSavings: 72000,
+      position: 'Mobile Engineer (Swift, Kotlin, Objective-C, Java, React Native, Xamarine)r',
+      indSalary: 63,
+      usSalary: 122,
+      costSavings: 59,
     },
     {
       id: 4,
-      position: 'Senior Developer',
-      salary: 120000,
-      hourlyRate: 60,
-      costSavings: 72000,
+      position: 'DevOps Engineer',
+      indSalary: 70,
+      usSalary: 118,
+      costSavings: 80,
     },
     {
       id: 5,
-      position: 'Senior Developer',
-      salary: 120000,
-      hourlyRate: 60,
-      costSavings: 72000,
+      position: 'Data Engineer',
+      indSalary: 45,
+      usSalary: 160,
+      costSavings: 115,
+    },
+    {
+      id: 6,
+      position: 'Data Analyst',
+      indSalary: 40,
+      usSalary:  93,
+      costSavings: 53,
+    },
+    {
+      id: 7,
+      position: 'Data Scientist',
+      indSalary: 47,
+      usSalary: 111,
+      costSavings: 77,
+    },
+    {
+      id: 8,
+      position: 'QA (automation)',
+      indSalary: 38,
+      usSalary: 97,
+      costSavings: 54,
+    },
+    {
+      id: 9,
+      position: 'QA (manual)',
+      indSalary: 25,
+      usSalary: 64,
+      costSavings: 44,
+    },
+    {
+      id: 10,
+      position: 'Designer (UX/UI, Web, Graphic, Motion, 3D/2D, Video Editor)',
+      indSalary: 24,
+      usSalary: 86,
+      costSavings: 62,
+    },
+    {
+      id: 11,
+      position: 'Project Manager',
+      indSalary: 33,
+      usSalary: 77,
+      costSavings: 66,
+    },
+    {
+      id: 12,
+      position: 'Product Manager',
+      indSalary: 33,
+      usSalary: 99,
+      costSavings: 66,
+    },
+    {
+      id: 13,
+      position: 'Scrum Master',
+      indSalary: 31,
+      usSalary: 102,
+      costSavings: 71,
+    },
+    {
+      id: 14,
+      position: 'Marketing Manager (Paid Media, Social Media, Digital Marketing, Performance Marketing, SEO)',
+      indSalary: 16,
+      usSalary: 64,
+      costSavings: 48,
     },
   ];
 
@@ -78,17 +134,17 @@ function Salaries() {
             <tbody className="divide-y-[3px] divide-dotted divide-gray-300">
               {tableData.map((row) => (
                 <tr className="" key={row.id}>
-                  <td className="px-6 py-[26px] whitespace-nowrap text-[15px] font-medium text-gray-900">
-                    {row.position}
+                  <td className="px-6 py-[26px]  text-[15px] font-medium text-gray-900 " >
+                    <span > {row.position}</span>
                   </td>
                   <td className="px-6 py-[26px] whitespace-nowrap text-base text-center">
-                    {`$${row.salary}`}
+                    {`$${row.indSalary}k`}
                   </td>
                   <td className="px-6 py-[26px] whitespace-nowrap text-base text-center">
-                    {`$${row.hourlyRate}`}
+                    {`$${row.usSalary}k`}
                   </td>
                   <td className="px-6 py-[26px] whitespace-nowrap text-base text-center bg-green-200">
-                    {`$${row.costSavings}`}
+                    {`$${row.costSavings}k`}
                   </td>
 
                 </tr>
