@@ -39,15 +39,6 @@ const Process = () => {
                             </div>
                         </div>
                         <div className="Image ml-20 mt-5">
-                            {/* <img src="https://static.tildacdn.com/tild6464-3138-4662-a233-643139393133/Group_33.svg" alt="" /> */}
-                            {/* images 
-                    0 https://static.tildacdn.com/tild6133-6464-4335-a434-666261356562/Group_47.svg
-                    1 https://static.tildacdn.com/tild3433-6364-4634-b937-383537353465/Group_34.svg
-                    2 https://static.tildacdn.com/tild3061-3162-4566-a137-346130316335/Group_37.svg
-                    3 https://static.tildacdn.com/tild6332-6633-4436-a333-636534343932/Group_40.svg 
-                    4 https://static.tildacdn.com/tild6262-3765-4236-b931-343065303830/Group_39.svg
-                    5 https://static.tildacdn.com/tild3839-3636-4261-a162-336338663336/Group_36.svg
-                    */}
                         </div>
                     </div>
 
