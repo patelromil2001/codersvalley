@@ -58,37 +58,35 @@ const About = () => {
                     <div className="inline-block px-10 lg:flex pb-14">
                         <div className="Reasons w-[80%] lg:w-[50%] md:inline-block">
                             <p className="text-2xl lg:text-4xl pt-16 lg:pl-14 ">Why American business benefits from employing people from India</p>
-                            <div className="Property lg:pl-20 text-lg">
+                            <div className="Property lg:pl-20 text-lg lg:mt-8">
                                 <div className="flex pt-10">
                                     <img src="https://static.tildacdn.com/tild3165-6435-4436-b436-336338656435/Group_24.svg" alt="1" />
-                                    <p className="pl-6">Why American business benefits from employing people from India</p>
+                                    <p className="pl-6">An Indian-based full-time employee will cost 1.5–2 times less</p>
                                 </div>
                                 <div className="flex pt-5">
                                     <img src="https://static.tildacdn.com/tild3331-3236-4365-b063-636134353233/noun_growth_3702215_.svg" alt="1" />
-                                    <p className="pl-6">our developer will have a modern, market-proof degree of technical ability and expertise; There is a fierce competition for ability</p>
+                                    <p className="pl-6">Your developer will have a modern, market-proof degree of technical ability and expertise; talent market there is incredibly hard working</p>
                                 </div>
                                 <div className="flex pt-5">
                                     <img src="https://static.tildacdn.com/tild3663-3338-4434-b938-653837343964/noun_Battery_3702202.svg" className="w-6 py-1" alt="1" />
-                                    <p className="pl-6">Every applicant is employed on a temporary basis. Consequently, hiring is flexible, you won't require a work visa, and it will be simple for you to establish reasonable, time-specific objectives and let your contractor go without issue</p>
+                                    <p className="pl-6">Every applicant is employed as contractors. Consequently, hiring is flexible, you won't require a permit for work, and it will be simple for you to establish realistic, time-specific objectives and part ways with your contractor without issue</p>
                                 </div>
                                 <div className="flex pt-5">
                                     <img src="https://static.tildacdn.com/tild3838-3163-4134-b230-366132393537/Group_25.svg" alt="1" />
-                                    <p className="pl-4">In India, you are not required to create a formal company. Your provider must pay taxes in their own nation, so you won't be responsible for them</p>
+                                    <p className="pl-4">In India, you will not be required to set up a legal entity. Your provider must pay taxes in their own nation, so you won't be responsible for them</p>
                                 </div>
                                 <div className="flex pt-5">
                                     <img src="https://static.tildacdn.com/tild3035-6432-4663-a464-323830376332/noun_Wallet_3702243_.svg" alt="1" />
                                     <p className="pl-6">By using Wise (routing and account number), PayPal, Upwork, Deel, Remote.com, or Crypto, you can immediately pay your worker in US money.</p>
-                                </div>
-                                <div className="flex pt-5">
-                                    <img src="https://static.tildacdn.com/tild3035-6432-4663-a464-323830376332/noun_Wallet_3702243_.svg" alt="1" />
-                                    <p className="pl-6">Direct payment in US currency will be made to your freelancer through Wise (routing and account number), PayPal, Upwork, Deel, Remote.com, or Crypto.</p>
                                 </div>
 
                             </div>
                         </div>
                         <div className="w-[90%] lg:w-[40%] lg:pt-36 lg:pl-14">
                             <div className="BOX w-fit p-9 m-0 border-4 border-amber-50 text-lg">
-                                <p>Latin America is a proven, excellent alternative to traditional outsourcing countries for the US, thanks to the high level of education for engineers, a large number of domestic IT, tech, and startup companies, as well as first-rate infrastructure (established quick internet, video communication, co-working, and consulting cultural mirroring, etc.). <br /><br /> Why is nearshore recruitment from Latin America so cost-effective? The salary paid for services is bound to and relates to domestic need and the cost of living in Brazil and Argentina. For example, renting a good apartment in the central part of an average Latin American city will cost an average of $200 to $400 per calendar month. Because we understand domestic salary levels, expectations and market trends, your fee reflects the difference in cost.</p>
+                                <p>India is a tried-and-true, superior option to conventional outsourcing destinations for the US, thanks to its high standard of engineering education, abundance of domestic IT, tech, and startup businesses, and top-notch infrastructure. (established quick internet, video communication, co-working, and consulting cultural mirroring, etc.).<br /><br /> Why is hiring nearshore from India so affordable? The compensation for services is based on local requirements, as well as the expense of living there. For instance, the rent for a decent apartment in the city centre of a typical Indian metropolis ranges from $200 to $400 per calender month. because we are familiar with local wage levels, expectations, and market patterns, your fee reflects the cost difference.
+
+                                </p>
                             </div>
                         </div>
                     </div>
