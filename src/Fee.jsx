@@ -18,11 +18,11 @@ const Fee = () => {
                         <span>No prepayment</span><br />
                         <span>100 days free replacement</span>
                     </div>
-                    <div className="my-10"><span className="text-[42px] font-[600]">12-19%</span></div>
+                    <div className="my-10"><span className="text-[42px] font-[600]">12-18%</span></div>
                     <div className="space-y-5 ">
                         <div><span className=" font-semibold">of the placed employee's first year's base salary</span></div>
-                        <div><span className="font-thin tracking-wide">up to $40,000 a year – </span> <span className="font-bold">19%</span></div>
-                        <div><span className="font-thin tracking-wide">$40,001 - $50,000 a year – </span> <span className="font-bold">17%</span></div>
+                        <div><span className="font-thin tracking-wide">up to $40,000 a year – </span> <span className="font-bold">18%</span></div>
+                        <div><span className="font-thin tracking-wide">$40,001 - $50,000 a year – </span> <span className="font-bold">16%</span></div>
                         <div><span className="font-thin tracking-wide">$50,001 - $65,000 a year – </span> <span className="font-bold">14%</span></div>
                         <div><span className="font-thin tracking-wide">$65,001 a year and over – </span> <span className="font-bold">12%</span></div>
                     </div>

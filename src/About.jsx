@@ -132,7 +132,7 @@ const About = () => {
                                 <div className="Graph flex relative right-40 bottom-40  ">
                                     <div className="pt-24">
                                         <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $84k <br /> Next - $67k a year</p> </div></div>
-                                        <p className="text-[12px] pt-14">We take a % of profitable <br /> wages in Latin America</p>
+                                        <p className="text-[12px] pt-14">We take a % of profitable <br /> wages in India</p>
                                         <img src="https://static.tildacdn.com/tild3562-3764-4362-b535-663938386335/Arrow_7.svg" className="relative left-8" alt="" />
                                         <div className="relative bottom-5">
                                             <div className="pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$3,000</p> </div></div>
