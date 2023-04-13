@@ -45,12 +45,27 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[100%] ">
-                            <img className="object-cover object-center rounded relative right-20" alt="hero" src="./images/about.gif" />
+                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[80%] md:mx-0 mx-auto  ">
+                            <img className="object-cover object-center rounded relative md:right-20 mx-auto md:mx-0" alt="hero" src="./images/about.gif" />
                         </div>
 
                     </div>
+                    <hr className=" w-90 h-0.5 my-5 bg-amber-100 mt-10 md:hidden  " />
+                    <section className="text-gray-600 body-font">
+                        <div className="container mx-auto flex px-1 md:px-5 pb-4 md:flex-row flex-col items-center">
+                            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 lg:pl-20">
+                                <img className="object-cover rounded" alt="hero" src="./images/security.png" />
+                            </div>
+                            <div className=" md:w-1/2 lg:pl-24 md:ml-16 flex flex-col md:items-start md:text-left items-center text-center">
+                                <h1 className="title-font md:text-[32px] text-2xl mb-4  text-gray-900">Web security is more critical than ever
+                                </h1>
+                                <p className="mb-8 mt-4 leading-relaxed text-lg tracking-tighter md:tracking-normal text-justify">
+                                    That's why we offer a comprehensive website security service to protect your website from cyber-attacks and data breaches. Our team of security experts will thoroughly analyze your website, check the code for vulnerabilities, and recommend solutions to strengthen your website's security.
+                                </p>
 
+                            </div>
+                        </div>
+                    </section>
 
                 </div>
 
