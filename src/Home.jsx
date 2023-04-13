@@ -43,16 +43,16 @@ const Home = () => {
 
 
 
-                        <div className="pt-10">
+                        {/* <div className="pt-10">
 
                             <p className="text-[28px]">Save from $29,000 to $74,000 a year per talent*</p>
                             <p className="text-[9px]">*based on salary data from the indeed.com and talent.com</p>
-                            {/* <p className="text-[15px] pt-9"><span className="font-bold">Countries we've worked with:</span> Brazil, Argentina, Chile, Uruguay, Costa Rica, Ecuador, Columbia,</p> */}
-                            {/* <p className="text-[15px] pb-9"> Peru, Mexico, Cuba, Dominican Republic, Panama</p> */}
-                        </div>
+                            <p className="text-[15px] pt-9"><span className="font-bold">Countries we've worked with:</span> Brazil, Argentina, Chile, Uruguay, Costa Rica, Ecuador, Columbia,</p>
+                            <p className="text-[15px] pb-9"> Peru, Mexico, Cuba, Dominican Republic, Panama</p>
+                        </div> */}
                         <div className="pt-5 ">
-                            <div className=" rounded-xl border-4 lg:w-[50%] BOX w-fit px-9 py-5 m-0  border-amber-100 ">
-                                <p className="font-bold">Countries we've worked with:</p>
+                            <div className="   lg:w-[35%]  ">
+                                <p className="font-bold text-2xl">Countries we've worked with:</p>
                                 <p className="text-[15px] pt-3"> Brazil, Argentina, Chile, Uruguay, Costa Rica, Ecuador, Columbia, Peru, Mexico, Cuba, Dominican Republic, Panama</p>
                             </div>
                         </div>
