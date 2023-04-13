@@ -42,77 +42,35 @@ const Home = () => {
                         </div>
 
 
-                        <div>
+
+                        <div className="pt-10">
+
                             <p className="text-[28px]">Save from $29,000 to $74,000 a year per talent*</p>
                             <p className="text-[9px]">*based on salary data from the indeed.com and talent.com</p>
-                            <p className="text-[15px] pt-9"><span className="font-bold">Countries we've worked with:</span> Brazil, Argentina, Chile, Uruguay, Costa Rica, Ecuador, Columbia,</p>
-                            <p className="text-[15px] pb-9"> Peru, Mexico, Cuba, Dominican Republic, Panama</p>
+                            {/* <p className="text-[15px] pt-9"><span className="font-bold">Countries we've worked with:</span> Brazil, Argentina, Chile, Uruguay, Costa Rica, Ecuador, Columbia,</p> */}
+                            {/* <p className="text-[15px] pb-9"> Peru, Mexico, Cuba, Dominican Republic, Panama</p> */}
                         </div>
-
-                        <div className="flex">
-                            <div className=" ">
-                                <p className="text-4xl font-semibold pt-9 mx-auto">Companies we've worked with</p>
-                                <p className="text-xl font-semibold pt-4">150+ US and UK-based clients</p>
-                                {/* <div className="py-5 space-y-10 md:space-y-0 lg:space-y-0 grid md:grid-cols-3 md:grid-rows-3 md:gap-10 lg:pt-10 lg:pr-36 lg:gap-20 lg:grid-cols-5 lg:grid-rows-3"> */}
+                        <div className="pt-5 ">
+                            <div className=" rounded-xl border-4 lg:w-[50%] BOX w-fit px-9 py-5 m-0  border-amber-100 ">
+                                <p className="font-bold">Countries we've worked with:</p>
+                                <p className="text-[15px] pt-3"> Brazil, Argentina, Chile, Uruguay, Costa Rica, Ecuador, Columbia, Peru, Mexico, Cuba, Dominican Republic, Panama</p>
                             </div>
                         </div>
+                        <div className="flex justify-center relative -ml-40">
+
+                            <p className="text-3xl  font-semibold pt-9 mx-auto">Our US and UK-based clients</p>
+
+
+                        </div>
+
+
+
                     </div>
-
-
-
-
                 </div>
-
-
-
-                {/* IMAGE Gradiant */}
-                {/* <div className="hidden lg:block md:pl-1 pt-5">
-                    <div className="pl-5">
-                        <p className="text-6xl font-bold">$120,000</p>
-                        <div className="pb-5 -m-5 ">
-                            <div className="rectangle w-96 h-16 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400 pl-5 pb-10">
-                                <p className="text-sm font-medium pt-5 ">Backend Engineer Salary in the US </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex pt-3">
-                        <div className="">
-                            <div className="rectangle w-28 h-10 rounded-xl bg-gradient-to-r from-yellow-400 to-orange-400 pl-5">
-                                <p className="text-2xl font-bold">$50k</p>
-                                <p className="text-xs pt-1">Salary of Same developer in Latin America</p>
-                            </div>
-                        </div>
-                        <div className="pl-3">
-                            <div className="rectangle w-10 h-36 rounded-xl bg-gradient-to-tr from-red-300 to-yellow-300"></div>
-                        </div>
-                        <div className="pl-3">
-                            <div className="rectangle w-52 h-10 rounded-xl bg-gradient-to-r from-green-400 to-blue-400">
-                                <p className="text-2xl font-bold pl-3">$63k</p>
-                                <p className="text-xs pl-3">You save on every hire at this level for this role</p>
-                            </div>
-                        </div>
-                    </div>
-                    <p className="text-xs -m-10 pl-44">Our recruitment fee at % of <br /> the first year's base salary</p>
-                </div> */}
-
-                {/* color code  */}
-                {/* #FAFDF3 */}
-
-                {/* Small Size */}
-                {/* <div className="block lg:hidden sm:pl-1 md:pl-1 ">
-                    <div className="pl-5">
-                        <p className="text-3xl font-bold">$120,000</p>
-                        <div className="pb-5 -m-5 "><div className="rectangle w-72 h-8 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400 pl-5 pb-10"><p className="text-sm font-medium pt-5 ">Backend Engineer Salary in the US </p>  </div></div>
-                    </div>
-                    <div className="flex pt-3">
-                        <div className=""><div className="rectangle w-24 h-5 rounded-xl bg-gradient-to-r from-yellow-400 to-orange-400 pl-5"> <p className="text-base font-bold">$50k</p> <p className="text-xs pt-1">Salary of Same developer in Latin America</p> </div></div>
-                        <div className="pl-3"><div className="rectangle w-5 h-20 rounded-xl bg-blue-400"></div></div>
-                        <div className="pl-3"><div className="rectangle w-36 h-5 rounded-xl bg-gradient-to-r from-green-400 to-blue-400"> <p className="text-2xl font-bold pl-3">$63k</p> <p className="text-xs pl-3">You save on every hire at this level for this role</p>  </div></div>
-                    </div>
-                    <p className="text-xs -m-10 pl-44">Our recruitment fee at % of <br /> the first year's base salary</p>
-                </div> */}
             </div>
 
+
+            {/* Marquee-1 */}
             <div className="relative mx-auto" >
                 <div className=" rounded-3xl bg-amber-100 w-[80%] mt-10 mx-auto p-1  ">
                     <div class="relative flex overflow-x-hidden">
@@ -145,9 +103,88 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <div className="justify-evenly pt-10 place-items-center flex">
+                <img src="/images/Team work.png" className="w-[20%] h-[20%]     " alt="" />
 
 
-            {/* <div className="relative mx-auto" >
+                <div className="w-[90%] lg:w-[30%] h-fit  rounded-xl border-4 relative right-20  px-9 py-5 m-0  border-amber-100">
+                    <p className="text-lg">We understand the importance of a reliable team of professionals working to achieve your business goals. That's why we provide companies with top-notch employees, helping them succeed by delivering efficient and effective solutions. Our team of experts is well-trained, experienced, and dedicated to meeting your requirements.</p>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div >
+    )
+}
+
+
+
+export default Home;
+
+
+
+
+{/* IMAGE Gradiant */ }
+{/* <div className="hidden lg:block md:pl-1 pt-5">
+                    <div className="pl-5">
+                        <p className="text-6xl font-bold">$120,000</p>
+                        <div className="pb-5 -m-5 ">
+                            <div className="rectangle w-96 h-16 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400 pl-5 pb-10">
+                                <p className="text-sm font-medium pt-5 ">Backend Engineer Salary in the US </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex pt-3">
+                        <div className="">
+                            <div className="rectangle w-28 h-10 rounded-xl bg-gradient-to-r from-yellow-400 to-orange-400 pl-5">
+                                <p className="text-2xl font-bold">$50k</p>
+                                <p className="text-xs pt-1">Salary of Same developer in Latin America</p>
+                            </div>
+                        </div>
+                        <div className="pl-3">
+                            <div className="rectangle w-10 h-36 rounded-xl bg-gradient-to-tr from-red-300 to-yellow-300"></div>
+                        </div>
+                        <div className="pl-3">
+                            <div className="rectangle w-52 h-10 rounded-xl bg-gradient-to-r from-green-400 to-blue-400">
+                                <p className="text-2xl font-bold pl-3">$63k</p>
+                                <p className="text-xs pl-3">You save on every hire at this level for this role</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p className="text-xs -m-10 pl-44">Our recruitment fee at % of <br /> the first year's base salary</p>
+                </div> */}
+
+{/* color code  */ }
+{/* #FAFDF3 */ }
+
+{/* Small Size */ }
+{/* <div className="block lg:hidden sm:pl-1 md:pl-1 ">
+                    <div className="pl-5">
+                        <p className="text-3xl font-bold">$120,000</p>
+                        <div className="pb-5 -m-5 "><div className="rectangle w-72 h-8 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400 pl-5 pb-10"><p className="text-sm font-medium pt-5 ">Backend Engineer Salary in the US </p>  </div></div>
+                    </div>
+                    <div className="flex pt-3">
+                        <div className=""><div className="rectangle w-24 h-5 rounded-xl bg-gradient-to-r from-yellow-400 to-orange-400 pl-5"> <p className="text-base font-bold">$50k</p> <p className="text-xs pt-1">Salary of Same developer in Latin America</p> </div></div>
+                        <div className="pl-3"><div className="rectangle w-5 h-20 rounded-xl bg-blue-400"></div></div>
+                        <div className="pl-3"><div className="rectangle w-36 h-5 rounded-xl bg-gradient-to-r from-green-400 to-blue-400"> <p className="text-2xl font-bold pl-3">$63k</p> <p className="text-xs pl-3">You save on every hire at this level for this role</p>  </div></div>
+                    </div>
+                    <p className="text-xs -m-10 pl-44">Our recruitment fee at % of <br /> the first year's base salary</p>
+                </div> */}
+
+
+
+{/* <div className="relative mx-auto" >
                 <div className=" rounded-3xl bg-amber-100 w-[80%] mt-10 mx-auto lg:p-10 p-3 md:p-8  ">
                     <div className="py-12 animate-marquee whitespace-nowrap">
                         <a href="https://digitalgenius.com/"><img src="https://digitalgenius.com/wp-content/uploads/2021/06/logo-dark.svg" alt="" /></a>
@@ -172,13 +209,3 @@ const Home = () => {
                     </div>
                 </div>
             </div> */}
-
-
-
-        </div >
-    )
-}
-
-
-
-export default Home;
