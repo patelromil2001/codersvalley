@@ -35,10 +35,10 @@ function Nav() {
       id: 'Testimonials',
       name: 'Testimonials'
     },
-    {
-      id: 'Fee',
-      name: 'Fee'
-    },
+    // {
+    //   id: 'Fee',
+    //   name: 'Fee'
+    // },
     {
       id: 'Contractor',
       name: 'Contractor payroll'
@@ -77,10 +77,10 @@ function Nav() {
       id: 'Testimonials',
       name: 'Testimonials'
     },
-    {
-      id: 'Fee',
-      name: 'Fee'
-    },
+    // {
+    //   id: 'Fee',
+    //   name: 'Fee'
+    // },
     {
       id: 'Contractor',
       name: 'Contractor payroll'

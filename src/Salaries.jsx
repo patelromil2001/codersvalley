@@ -117,7 +117,7 @@ function Salaries() {
                 </th>
 
                 <th className="px-6 py-3 tracking-wider text-lg text-center">
-                  <span className="font-sans font-normal"> Latin America </span>
+                  <span className="font-sans font-normal"> India </span>
                   <br />  <span className="text-sm font-mono font-extralight tracking-tight  text-gray-500">Average Salary, $</span>
                 </th>
                 <th className="px-6 py-3 tracking-wider text-lg text-center">

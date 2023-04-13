@@ -6,7 +6,7 @@ const About = () => {
 
             <div>
                 <div className="px-10 lg:px-20">
-                    <div className="pt-10 w-[80%] mx-auto text-lg lg:flex lg:justify-between">
+                    <div className="pt-16 pb-10 w-[80%] mx-auto text-lg lg:flex lg:justify-between">
                         <div className="">
                             <img src="https://cdn-icons-png.flaticon.com/512/2098/2098672.png" className=" h-8 " alt="1" />
                             <p className="">Starting from 12% of the placed <br /> employee's first year's base salary. <br /> No hire - no fee.</p>
@@ -23,8 +23,8 @@ const About = () => {
                     </div>
                     <hr className=" w-90 h-0.5 mb-5 bg-amber-100 mt-3  " />
 
-                    <div className="Co-founder lg:flex ">
-                        <div className="pt-5 lg:pl-20">
+                    <div className="Co-founder pt-5 lg:pt:16 lg:flex ">
+                        <div className=" lg:pl-20">
                             <div className="lg:w-[70%] w-[90%]">
                                 <p className="text-2xl text-black  lg:text-5xl">Recruiting IT and tech expertise for seven years </p>
                             </div>
@@ -32,7 +32,7 @@ const About = () => {
                             <div className="flex py-10">
 
                                 <div>
-                                    <p className="w-[100%] md:w-[60%] lg:w-[50%] text-lg my-10" > We've been recruiting software programmers in India for more than 7 years, and our area of expertise is introducing US businesses to the best local tech workers.</p>
+                                    <p className="w-[100%] lg:w-[60%] text-lg my-10 text-justify" > We offer a team of skilled professionals who can work for you on a project basis. Whether you need a web developer, designer, marketer, or other experienced professional, we've got you covered. We understand that every project is unique, and we'll work closely with you to understand your specific requirements and deliver results that exceed your expectations.</p>
                                     <div className="flex py-10 ">
                                         <div>
                                             <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" className="h-16" alt="" />
@@ -132,7 +132,7 @@ const About = () => {
                                 <div className="Graph flex relative right-40 bottom-40  ">
                                     <div className="pt-24">
                                         <div className="pt-3 pl-12"><div className="rectangle w-36 h-24 rounded-xl bg-white"> <p className="pt-3 pl-4 text-[15px] font-bold">Your savings:</p> <p className=" text-sm pl-4">1st year - $84k <br /> Next - $67k a year</p> </div></div>
-                                        <p className="text-[12px] pt-14">We take a % of profitable <br /> wages in Latin America</p>
+                                        <p className="text-[12px] pt-14">We take a % of profitable <br /> wages in India</p>
                                         <img src="https://static.tildacdn.com/tild3562-3764-4362-b535-663938386335/Arrow_7.svg" className="relative left-8" alt="" />
                                         <div className="relative bottom-5">
                                             <div className="pl-20"><div className="rectangle w-36 h-10 rounded-xl bg-gradient-to-r from-red-400 to-yellow-400"> <p className="text-[11px] pt-1 pl-3">Our Sucess Fee</p> <p className="text-2xl font-bold pl-3">$3,000</p> </div></div>
