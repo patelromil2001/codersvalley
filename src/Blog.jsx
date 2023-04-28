@@ -2,23 +2,23 @@ const Blog = () => {
     const blogs = [
         {
             id: 1,
-            title: 'Lorem ipsum dolor sit amet.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis minus praesentium cum ipsum. Exercitationem!'
+            title: 'Coding Journey.',
+            description: 'From Coding to Leading: Inspiring Stories of India Best Software Developers'
         },
         {
             id: 2,
-            title: 'Lorem ipsum dolor sit amet.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis minus praesentium cum ipsum. Exercitationem!'
+            title: 'Coding Stories',
+            description: 'How Indian Software Developers are Shaping the Future of Technology'
         },
         {
             id: 3,
-            title: 'Lorem ipsum dolor sit amet.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis minus praesentium cum ipsum. Exercitationem!'
+            title: 'Coding Challenges',
+            description: 'How Indian Software Developers are Addressing the Challenges of Cybersecurity'
         },
         {
             id: 4,
-            title: 'Lorem ipsum dolor sit amet.',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis minus praesentium cum ipsu Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum veritatis minus praesentium cum ipsum. Exercitationem!'
+            title: 'Break Stereotypes',
+            description: 'The Rise of Indian Women in Software Development: Breaking Barriers and Shattering Stereotypes'
         },
 
     ]

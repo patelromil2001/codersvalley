@@ -106,7 +106,7 @@ function Salaries() {
 
   return (
     <div id="Salaries">
-      <div className="mx-auto py-6 sm:px-6 lg:px-8 bg-white">
+      <div className="mx-auto pb-6 sm:px-6 lg:px-8 bg-white">
         <div className="overflow-hidden max-w-7xl mx-auto my-6">
           <table className="min-w-full divide-y-[3px] divide-dotted divide-gray-300 overflow-x-auto block md:overflow-x-hidden md:inline-table  " >
             <thead >

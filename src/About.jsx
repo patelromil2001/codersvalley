@@ -33,15 +33,6 @@ const About = () => {
 
                                 <div>
                                     <p className="w-[100%] lg:w-[60%] text-lg my-10 text-justify" > We offer a team of skilled professionals who can work for you on a project basis. Whether you need a web developer, designer, marketer, or other experienced professional, we've got you covered. We understand that every project is unique, and we'll work closely with you to understand your specific requirements and deliver results that exceed your expectations.</p>
-                                    <div className="flex py-10 ">
-                                        <div>
-                                            <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" className="h-16" alt="" />
-                                        </div>
-                                        <div className="px-5">
-                                            <p className="pt-2 text-xl font-semibold">Company Owner</p>
-                                            <p className="text-[10px]">CEO, co-founder XYZ</p>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -69,32 +60,39 @@ const About = () => {
 
                 </div>
 
-                <div className="POINTS">
+                <div className="POINTS bg-amber-50">
                     <div className="inline-block px-10 lg:flex pb-14">
                         <div className="Reasons w-[80%] lg:w-[50%] md:inline-block">
                             <p className="text-2xl lg:text-4xl pt-16 lg:pl-14 ">Why American business benefits from employing people from India</p>
                             <div className="Property lg:pl-20 text-lg lg:mt-">
                                 <div className="flex pt-10">
                                     <img src="https://static.tildacdn.com/tild3165-6435-4436-b436-336338656435/Group_24.svg" alt="1" />
-                                    <p className="pl-6">An Indian-based full-time employee will cost 1.5-2 times less</p>
+                                    <p className="pl-6">Cost-effectiveness is one of the primary reasons to outsource software development to India in 2023.</p>
                                 </div>
                                 <div className="flex pt-5">
                                     <img src="https://static.tildacdn.com/tild3331-3236-4365-b063-636134353233/noun_growth_3702215_.svg" alt="1" />
-                                    <p className="pl-6">Your developer will have a modern, market-proof degree of technical ability and expertise; talent market there is incredibly hard working</p>
+                                    <p className="pl-6">Outsourcing to India provides access to a vast pool of talented engineers.</p>
                                 </div>
                                 <div className="flex pt-5">
                                     <img src="https://static.tildacdn.com/tild3663-3338-4434-b938-653837343964/noun_Battery_3702202.svg" className="w-6 py-1" alt="1" />
-                                    <p className="pl-6">Every applicant is employed as contractors. Consequently, hiring is flexible, you won't require a permit for work, and it will be simple for you to establish realistic, time-specific objectives and part ways with your contractor without issue</p>
+                                    <p className="pl-6">India has become a popular outsourcing location for software development, web design, and mobile app development due to its massive pool of talented engineers working with cutting-edge tech and infrastructure.</p>
                                 </div>
                                 <div className="flex pt-5">
                                     <img src="https://static.tildacdn.com/tild3838-3163-4134-b230-366132393537/Group_25.svg" alt="1" />
-                                    <p className="pl-4">In India, you will not be required to set up a legal entity. Your provider must pay taxes in their own nation, so you won't be responsible for them</p>
+                                    <p className="pl-4">Outsourcing to India can help businesses reduce fixed costs and scale development teams.</p>
                                 </div>
                                 <div className="flex pt-5">
                                     <img src="https://static.tildacdn.com/tild3035-6432-4663-a464-323830376332/noun_Wallet_3702243_.svg" alt="1" />
-                                    <p className="pl-6">By using Wise (routing and account number), PayPal, Upwork, Deel, Remote.com, or Crypto, you can immediately pay your worker in US money.</p>
+                                    <p className="pl-6">Outsourcing software development to India can help companies save time on hiring specialists and gain access to world-class talent.</p>
                                 </div>
-
+                                <div className="flex pt-5">
+                                    <img src="https://static.tildacdn.com/tild3035-6432-4663-a464-323830376332/noun_Wallet_3702243_.svg" alt="1" />
+                                    <p className="pl-6">India offers specialized skills and expertise that are otherwise challenging to apply.</p>
+                                </div>
+                                <div className="flex pt-5">
+                                    <img src="https://static.tildacdn.com/tild3035-6432-4663-a464-323830376332/noun_Wallet_3702243_.svg" alt="1" />
+                                    <p className="pl-6">Outsourcing software development to India can help companies reduce software development costs and bring in domain knowledge.</p>
+                                </div>
                             </div>
                         </div>
                         <div className="w-[90%] lg:w-[40%] lg:pt-36 lg:pl-14">
@@ -109,7 +107,7 @@ const About = () => {
 
 
                 {/* GRADIENT */}
-                <div className=" bg-amber-50 lg:pt-10 lg:h-[700px] mx-auto lg:flex">
+                {/* <div className=" bg-amber-50 lg:pt-10 lg:h-[700px] mx-auto lg:flex">
                     <div className=" py-10 lg:px-24 space-y-5 w-[90%] mx-auto lg:mx-0 lg:w-[30%]">
                         <div>
                             <img src="https://static.tildacdn.com/tild3335-3734-4932-b838-656333393766/Group_15.svg" className="" alt="" />
@@ -196,7 +194,61 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-
+                </div> */}
+                <div className="Info flex justify-around p-24">
+                    <div className="Details w-[45%]">
+                        <p className="text-xl">India's tech talent rank has improved in recent years. According to the Network Readiness Index 2022, India secured the first rank in AI talent concentration and 61st among 131 countries. India's position has improved by six slots in the latest version of 2022.</p>
+                        <p className="text-xl pt-5">Additionally, India's tech talent pool stands at 3.8 million in FY2021, and with 2.14 million annual STEM graduate supply, India is ranked 2nd globally, next only to China.</p>
+                        <p className="text-xl pt-5">Many global companies have expanded their Indian headcount, some even doubling their numbers in 2022, indicating a solid tech talent pool in India. However, it is essential to note that there is a global shortage of tech talent, and companies need help finding enough of the right talent in their home markets.</p>
+                    </div>
+                    <div className="Table border-4 border-amber-200 p-5 rounded" >
+                        <div className="h-auto content-between items-center object-fill">
+                            <div className="grid bg-amber-100 gap-10 grid-cols-2 rounded grid-rows-1">
+                                <p className="text-2xl p-2">Rank</p>
+                                <p className="text-2xl p-2">Country</p>
+                            </div>
+                            <div className="grid mt-3 bg-amber-200 gap-10 grid-cols-2  rounded-t-lg grid-rows-1">
+                                <p className="text-lg p-1 ">1</p>
+                                <p className="text-lg p-1 ">India</p>
+                            </div>
+                            <div className="grid bg-amber-100 gap-10 grid-cols-2 grid-rows-1">
+                                <p className="text-lg p-1 ">2</p>
+                                <p className="text-lg p-1 ">Singapore</p>
+                            </div>
+                            <div className="grid bg-amber-200 gap-10 grid-cols-2 grid-rows-1">
+                                <p className="text-lg p-1 ">3</p>
+                                <p className="text-lg p-1 ">Swedan</p>
+                            </div>
+                            <div className="grid bg-amber-100 gap-10 grid-cols-2 grid-rows-1">
+                                <p className="text-lg p-1 ">4</p>
+                                <p className="text-lg p-1 ">Switzerland</p>
+                            </div>
+                            <div className="grid bg-amber-200 gap-10 grid-cols-2 grid-rows-1">
+                                <p className="text-lg p-1 ">5</p>
+                                <p className="text-lg p-1 ">Korea Rep.</p>
+                            </div>
+                            <div className="grid bg-amber-100 gap-10 grid-cols-2 grid-rows-1">
+                                <p className="text-lg p-1 ">6</p>
+                                <p className="text-lg p-1 ">Germany</p>
+                            </div>
+                            <div className="grid bg-amber-200 gap-10 grid-cols-2 grid-rows-1">
+                                <p className="text-lg p-1 ">7</p>
+                                <p className="text-lg p-1 ">Norway</p>
+                            </div>
+                            <div className="grid bg-amber-100 gap-10 grid-cols-2 grid-rows-1">
+                                <p className="text-lg p-1 ">8</p>
+                                <p className="text-lg p-1 ">Denmark</p>
+                            </div>
+                            <div className="grid bg-amber-200 gap-10 grid-cols-2 grid-rows-1">
+                                <p className="text-lg p-1 ">9</p>
+                                <p className="text-lg p-1 ">Finland</p>
+                            </div>
+                            <div className="grid bg-amber-100 gap-10 grid-cols-2 rounded-b-lg grid-rows-1">
+                                <p className="text-lg p-1 ">10</p>
+                                <p className="text-lg p-1 ">Canada</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 

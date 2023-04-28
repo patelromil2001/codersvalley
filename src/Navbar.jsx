@@ -28,8 +28,8 @@ function Nav() {
       name: 'Salaries'
     },
     {
-      id: 'Process',
-      name: 'Process'
+      id: 'Data',
+      name: 'Data'
     },
     {
       id: 'Testimonials',
@@ -39,10 +39,10 @@ function Nav() {
     //   id: 'Fee',
     //   name: 'Fee'
     // },
-    {
-      id: 'Contractor',
-      name: 'Contractor payroll'
-    },
+    // {
+    //   id: 'Contractor',
+    //   name: 'Contractor payroll'
+    // },
     {
       id: 'Quote',
       name: 'Get A Quote'
@@ -70,8 +70,8 @@ function Nav() {
       name: 'Salaries'
     },
     {
-      id: 'Process',
-      name: 'Process'
+      id: 'Data',
+      name: 'Data'
     },
     {
       id: 'Testimonials',
@@ -81,10 +81,10 @@ function Nav() {
     //   id: 'Fee',
     //   name: 'Fee'
     // },
-    {
-      id: 'Contractor',
-      name: 'Contractor payroll'
-    },
+    // {
+    //   id: 'Contractor',
+    //   name: 'Contractor payroll'
+    // },
   ]
 
   return (

@@ -5,9 +5,9 @@ import About from './About';
 import Salaries from './Salaries';
 import Testimonials from './Testimonials';
 import Process from './Process';
-import Fee from './Fee';
+// import Fee from './Fee';
 import Quote from './Quote';
-import Contractor from './Contractor';
+// import Contractor from './Contractor';
 import Blog from './Blog';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
     <About />
     <Salaries />
     <Process/>
-    <Contractor/>
+    {/* <Contractor/> */}
     <Testimonials/>
     {/* <Fee /> */}
     <Quote />
