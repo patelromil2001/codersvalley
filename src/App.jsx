@@ -4,11 +4,14 @@ import Footer from './Footer';
 import About from './About';
 import Salaries from './Salaries';
 import Testimonials from './Testimonials';
-import Process from './Process';
+import Process from './Data';
 // import Fee from './Fee';
 import Quote from './Quote';
 // import Contractor from './Contractor';
 import Blog from './Blog';
+import Faqs from './Faqs';
+import Testing from './Testing';
+import Data from './Data';
 
 function App() {
   return (
@@ -17,11 +20,16 @@ function App() {
     <Home />
     <About />
     <Salaries />
-    <Process/>
+    <Data/>
     {/* <Contractor/> */}
+    
     <Testimonials/>
+    <Testing />
     {/* <Fee /> */}
+    <Faqs />
     <Quote />
+    
+    
     <Blog/>
     <Footer/>
     

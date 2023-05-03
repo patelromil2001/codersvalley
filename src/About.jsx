@@ -23,7 +23,7 @@ const About = () => {
                     </div>
                     <hr className=" w-90 h-0.5 mb-5 bg-amber-100 mt-3  " />
 
-                    <div className="Co-founder pt-5 lg:pt:16 lg:flex ">
+                    <div className="pt-5 lg:pt:16 lg:flex ">
                         <div className=" lg:pl-20">
                             <div className="lg:w-[70%] w-[90%]">
                                 <p className="text-2xl text-black  lg:text-5xl">Recruiting IT and tech expertise for seven years </p>
@@ -41,7 +41,7 @@ const About = () => {
                         </div>
 
                     </div>
-                    <hr className=" w-90 h-0.5 my-5 bg-amber-100 mt-10 md:hidden  " />
+                    {/* <hr className=" w-90 h-0.5 my-5 bg-amber-100 mt-10 md:hidden  " /> */}
                     <section className="text-gray-600 body-font">
                         <div className="container mx-auto flex px-1 md:px-5 pb-4 md:flex-row flex-col items-center">
                             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 lg:pl-20">
@@ -57,7 +57,24 @@ const About = () => {
                             </div>
                         </div>
                     </section>
+                    <div className="pt-5 lg:pt:16 lg:flex ">
+                        <div className=" lg:pl-20">
+                            <div className="lg:w-[70%] w-[90%]">
+                                <p className="text-2xl text-black  lg:text-5xl">Secure Code Review</p>
+                            </div>
 
+                            <div className="flex py-10">
+
+                                <div>
+                                    <p className="w-[100%] lg:w-[60%] text-lg my-10 text-justify" > Our company specializes in providing top-notch secure code review services for businesses of all sizes. We understand the importance of secure code in today's digital world and take a meticulous approach to identifying potential vulnerabilities and ensuring your code is as secure as possible. Our expert analysts use cutting-edge tools and techniques to thoroughly review your codebase, identify any weaknesses or potential security risks, and provide you with actionable recommendations to help you strengthen your security posture. With our secure code review services, you can rest assured that your applications and systems are protected against malicious attacks and that your business is operating with the highest level of security.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[80%] md:mx-0 mx-auto  ">
+                            <img className="object-cover object-center rounded relative md:right-20 top-20 h-72 w-72 mx-auto md:mx-0" alt="hero" src="./images/review.png" />
+                        </div>
+
+                    </div>
                 </div>
 
                 <div className="POINTS bg-amber-50">
@@ -195,8 +212,8 @@ const About = () => {
                         </div>
                     </div>
                 </div> */}
-                <div className="Info flex justify-around p-24">
-                    <div className="Details w-[45%]">
+                <div className="Info lg:flex lg:justify-around p-8 lg:p-24">
+                    <div className="Details lg:w-[45%]">
                         <p className="text-xl">India's tech talent rank has improved in recent years. According to the Network Readiness Index 2022, India secured the first rank in AI talent concentration and 61st among 131 countries. India's position has improved by six slots in the latest version of 2022.</p>
                         <p className="text-xl pt-5">Additionally, India's tech talent pool stands at 3.8 million in FY2021, and with 2.14 million annual STEM graduate supply, India is ranked 2nd globally, next only to China.</p>
                         <p className="text-xl pt-5">Many global companies have expanded their Indian headcount, some even doubling their numbers in 2022, indicating a solid tech talent pool in India. However, it is essential to note that there is a global shortage of tech talent, and companies need help finding enough of the right talent in their home markets.</p>

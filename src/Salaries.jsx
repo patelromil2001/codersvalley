@@ -7,100 +7,100 @@ function Salaries() {
     {
       id: 1,
       position: 'Front End Engineer (JavaScript, React, Next, Vue, Nuxt, Angular, TypeScript)',
-      indSalary: 50,
-      usSalary: 110,
-      costSavings: 60,
+      indSalary: 35,
+      latinSalary: 50,
+      costSavings: 15,
     },
     {
       id: 2,
       position: 'Back End Engineer (Java, Python, PHP, Go, Ruby, C#, C, C++, F#, Elixir, Erlang, Rust, Scala, Perl)',
-      indSalary: 45,
-      usSalary: 95,
-      costSavings: 50,
+      indSalary: 30,
+      latinSalary: 45,
+      costSavings: 15,
     },
     {
       id: 3,
       position: 'Mobile Engineer (Swift, Kotlin, Objective-C, Java, React Native, Xamarine)r',
-      indSalary: 63,
-      usSalary: 122,
-      costSavings: 59,
+      indSalary: 48,
+      latinSalary: 63,
+      costSavings: 15,
     },
     {
       id: 4,
       position: 'DevOps Engineer',
-      indSalary: 70,
-      usSalary: 118,
-      costSavings: 80,
+      indSalary: 55,
+      latinSalary: 70,
+      costSavings: 15,
     },
     {
       id: 5,
       position: 'Data Engineer',
-      indSalary: 45,
-      usSalary: 160,
-      costSavings: 115,
+      indSalary: 30,
+      latinSalary: 45,
+      costSavings: 15,
     },
     {
       id: 6,
       position: 'Data Analyst',
-      indSalary: 40,
-      usSalary:  93,
-      costSavings: 53,
+      indSalary: 25,
+      latinSalary: 40,
+      costSavings: 15,
     },
     {
       id: 7,
       position: 'Data Scientist',
-      indSalary: 47,
-      usSalary: 111,
-      costSavings: 77,
+      indSalary: 32,
+      latinSalary: 47,
+      costSavings: 15,
     },
     {
       id: 8,
       position: 'QA (automation)',
-      indSalary: 38,
-      usSalary: 97,
-      costSavings: 54,
+      indSalary: 23,
+      latinSalary: 38,
+      costSavings: 15,
     },
     {
       id: 9,
       position: 'QA (manual)',
-      indSalary: 25,
-      usSalary: 64,
-      costSavings: 44,
+      indSalary: 15,
+      latinSalary: 25,
+      costSavings: 10,
     },
     {
       id: 10,
       position: 'Designer (UX/UI, Web, Graphic, Motion, 3D/2D, Video Editor)',
-      indSalary: 24,
-      usSalary: 86,
-      costSavings: 62,
+      indSalary: 14,
+      latinSalary: 24,
+      costSavings: 10,
     },
     {
       id: 11,
       position: 'Project Manager',
-      indSalary: 33,
-      usSalary: 77,
-      costSavings: 66,
+      indSalary: 21,
+      latinSalary: 33,
+      costSavings: 12,
     },
     {
       id: 12,
       position: 'Product Manager',
-      indSalary: 33,
-      usSalary: 99,
-      costSavings: 66,
+      indSalary: 21,
+      latinSalary: 33,
+      costSavings: 12,
     },
     {
       id: 13,
       position: 'Scrum Master',
-      indSalary: 31,
-      usSalary: 102,
-      costSavings: 71,
+      indSalary: 20,
+      latinSalary: 31,
+      costSavings: 11,
     },
     {
       id: 14,
       position: 'Marketing Manager (Paid Media, Social Media, Digital Marketing, Performance Marketing, SEO)',
-      indSalary: 16,
-      usSalary: 64,
-      costSavings: 48,
+      indSalary: 10,
+      latinSalary: 16,
+      costSavings: 6,
     },
   ];
 
@@ -121,7 +121,7 @@ function Salaries() {
                   <br />  <span className="text-sm font-mono font-extralight tracking-tight  text-gray-500">Average Salary, $</span>
                 </th>
                 <th className="px-6 py-3 tracking-wider text-lg text-center">
-                  <span className="font-sans font-normal"> US </span>
+                  <span className="font-sans font-normal"> Latin America </span>
                   <br />  <span className="text-sm font-mono font-extralight tracking-tight  text-gray-500">Average Salary, $</span>
                 </th>
                 <th className="px-2 py-3 tracking-wider text-lg text-center bg-green-200">
@@ -141,7 +141,7 @@ function Salaries() {
                     {`$${row.indSalary}k`}
                   </td>
                   <td className="px-6 py-[26px] whitespace-nowrap text-base text-center">
-                    {`$${row.usSalary}k`}
+                    {`$${row.latinSalary}k`}
                   </td>
                   <td className="px-6 py-[26px] whitespace-nowrap text-base text-center bg-green-200 font-semibold">
                     {`$${row.costSavings}k`}
@@ -174,14 +174,14 @@ function Salaries() {
           </div>
         </section>
       </div>
-      
+
       <Modal
         open={showModal}
         title={[<span className="text-xl">Fill out a brief information about you  and get<br /> our Guide</span>]}
         // onOk={handleOk}
         onCancel={() => setShowModal(false)}
         footer={[
-          
+
         ]}
       >
         <div className="mt-8 mb-12">
@@ -213,12 +213,15 @@ function Salaries() {
                   Your Business email</span>
               </label>
             </div>
+            
             <button
-            type="submit"
-            className="bg-emerald-500 text-white active:bg-emerald-600 font-bold  text-sm px-6 py-3 rounded shadow hover:shadow-xl outline-none focus:outline-none mx-10 ease-linear transition-all duration-150"
-          >
-            Get a free .pdf
-          </button>
+              formMethod="get"
+              formAction="./dummy.pdf"
+              type="submit"
+              className="bg-emerald-500 text-white active:bg-emerald-600 font-bold  text-sm px-6 py-3 rounded shadow hover:shadow-xl outline-none focus:outline-none mx-10 ease-linear transition-all duration-150"
+            >
+              Get a free .pdf
+            </button>
 
           </form>
         </div>

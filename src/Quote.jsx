@@ -134,7 +134,7 @@ const Quote = () => {
           </Form>
         </div>
         <div>
-          <img src="/images/Survey.png" alt="" className="relative right-44 h-96" />
+          <img src="/images/Survey.png" alt="" className="lg:relative lg:right-44 lg:h-96" />
         </div>
       </div>
 

@@ -36,6 +36,7 @@ const Home = () => {
                                         deleteSpeed={100}
                                         delaySpeed={1000}
                                         loop={0}
+                                        
                                     />
                                 </div>
                             </div>
@@ -74,12 +75,12 @@ const Home = () => {
             <div className="relative mx-auto" >
                 <div className=" rounded-3xl bg-amber-100 w-[80%] mt-10 mx-auto p-1  ">
                     <div className="relative flex overflow-x-hidden">
-                        <div className="py-12 animate-marquee whitespace-nowrap flex space space-x-4">
+                        <div className="py-6 animate-marquee whitespace-nowrap flex space space-x-4">
                             <img src="/images/marquee/1.png" alt="2" />
                             <img src="/images/marquee/2.png" alt="2" />
                             <img src="/images/marquee/3.png" alt="2" />
                             <img src="/images/marquee/4.png" alt="2" />
-                            {/* <img src="/images/marquee/5.png" alt="2" />
+                            <img src="/images/marquee/5.png" alt="2" />
                             <img src="/images/marquee/6.png" alt="2" /> 
                             <img src="/images/marquee/7.png" alt="2" /> 
                             <img src="/images/marquee/8.png" alt="2" />
@@ -118,16 +119,16 @@ const Home = () => {
 
                         </div>
 
-                        <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex space-x-4">
+                        <div class="absolute top-0 py-6 animate-marquee2 whitespace-nowrap flex space-x-4">
                             <img src="/images/marquee/1.png" alt="2" />
                             <img src="/images/marquee/2.png" alt="2" />
                             <img src="/images/marquee/3.png" alt="2" />
                             <img src="/images/marquee/4.png" alt="2" />
-                            {/* <img src="/images/marquee/5.png" alt="2" />
+                            <img src="/images/marquee/5.png" alt="2" />
                             <img src="/images/marquee/6.png" alt="2" />
                             <img src="/images/marquee/7.png" alt="2" /> 
                             <img src="/images/marquee/8.png" alt="2" />
-                            <img src="/images/marquee/9.png" alt="2" />
+                            {/*<img src="/images/marquee/9.png" alt="2" />
                             <img src="/images/marquee/10.png" alt="2" />
                             <img src="/images/marquee/11.png" alt="2" />
                             <img src="/images/marquee/12.png" alt="2" />
@@ -161,7 +162,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="justify-evenly pt-10 place-items-center flex">
+            <div className="hidden  lg:justify-evenly pt-10 lg:place-items-center lg:flex">
                 <img src="/images/Team work.png" className="w-[20%] h-[20%]     " alt="" />
 
 

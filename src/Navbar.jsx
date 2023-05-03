@@ -44,9 +44,18 @@ function Nav() {
     //   name: 'Contractor payroll'
     // },
     {
+      id: 'testing',
+      name: 'Testing'
+    },
+    {
+      id: 'faqs',
+      name: 'Faqs'
+    },
+    {
       id: 'Quote',
       name: 'Get A Quote'
     },
+
   ];
 
   const mainItems = [
@@ -76,6 +85,14 @@ function Nav() {
     {
       id: 'Testimonials',
       name: 'Testimonials'
+    },
+    {
+      id: 'testing',
+      name: 'Testing'
+    },
+    {
+      id: 'faqs',
+      name: 'Faqs'
     },
     // {
     //   id: 'Fee',
