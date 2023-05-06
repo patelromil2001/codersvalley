@@ -156,7 +156,7 @@ function Salaries() {
       <div className="bg-gray-100">
         <section className="text-gray-600 body-font">
           
-          <div className="container mx-auto flex px-36 py-24 md:flex-row flex-col">
+          <div className="container mx-auto flex px-7 lg:px-36 py-24 md:flex-row flex-col">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 lg:pl-20">
               <img className="object-cover rounded" alt="hero" src="./images/rocket.png" />
             </div>

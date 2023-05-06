@@ -31,10 +31,10 @@ function Nav() {
       id: 'Data',
       name: 'Data'
     },
-    {
-      id: 'Testimonials',
-      name: 'Testimonials'
-    },
+    // {
+    //   id: 'Testimonials',
+    //   name: 'Testimonials'
+    // },
     // {
     //   id: 'Fee',
     //   name: 'Fee'
@@ -82,10 +82,10 @@ function Nav() {
       id: 'Data',
       name: 'Data'
     },
-    {
-      id: 'Testimonials',
-      name: 'Testimonials'
-    },
+    // {
+    //   id: 'Testimonials',
+    //   name: 'Testimonials'
+    // },
     {
       id: 'testing',
       name: 'Testing'

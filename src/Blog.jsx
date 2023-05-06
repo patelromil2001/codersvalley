@@ -24,7 +24,7 @@ const Blog = () => {
     ]
     return (
         <div className="w-full bg-slate-100 pb-32">
-            <div className="py-12 md:ml-24 mx-6"><span className="text-5xl font-[350]">Blog</span></div>
+            <div className="py-12 md:ml-24 mx-6"><span className="text-5xl font-[350]">Blogs</span></div>
             <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
 
 

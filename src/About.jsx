@@ -6,18 +6,18 @@ const About = () => {
 
             <div>
                 <div className="px-10 lg:px-20">
-                    <div className="pt-16 pb-10 w-[80%] mx-auto text-lg lg:flex lg:justify-between">
-                        <div className="">
+                    <div className="pt-16 pb-10 w-[80%] mx-auto text-lg lg:flex lg:justify-between space-y-8 md:space-y-0">
+                        <div className="flex md:block ">
                             <img src="https://cdn-icons-png.flaticon.com/512/2098/2098672.png" className=" h-8 " alt="1" />
-                            <p className="pt-5">Secure Code Review</p>
+                            <p className="md:pt-5  pt-0 ml-6 md:ml-0">Secure Code Review</p>
                         </div>
-                        <div className="">
+                        <div className="flex md:block">
                             <img src="https://cdn-icons-png.flaticon.com/512/9788/9788821.png" className=" h-8" alt="2" />
-                            <p className="pt-5">Static Testing</p>
+                            <p className="md:pt-5 pt-0 ml-7 md:ml-0">Static Testing</p>
                         </div>
-                        <div className="">
+                        <div className="flex md:block">
                             <img src="https://cdn-icons-png.flaticon.com/512/9463/9463914.png" className=" h-12 " alt="3" />
-                            <p className="pt-1">Talent Sourcing</p>
+                            <p className="md:pt-1 pt-0 ml-3 md:ml-0">Talent Sourcing</p>
                         </div>
 
                     </div>
@@ -26,7 +26,7 @@ const About = () => {
                     <div className="pt-5 lg:pt:16 lg:flex ">
                         <div className=" lg:pl-20">
                             <div className="lg:w-[70%] w-[90%]">
-                                <p className="text-2xl text-black  lg:text-5xl">Recruiting IT and tech expertise for seven years </p>
+                                <p className="text-2xl text-black  lg:text-5xl font-medium">Recruiting IT and tech expertise for seven years </p>
                             </div>
 
                             <div className="flex py-10">
@@ -37,7 +37,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[80%] md:mx-0 mx-auto  ">
-                            <img className="object-cover object-center rounded relative md:right-20 mx-auto md:mx-0" alt="hero" src="./images/about.gif" />
+                            <img className="hidden md:block object-cover object-center rounded relative md:right-20 mx-auto md:mx-0" alt="hero" src="./images/about.gif" />
                         </div>
 
                     </div>
@@ -47,8 +47,8 @@ const About = () => {
                             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 lg:pl-20">
                                 <img className="object-cover rounded" alt="hero" src="./images/security.png" />
                             </div>
-                            <div className=" md:w-1/2 lg:pl-24 md:ml-16 flex flex-col md:items-start md:text-left items-center text-center">
-                                <h1 className="title-font md:text-[32px] text-2xl mb-4  text-gray-900">Web security is more critical than ever
+                            <div className=" md:w-1/2 lg:pl-24 md:ml-16 flex flex-col md:items-start text-left items-center md:text-center">
+                                <h1 className="title-font md:text-[32px] text-2xl mb-4  text-gray-900 font-medium">Web security is more critical than ever
                                 </h1>
                                 <p className="mb-8 mt-4 leading-relaxed text-lg tracking-tighter md:tracking-normal text-justify">
                                     That's why we offer a comprehensive website security service to protect your website from cyber-attacks and data breaches. Our team of security experts will thoroughly analyze your website, check the code for vulnerabilities, and recommend solutions to strengthen your website's security.
@@ -57,33 +57,33 @@ const About = () => {
                             </div>
                         </div>
                     </section>
-                    <div className="pt-5 lg:pt:16 lg:flex ">
+                    <div className="pt-5 lg:pt-16 lg:flex ">
                         <div className=" lg:pl-20">
                             <div className="lg:w-[70%] w-[90%]">
-                                <p className="text-2xl text-black  lg:text-5xl">Secure Code Review</p>
+                                <p className="title-font md:text-[32px] text-2xl mb-4  text-gray-900 font-medium">Secure Code Review</p>
                             </div>
 
-                            <div className="flex py-10">
+                            <div className="flex">
 
                                 <div>
-                                    <p className="w-[100%] lg:w-[60%] text-lg my-10 text-justify" > Our company specializes in providing top-notch secure code review services for businesses of all sizes. We understand the importance of secure code in today's digital world and take a meticulous approach to identifying potential vulnerabilities and ensuring your code is as secure as possible. Our expert analysts use cutting-edge tools and techniques to thoroughly review your codebase, identify any weaknesses or potential security risks, and provide you with actionable recommendations to help you strengthen your security posture. With our secure code review services, you can rest assured that your applications and systems are protected against malicious attacks and that your business is operating with the highest level of security.</p>
+                                    <p className="w-[100%] lg:w-[70%] leading-relaxed text-lg tracking-tighter md:tracking-normal text-justify text-gray-600" > Our company specializes in providing top-notch secure code review services for businesses of all sizes. We understand the importance of secure code in today's digital world and take a meticulous approach to identifying potential vulnerabilities and ensuring your code is as secure as possible. Our expert analysts use cutting-edge tools and techniques to thoroughly review your codebase, identify any weaknesses or potential security risks, and provide you with actionable recommendations to help you strengthen your security posture. With our secure code review services, you can rest assured that your applications and systems are protected against malicious attacks and that your business is operating with the highest level of security.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="lg:max-w-lg lg:w-full md:w-1/3 w-[80%] md:mx-0 mx-auto  ">
-                            <img className="object-cover object-center rounded relative md:right-20 top-20 h-72 w-72 mx-auto md:mx-0" alt="hero" src="./images/review.png" />
+                            <img className="object-cover object-center rounded relative md:right-20  h-80 w-80 mx-auto md:mx-0" alt="hero" src="./images/review.png" />
                         </div>
 
                     </div>
                 </div>
 
-                <div className="POINTS bg-amber-50">
+                <div className="POINTS bg-amber-50 mt-16">
 
-                    <div className="inline-block px-24 lg:flex pb-14">
+                    <div className="inline-block px-8 lg:px-24 lg:flex pb-14">
 
                         <div className="Reasons w-[80%] lg:w-[50%] md:inline-block">
                             <p className="text-2xl lg:text-4xl pt-16 lg:pl-14 ">Why American business benefits from employing people from India</p>
-                            <div className="Property lg:pl-20 text-lg lg:mt-">
+                            <div className="Property lg:pl-20 text-lg ">
                                 <div className="flex pt-10">
                                     <img src="https://static.tildacdn.com/tild3165-6435-4436-b436-336338656435/Group_24.svg" alt="1" />
                                     <p className="pl-6">Cost-effectiveness is one of the primary reasons to outsource software development to India in 2023.</p>
@@ -116,7 +116,7 @@ const About = () => {
                         </div>
 
                         <div className="w-[90%] lg:w-[45%] lg:pt-36 lg:pl-14">
-                            <div className="BOX w-fit p-9 m-0  text-lg">
+                            <div className="BOX w-fit pt-6 lg:pt-0 lg:p-9 m-0  text-lg">
                                 <p className="text-justify">India is a tried-and-true, superior option to conventional outsourcing destinations for the US, thanks to its high standard of engineering education, abundance of domestic IT, tech, and startup businesses, and top-notch infrastructure. (established quick internet, video communication, co-working, and consulting cultural mirroring, etc.).<br /><br /> Why is hiring nearshore from India so affordable? The compensation for services is based on local requirements, as well as the expense of living there. For instance, the rent for a decent apartment in the city centre of a typical Indian metropolis ranges from $200 to $400 per calender month. because we are familiar with local wage levels, expectations, and market patterns, your fee reflects the cost difference.
 
                                 </p>
@@ -216,11 +216,11 @@ const About = () => {
                         </div>
                     </div>
                 </div> */}
-                <div className="Info lg:flex lg:justify-around p-8 lg:p-24">
+                <div className="Info lg:flex lg:justify-around p-8 lg:px-24 lg:py-10">
                     <div className="Details lg:w-[45%]">
-                        <p className="text-justify text-xl">India's tech talent rank has improved in recent years. According to the Network Readiness Index 2022, India secured the first rank in AI talent concentration and 61st among 131 countries. India's position has improved by six slots in the latest version of 2022.</p>
-                        <p className="text-justify text-xl pt-5">Additionally, India's tech talent pool stands at 3.8 million in FY2021, and with 2.14 million annual STEM graduate supply, India is ranked 2nd globally, next only to China.</p>
-                        <p className="text-justify text-xl pt-5">Many global companies have expanded their Indian headcount, some even doubling their numbers in 2022, indicating a solid tech talent pool in India. However, it is essential to note that there is a global shortage of tech talent, and companies need help finding enough of the right talent in their home markets.</p>
+                        <p className="text-justify text-lg">India's tech talent rank has improved in recent years. According to the Network Readiness Index 2022, India secured the first rank in AI talent concentration and 61st among 131 countries. India's position has improved by six slots in the latest version of 2022.</p>
+                        <p className="text-justify text-lg pt-5">Additionally, India's tech talent pool stands at 3.8 million in FY2021, and with 2.14 million annual STEM graduate supply, India is ranked 2nd globally, next only to China.</p>
+                        <p className="text-justify text-lg pt-5">Many global companies have expanded their Indian headcount, some even doubling their numbers in 2022, indicating a solid tech talent pool in India. However, it is essential to note that there is a global shortage of tech talent, and companies need help finding enough of the right talent in their home markets.</p>
                     </div>
                     <div className="Table border-4 border-amber-200 p-5 rounded" >
                         <div className="h-auto content-between items-center object-fill">

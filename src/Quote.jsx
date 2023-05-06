@@ -11,10 +11,10 @@ const Quote = () => {
   }
 
   return (
-    <div id="Quote" className="bg-amber-50">
+    <div id="Quote" className="bg-amber-50 ">
       <div className="py-12 md:ml-24 mx-6"><span className="text-5xl font-[400]">Get A Quote</span></div>
       <div className="inline-block lg:flex">
-        <div className=" ml-6 w-[80%]">
+        <div className=" ml-6 xl:ml-20 w-[80%]">
           <Form
             onFinish={handleSubmit}
             name="basic"
@@ -113,7 +113,7 @@ const Quote = () => {
                 placeholder="Add a link to a job description, or describe the type of skilled tech talent you need." />
             </Form.Item>
             <Form.Item
-              label={[<span className="text-lg text-gray-600 ">When are you available for a quick call?</span>]}
+              label={[<span className="text-lg text-gray-600 ">When are you available<br className="lg:block hidden"/> for a quick call?</span>]}
               name="date"
               rules={[
                 {
@@ -134,7 +134,7 @@ const Quote = () => {
           </Form>
         </div>
         <div>
-          <img src="/images/Survey.png" alt="" className="lg:relative lg:right-44 lg:h-96" />
+          <img src="/images/Survey.png" alt="" className="lg:relative lg:right-40  xl:h-[550px] xl:w-[600px]" />
         </div>
       </div>
 

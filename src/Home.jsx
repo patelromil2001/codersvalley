@@ -18,7 +18,7 @@ const Home = () => {
                         <div className="lg:hidden mx-auto -ml-10">
                             <img src="/images/hero.png" className="p-8" alt="" />
                         </div>
-                        <div className="py-10">
+                        <div className="py-10 ">
                             <div className="rectangle flex bg-amber-100  w-[90%]   lg:w-[36rem] md:h-14  h-[90px]   rounded-3xl text-lg lg:text-2xl font-[400]">
                                 <img src="https://cdn-icons-png.flaticon.com/512/3031/3031293.png" className="pt-4 h-9 lg:h-10 pl-6 pr-5" alt="1" />
                                 <div className="mt-3">
@@ -36,7 +36,7 @@ const Home = () => {
                                         deleteSpeed={100}
                                         delaySpeed={1000}
                                         loop={0}
-                                        
+
                                     />
                                 </div>
                             </div>
@@ -57,17 +57,17 @@ const Home = () => {
                                 <p className="text-[15px] pt-3"> Brazil, Argentina, Chile, Uruguay, Costa Rica, Ecuador, Columbia, Peru, Mexico, Cuba, Dominican Republic, Panama</p>
                             </div>
                         </div> */}
-                        <div className="flex justify-center relative -ml-40">
 
-                            <p className="text-4xl  font-semibold pt-9 mx-auto">Our Clientele</p>
-
-
-                        </div>
 
 
 
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-center relative lg:mt-32 w-full">
+
+                <p className="text-4xl  font-semibold pt-9 mx-auto">Our Clientele</p>
+
             </div>
 
 
@@ -81,8 +81,8 @@ const Home = () => {
                             <img src="/images/marquee/3.png" alt="2" />
                             <img src="/images/marquee/4.png" alt="2" />
                             <img src="/images/marquee/5.png" alt="2" />
-                            <img src="/images/marquee/6.png" alt="2" /> 
-                            <img src="/images/marquee/7.png" alt="2" /> 
+                            <img src="/images/marquee/6.png" alt="2" />
+                            <img src="/images/marquee/7.png" alt="2" />
                             <img src="/images/marquee/8.png" alt="2" />
                             {/*<img src="/images/marquee/9.png" alt="2" />
                              <img src="/images/marquee/10.png" alt="2" />
@@ -110,11 +110,11 @@ const Home = () => {
                             <img src="/images/marquee/32.png" alt="2" />
                             <img src="/images/marquee/33.png" alt="2" />
                             <img src="/images/marquee/34.png" alt="2" /> */}
-                            
-                            
-                            
 
-                            
+
+
+
+
 
 
                         </div>
@@ -126,7 +126,7 @@ const Home = () => {
                             <img src="/images/marquee/4.png" alt="2" />
                             <img src="/images/marquee/5.png" alt="2" />
                             <img src="/images/marquee/6.png" alt="2" />
-                            <img src="/images/marquee/7.png" alt="2" /> 
+                            <img src="/images/marquee/7.png" alt="2" />
                             <img src="/images/marquee/8.png" alt="2" />
                             {/*<img src="/images/marquee/9.png" alt="2" />
                             <img src="/images/marquee/10.png" alt="2" />
@@ -154,9 +154,9 @@ const Home = () => {
                             <img src="/images/marquee/32.png" alt="2" />
                             <img src="/images/marquee/33.png" alt="2" />
                             <img src="/images/marquee/34.png" alt="2" /> */}
-                            
 
-                            
+
+
 
                         </div>
                     </div>
