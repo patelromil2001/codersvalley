@@ -3,8 +3,8 @@ import Home from './Home';
 import Footer from './Footer';
 import About from './About';
 import Salaries from './Salaries';
-import Testimonials from './Testimonials';
-import Process from './Data';
+// import Testimonials from './Testimonials';
+// import Process from './Data';
 // import Fee from './Fee';
 import Quote from './Quote';
 // import Contractor from './Contractor';
@@ -23,7 +23,7 @@ function App() {
     <Data/>
     {/* <Contractor/> */}
     
-    <Testimonials/>
+    {/* <Testimonials/> */}
     <Testing />
     {/* <Fee /> */}
     <Faqs />

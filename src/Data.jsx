@@ -19,12 +19,12 @@ const Data = () => {
                             <p className="text-xl p-4 justify-self-center ">19,627</p>
                         </div>
                         <div className="grid bg-amber-100 gap-10 grid-cols-2 grid-rows-1">
-                            <p className="text-xl p-4 ">The proportion of global Web3 talent in India= Over 11%</p>
-                            <p className="text-xl p-4 justify-self-center ">Singapore</p>
+                            <p className="text-xl p-4 ">The proportion of global Web3 talent in India</p>
+                            <p className="text-xl p-4 justify-self-center ">Over 11%</p>
                         </div>
                         <div className="grid bg-amber-200 gap-10 grid-cols-2 grid-rows-1">
-                            <p className="text-xl p-4 ">Number of blockchain professionals employed in the Indian tech industry	Nearly</p>
-                            <p className="text-xl p-4 justify-self-center ">75,000</p>
+                            <p className="text-xl p-4 ">Number of blockchain professionals employed in the Indian tech industry</p>
+                            <p className="text-xl p-4 justify-self-center ">Nearly 75,000</p>
                         </div>
                         <div className="grid bg-amber-100 gap-10 grid-cols-2 grid-rows-1">
                             <p className="text-xl p-4 ">Expected growth of Indian Web3 talent pool in the next 1-2 years</p>
@@ -56,28 +56,28 @@ const Data = () => {
                             <p className="text-lg p-3 justify-self-center ">19,627</p>
                         </div>
                         <div className="grid mt-3 bg-amber-100 gap-10 grid-cols-2 rounded-t-lg grid-rows-1">
-                            <p className="text-lg p-3 ">Number of blockchain developers in India</p>
-                            <p className="text-lg p-3 justify-self-center ">19,627</p>
+                            <p className="text-lg p-3 ">The proportion of global Web3 talent in India</p>
+                            <p className="text-lg p-3 justify-self-center ">Over 11%</p>
                         </div>
                         <div className="grid mt-3 bg-amber-200 gap-10 grid-cols-2 rounded-lg grid-rows-1">
-                            <p className="text-lg p-3 ">Number of blockchain developers in India</p>
-                            <p className="text-lg p-3 justify-self-center ">19,627</p>
+                            <p className="text-lg p-3 ">Number of blockchain professionals employed in the Indian tech industry</p>
+                            <p className="text-lg p-3 justify-self-center ">Nearly 75,000</p>
                         </div>
                         <div className="grid mt-3 bg-amber-100 gap-10 grid-cols-2 rounded-lg grid-rows-1">
-                            <p className="text-lg p-3 ">Number of blockchain developers in India</p>
-                            <p className="text-lg p-3 justify-self-center ">19,627</p>
+                            <p className="text-lg p-3 ">Expected growth of Indian Web3 talent pool in the next 1-2 years</p>
+                            <p className="text-lg p-3 justify-self-center ">Over 120%</p>
                         </div>
                         <div className="grid mt-3 bg-amber-200 gap-10 grid-cols-2 rounded-lg grid-rows-1">
-                            <p className="text-lg p-3 ">Number of blockchain developers in India</p>
-                            <p className="text-lg p-3 justify-self-center ">19,627</p>
+                            <p className="text-lg p-3 ">Number of developers in India</p>
+                            <p className="text-lg p-3 justify-self-center ">Over 800,000</p>
                         </div>
                         <div className="grid mt-3 bg-amber-100 gap-10 grid-cols-2 rounded-lg grid-rows-1">
-                            <p className="text-lg p-3 ">Number of blockchain developers in India</p>
-                            <p className="text-lg p-3 justify-self-center ">19,627</p>
+                            <p className="text-lg p-3 ">India's rank in terms of talent contributing to the world's</p>
+                            <p className="text-lg p-3 justify-self-center ">Leading contributor</p>
                         </div>
                         <div className="grid mt-3 bg-amber-200 gap-10 grid-cols-2 rounded-lg grid-rows-1">
-                            <p className="text-lg p-3 ">Number of blockchain developers in India</p>
-                            <p className="text-lg p-3 justify-self-center ">19,627</p>
+                            <p className="text-lg p-3 ">Number of Indian startups</p>
+                            <p className="text-lg p-3 justify-self-center ">12,336</p>
                         </div>
                         
 

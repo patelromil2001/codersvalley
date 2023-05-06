@@ -61,7 +61,7 @@ const Faqs = () => {
   };
   return (
     <div id='faqs' className='faqs'>
-      <div className=" bg-amber-100 rounded-2xl lg:mx-64 lg:my-10 lg:py-3"><span className="text-5xl px-10 font-semibold">FAQS</span></div>
+      <div className=" bg-amber-100 rounded-2xl lg:mx-64 lg:my-10 lg:py-3"><center><span className="text-5xl font-semibold">FAQS</span></center></div>
       <div className='lg:px-64'>
         <Collapse
           bordered={false}

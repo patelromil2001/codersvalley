@@ -9,15 +9,15 @@ const About = () => {
                     <div className="pt-16 pb-10 w-[80%] mx-auto text-lg lg:flex lg:justify-between">
                         <div className="">
                             <img src="https://cdn-icons-png.flaticon.com/512/2098/2098672.png" className=" h-8 " alt="1" />
-                            <p className="">Starting from 12% of the placed <br /> employee's first year's base salary. <br /> No hire - no fee.</p>
+                            <p className="pt-5">Secure Code Review</p>
                         </div>
                         <div className="">
                             <img src="https://cdn-icons-png.flaticon.com/512/9788/9788821.png" className=" h-8" alt="2" />
-                            <p className="">100 days free <br /> replacement</p>
+                            <p className="pt-5">Static Testing</p>
                         </div>
                         <div className="">
                             <img src="https://cdn-icons-png.flaticon.com/512/9463/9463914.png" className=" h-12 " alt="3" />
-                            <p className="">Only a 3-day wait only for <br /> guaranteed CV's delivered</p>
+                            <p className="pt-1">Talent Sourcing</p>
                         </div>
 
                     </div>
@@ -78,7 +78,9 @@ const About = () => {
                 </div>
 
                 <div className="POINTS bg-amber-50">
-                    <div className="inline-block px-10 lg:flex pb-14">
+
+                    <div className="inline-block px-24 lg:flex pb-14">
+
                         <div className="Reasons w-[80%] lg:w-[50%] md:inline-block">
                             <p className="text-2xl lg:text-4xl pt-16 lg:pl-14 ">Why American business benefits from employing people from India</p>
                             <div className="Property lg:pl-20 text-lg lg:mt-">
@@ -112,14 +114,16 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[90%] lg:w-[40%] lg:pt-36 lg:pl-14">
-                            <div className="BOX w-fit p-9 m-0 border-4 border-amber-50 text-lg">
-                                <p>India is a tried-and-true, superior option to conventional outsourcing destinations for the US, thanks to its high standard of engineering education, abundance of domestic IT, tech, and startup businesses, and top-notch infrastructure. (established quick internet, video communication, co-working, and consulting cultural mirroring, etc.).<br /><br /> Why is hiring nearshore from India so affordable? The compensation for services is based on local requirements, as well as the expense of living there. For instance, the rent for a decent apartment in the city centre of a typical Indian metropolis ranges from $200 to $400 per calender month. because we are familiar with local wage levels, expectations, and market patterns, your fee reflects the cost difference.
+
+                        <div className="w-[90%] lg:w-[45%] lg:pt-36 lg:pl-14">
+                            <div className="BOX w-fit p-9 m-0  text-lg">
+                                <p className="text-justify">India is a tried-and-true, superior option to conventional outsourcing destinations for the US, thanks to its high standard of engineering education, abundance of domestic IT, tech, and startup businesses, and top-notch infrastructure. (established quick internet, video communication, co-working, and consulting cultural mirroring, etc.).<br /><br /> Why is hiring nearshore from India so affordable? The compensation for services is based on local requirements, as well as the expense of living there. For instance, the rent for a decent apartment in the city centre of a typical Indian metropolis ranges from $200 to $400 per calender month. because we are familiar with local wage levels, expectations, and market patterns, your fee reflects the cost difference.
 
                                 </p>
                             </div>
                         </div>
                     </div>
+
                 </div>
 
 
@@ -214,9 +218,9 @@ const About = () => {
                 </div> */}
                 <div className="Info lg:flex lg:justify-around p-8 lg:p-24">
                     <div className="Details lg:w-[45%]">
-                        <p className="text-xl">India's tech talent rank has improved in recent years. According to the Network Readiness Index 2022, India secured the first rank in AI talent concentration and 61st among 131 countries. India's position has improved by six slots in the latest version of 2022.</p>
-                        <p className="text-xl pt-5">Additionally, India's tech talent pool stands at 3.8 million in FY2021, and with 2.14 million annual STEM graduate supply, India is ranked 2nd globally, next only to China.</p>
-                        <p className="text-xl pt-5">Many global companies have expanded their Indian headcount, some even doubling their numbers in 2022, indicating a solid tech talent pool in India. However, it is essential to note that there is a global shortage of tech talent, and companies need help finding enough of the right talent in their home markets.</p>
+                        <p className="text-justify text-xl">India's tech talent rank has improved in recent years. According to the Network Readiness Index 2022, India secured the first rank in AI talent concentration and 61st among 131 countries. India's position has improved by six slots in the latest version of 2022.</p>
+                        <p className="text-justify text-xl pt-5">Additionally, India's tech talent pool stands at 3.8 million in FY2021, and with 2.14 million annual STEM graduate supply, India is ranked 2nd globally, next only to China.</p>
+                        <p className="text-justify text-xl pt-5">Many global companies have expanded their Indian headcount, some even doubling their numbers in 2022, indicating a solid tech talent pool in India. However, it is essential to note that there is a global shortage of tech talent, and companies need help finding enough of the right talent in their home markets.</p>
                     </div>
                     <div className="Table border-4 border-amber-200 p-5 rounded" >
                         <div className="h-auto content-between items-center object-fill">

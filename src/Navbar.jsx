@@ -110,12 +110,13 @@ function Nav() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center w-full">
-              <div className="flex-shrink-0">
+              <div className="flex">
                 <img
-                  className="h-8 w-8"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                  className="h-10 w-10"
+                  src="./images/Logo_SecureFLO.png"
                   alt=""
                 />
+                <p className="text-xl ml-5 mt-1 font-bold">SecureFlo.dev</p>
               </div>
               <div className="hidden lg:block ml-auto">
                 <div className="ml-10 flex  space-x-4 ">

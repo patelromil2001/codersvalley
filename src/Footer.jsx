@@ -5,8 +5,8 @@ const Footer = () => {
         <div className="w-full">
             <div className="footer w-full lg:flex bg-gray-200  px-10 py-10 text-justify">
                 <div className="1 pt-11">
-                    <img src="https://www.pngkey.com/png/full/529-5291672_sample-logo-png-transparent-background.png" className="lg:pl-40 h-14" /><br />
-                    <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" className= " lg:pl-40 h-10 px-9" /> <br /> <br />
+                    <img src="./images/SecureFLO.png" className="lg:pl-40 h-14" /><br />
+                    {/* <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" className= " lg:pl-40 h-10 px-9" /> <br /> <br /> */}
                     <p className="lg:pl-40 font-thin text-black text-xs">© 2023 Company Name. All rights reserved.</p> 
                 </div>
                 <div className="2 lg:pl-36 pt-11  space-y-3 text-align-center" >
@@ -23,10 +23,8 @@ const Footer = () => {
                 </div>
                 <div className="4 lg:pl-36 pt-11 text-black space-y-3">
                     <p className="font-bold text-xl">Address</p>
-                    <p>44 Montgomery St, San Francisco,<br />
-                        CA 94104, United States</p>
-                    <p>Av. Alm. Barroso, 81, Rio de Janeiro,<br />
-                        20031-004, Brazil</p>
+                    <p>59 Southfield Rd, Concord, MA 01742, USA</p>
+                    
                 </div>
             </div>
         </div>

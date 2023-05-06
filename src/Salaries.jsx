@@ -155,12 +155,14 @@ function Salaries() {
       </div>
       <div className="bg-gray-100">
         <section className="text-gray-600 body-font">
-          <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          
+          <div className="container mx-auto flex px-36 py-24 md:flex-row flex-col">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 lg:pl-20">
               <img className="object-cover rounded" alt="hero" src="./images/rocket.png" />
             </div>
+            
             <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-              <h1 className="title-font sm:text-5xl text-3xl mb-4  text-gray-900">Get now our free
+              <h1 className="title-font sm:text-5xl text-3xl mb-4  text-gray-900">Get our free
                 <br className="hidden lg:inline-block" />Step-by-Step Guide
               </h1>
               <p className="mb-8 mt-4 leading-relaxed text-lg tracking-wide">How does a US-based startup <br />
