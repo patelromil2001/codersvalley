@@ -105,8 +105,8 @@ function Nav() {
   ]
 
   return (
-    <div className="sticky pt-5 top-0 left-0  z-50 ">
-      <nav className={ colour ? "bg-[#F8E9A1] bg-scroll rounded-2xl w-[90%] mx-auto transition-all duration-700" :"bg-white bg-scroll rounded-2xl w-[90%] mx-auto transition-all duration-700"  }  >
+    <div className="sticky  top-0 left-0 mb-5 z-50 ">
+      <nav className={ colour ? "bg-[#F8E9A1] bg-scroll transition-all duration-700" :"bg-white bg-scroll transition-all duration-700"  }  >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center w-full">
