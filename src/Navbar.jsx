@@ -6,14 +6,14 @@ function Nav() {
   const [mainIsOpen, setmainIsOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [colour, setColour] = useState(false);
-  const changeColour =()  => {
-    if (window.scrollY >= 200){
+  const changeColour = () => {
+    if (window.scrollY >= 200) {
       setColour(true)
-    } else{
+    } else {
       setColour(false)
     }
   }
-  window.addEventListener('scroll', changeColour )
+  window.addEventListener('scroll', changeColour)
   const navItems = [
     {
       id: 'Home',
@@ -106,17 +106,17 @@ function Nav() {
 
   return (
     <div className="sticky  top-0 left-0 mb-5 z-50 ">
-      <nav className={ colour ? "bg-[#F8E9A1] bg-scroll transition-all duration-700" :"bg-white bg-scroll transition-all duration-700"  }  >
+      <nav className={colour ? "bg-[#F8E9A1] bg-scroll transition-all duration-700" : "bg-white bg-scroll transition-all duration-700"}  >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center w-full">
               <div className="flex">
                 <img
                   className="h-10 w-10"
-                  src="./images/Logo_SecureFLO.png"
+                  src="./images/recruitment.png"
                   alt=""
                 />
-                <p className="text-xl ml-5 mt-1 font-bold">SecureFlo.dev</p>
+                <p className="text-xl ml-5 mt-1 font-bold">RECRUITER</p>
               </div>
               <div className="hidden lg:block ml-auto">
                 <div className="ml-10 flex  space-x-4 ">
@@ -149,7 +149,7 @@ function Nav() {
 
                     )}
                   </button></div>
-                  
+
 
                 </div>
               </div>
@@ -210,35 +210,35 @@ function Nav() {
         </Transition>
       </nav>
       <div>
-      <Transition
-                    show={mainIsOpen}
-                    enter="transition ease-out duration-200 transform"
-                    enterFrom="opacity-0 scale-95"
-                    enterTo="opacity-100 scale-100"
-                    leave="transition ease-in duration-75 transform"
-                    leaveFrom="opacity-100 scale-100"
-                    leaveTo="opacity-0 scale-95"
-                  >
-                    {(ref) => (
-                      <div className= {colour ? "lg:block hidden bg-[#fff5c6] w-60 right-32 text-right rounded-b-xl absolute   transition-all duration-700":"lg:block hidden bg-white w-60 right-32 text-right rounded-b-xl absolute  transition-all duration-700"} >
-                        <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <Transition
+          show={mainIsOpen}
+          enter="transition ease-out duration-200 transform"
+          enterFrom="opacity-0 scale-95"
+          enterTo="opacity-100 scale-100"
+          leave="transition ease-in duration-75 transform"
+          leaveFrom="opacity-100 scale-100"
+          leaveTo="opacity-0 scale-95"
+        >
+          {(ref) => (
+            <div className={colour ? "lg:block hidden bg-[#fff5c6] w-60 right-32 text-right rounded-b-xl absolute   transition-all duration-700" : "lg:block hidden bg-white w-60 right-32 text-right rounded-b-xl absolute  transition-all duration-700"} >
+              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
 
-                          {sideItems.map((item) =>
+                {sideItems.map((item) =>
 
-                            <Link to={item.id} smooth={true} offset={-60} onClick={() =>
-                              setmainIsOpen(false)
-                            }>
-                              <button
-                                className=" text-black hover:text-amber-400 block px-3 py-2 rounded-md text-lg font-medium font-mono ml-auto transition-all duration-200" 
-                              >
-                                {item.name}
-                              </button>
-                            </Link>
-                          )}
-                        </div>
-                      </div>
-                    )}
-                  </Transition>
+                  <Link to={item.id} smooth={true} offset={-60} onClick={() =>
+                    setmainIsOpen(false)
+                  }>
+                    <button
+                      className=" text-black hover:text-amber-400 block px-3 py-2 rounded-md text-lg font-medium font-mono ml-auto transition-all duration-200"
+                    >
+                      {item.name}
+                    </button>
+                  </Link>
+                )}
+              </div>
+            </div>
+          )}
+        </Transition>
       </div>
     </div>
   );
